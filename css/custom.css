@@ -1,3 +1,25 @@
+/* font */
+@import url("https://fonts.googleapis.com/css2?family=Marcellus&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Urbanist:wght@100;200;300;400;500;600;700;800;900&display=swap");
+
+/* font */
+@import url("https://fonts.googleapis.com/css2?family=Rufina:wght@400;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Urbanist:wght@100;200;300;400;500;600;700;800;900&display=swap");
+
+:root {
+  --base-color: #cfb060;
+  --secondary-color: #8b7663;
+  --dark-gray: #2e3844;
+  --medium-gray: #7e8287;
+  --light-gray: #ffece7;
+  --light-medium-gray: #7e8691;
+  --very-light-gray: #f4f1ed;
+  --alt-font: "Marcellus", serif;
+  --primary-font: "Urbanist", sans-serif;
+  /* --alt-font: "Rufina", serif;
+  --primary-font: "Urbanist", sans-serif; */
+}
+
 header.sticky.sticky-active .navbar-brand .alt-logo {
   height: 65px !important;
   transition: all 0.3s ease-in-out;
