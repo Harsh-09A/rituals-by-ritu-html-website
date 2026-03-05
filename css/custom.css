@@ -34,3 +34,15 @@ header.sticky.sticky-active .navbar-brand .alt-logo {
   color: var(--base-color) !important;
   opacity: 1 !important ;
 }
+
+.page-title-large h1 {
+  font-size: 4.375rem;
+  line-height: 5.313rem;
+}
+
+.about_slider_images img {
+  height: 450px;
+}
+
+.portfolio-image {
+}
