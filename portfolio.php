@@ -1,149 +1,73 @@
 <!doctype html>
 <html class="no-js" lang="en">
-  <head>
-    <title>Rituals By Ritu</title>
-    <meta charset="utf-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="author" content="" />
-    <meta name="viewport" content="width=device-width,initial-scale=1.0" />
-    <meta name="description" content="" />
-    <!-- favicon icon -->
-    <link rel="shortcut icon" href="images/favicon.png" />
-    <link rel="apple-touch-icon" href="images/apple-touch-icon-57x57.png" />
-    <link
-      rel="apple-touch-icon"
-      sizes="72x72"
-      href="images/apple-touch-icon-72x72.png" />
-    <link
-      rel="apple-touch-icon"
-      sizes="114x114"
-      href="images/apple-touch-icon-114x114.png" />
-    <!-- google fonts preconnect -->
-    <link rel="preconnect" href="https://fonts.googleapis.com" crossorigin />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <!-- style sheets and font icons  -->
-    <link rel="stylesheet" href="css/vendors.min.css" />
-    <link rel="stylesheet" href="css/icon.min.css" />
-    <link rel="stylesheet" href="css/style.css" />
-    <link rel="stylesheet" href="css/responsive.css" />
-    <link rel="stylesheet" href="css/custom.css" />
-  </head>
-  <body class="overflow-x-hidden" data-mobile-nav-style="classic">
-    <!-- start header -->
-    <header>
-      <nav
-        class="navbar navbar-expand-lg header-light bg-white center-logo header-reverse">
-        <div class="container-fluid">
-          <div class="col-auto col-xl-2 col-lg-1 menu-logo">
-            <div class="d-none d-xl-block">
-              <div class="widget-text fw-600">
-                <i class="bi bi-telephone-outbound text-base-color me-10px"></i
-                ><a href="tel:+91 9301738925">+91 9301738925 </a>
-              </div>
-            </div>
-            <a class="navbar-brand" href="index.html">
-              <img
-                src="images/logo/logo.png"
-                data-at2x="images/logo/logo.png"
-                alt=""
-                class="default-logo img-fluid" />
-              <img
-                src="images/logo/logo.png"
-                data-at2x="images/logo/logo.png"
-                alt=""
-                class="alt-logo img-fluid"
-                height="65px" />
-              <img
-                src="images/logo/logo.png"
-                data-at2x="images/logo/logo.png"
-                alt=""
-                class="mobile-logo img-fluid" />
-            </a>
-          </div>
-          <div class="col-auto col-xl-8 col-lg-10 menu-order">
-            <button
-              class="navbar-toggler float-end"
-              type="button"
-              data-bs-toggle="collapse"
-              data-bs-target="#navbarNav"
-              aria-controls="navbarNav"
-              aria-label="Toggle navigation">
-              <span class="navbar-toggler-line"></span>
-              <span class="navbar-toggler-line"></span>
-              <span class="navbar-toggler-line"></span>
-              <span class="navbar-toggler-line"></span>
-            </button>
-            <div
-              class="collapse navbar-collapse justify-content-between"
-              id="navbarNav">
-              <ul class="navbar-nav navbar-left justify-content-end">
-                <li class="nav-item">
-                  <a href="index.html" class="nav-link">Home</a>
-                </li>
-                <li class="nav-item">
-                  <a href="about-us.html" class="nav-link">About us</a>
-                </li>
-                <li class="nav-item">
-                  <a href="services.html" class="nav-link">Services</a>
-                </li>
-              </ul>
-              <ul class="navbar-nav navbar-right justify-content-start">
-                <li class="nav-item">
-                  <a href="portfolio.html" class="nav-link">Portfolio</a>
-                </li>
-                <li class="nav-item">
-                  <a href="blogs.html" class="nav-link">Blogs</a>
-                </li>
-                <li class="nav-item">
-                  <a href="contact.html" class="nav-link">Contact</a>
-                </li>
-              </ul>
-            </div>
-          </div>
-          <div class="col-auto col-xl-2 col-lg-1 text-end">
-            <div class="d-none d-xl-flex align-items-center widget-text fw-600">
-              <i class="bi bi-calendar-check text-base-color me-10px"></i
-              ><a href="contact.html">Book Your Slot</a>
-            </div>
-          </div>
-        </div>
-      </nav>
-    </header>
-    <!-- end header -->
 
-    <!-- start page title -->
-    <section
-      class="page-title-separate-breadcrumbs cover-background border-top border-4 border-color-base-color top-space-margin"
-      style="background-image: url(images/gallery/31.jpg)">
-      <div class="opacity-full bg-gradient-dark-transparent"></div>
-      <div class="container position-relative">
+<head>
+  <title>Rituals By Ritu</title>
+  <meta charset="utf-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="author" content="" />
+  <meta name="viewport" content="width=device-width,initial-scale=1.0" />
+  <meta name="description" content="" />
+  <!-- favicon icon -->
+  <link rel="shortcut icon" href="images/favicon.png" />
+  <link rel="apple-touch-icon" href="images/apple-touch-icon-57x57.png" />
+  <link
+    rel="apple-touch-icon"
+    sizes="72x72"
+    href="images/apple-touch-icon-72x72.png" />
+  <link
+    rel="apple-touch-icon"
+    sizes="114x114"
+    href="images/apple-touch-icon-114x114.png" />
+  <!-- google fonts preconnect -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" crossorigin />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <!-- style sheets and font icons  -->
+  <link rel="stylesheet" href="css/vendors.min.css" />
+  <link rel="stylesheet" href="css/icon.min.css" />
+  <link rel="stylesheet" href="css/style.css" />
+  <link rel="stylesheet" href="css/responsive.css" />
+  <link rel="stylesheet" href="css/custom.css" />
+</head>
+
+<body class="overflow-x-hidden" data-mobile-nav-style="classic">
+  <!-- start header -->
+  <?php include_once 'includes/header.php'; ?>
+  <!-- end header -->
+
+  <!-- start page title -->
+  <section
+    class="page-title-separate-breadcrumbs cover-background border-top border-4 border-color-base-color top-space-margin"
+    style="background-image: url(images/gallery/31.jpg)">
+    <div class="opacity-full bg-gradient-dark-transparent"></div>
+    <div class="container position-relative">
+      <div
+        class="row align-items-start align-items-lg-end justify-content-end flex-column flex-lg-row extra-small-screen"
+        data-anime='{ "el": "childs", "translateY": [15, 0], "opacity": [0,1], "duration": 400, "delay": 0, "staggervalue": 200, "easing": "easeOutQuad" }'>
         <div
-          class="row align-items-start align-items-lg-end justify-content-end flex-column flex-lg-row extra-small-screen"
-          data-anime='{ "el": "childs", "translateY": [15, 0], "opacity": [0,1], "duration": 400, "delay": 0, "staggervalue": 200, "easing": "easeOutQuad" }'>
-          <div
-            class="col-xxl-7 col-lg-6 col-md-10 position-relative page-title-large md-mb-15px xs-mb-5px">
-            <h1 class="text-white alt-font fw-500 ls-minus-2px mb-0">
-              Our Portfolio
-            </h1>
-          </div>
-          <div class="col-xxl-5 col-lg-6 col-md-10 last-paragraph-no-margin">
-            <p class="fs-20 text-white opacity-7 md-w-80 sm-w-100">
-              Thoughtfully planned services designed to bring your dream wedding
-              to life with elegance, creativity, and seamless execution.
-            </p>
-          </div>
+          class="col-xxl-7 col-lg-6 col-md-10 position-relative page-title-large md-mb-15px xs-mb-5px">
+          <h1 class="text-white alt-font fw-500 ls-minus-2px mb-0">
+            Our Portfolio
+          </h1>
+        </div>
+        <div class="col-xxl-5 col-lg-6 col-md-10 last-paragraph-no-margin">
+          <p class="fs-20 text-white opacity-7 md-w-80 sm-w-100">
+            Thoughtfully planned services designed to bring your dream wedding
+            to life with elegance, creativity, and seamless execution.
+          </p>
         </div>
       </div>
-    </section>
-    <!-- end page title -->
+    </div>
+  </section>
+  <!-- end page title -->
 
-    <!-- start section -->
-    <section class="pt-0">
-      <div class="container">
-        <div class="row">
-          <div class="col-12 text-center">
-            <!-- filter navigation -->
-            <!-- <ul
+  <!-- start section -->
+  <section class="pt-0">
+    <div class="container">
+      <div class="row">
+        <div class="col-12 text-center">
+          <!-- filter navigation -->
+          <!-- <ul
               class="portfolio-filter nav nav-tabs justify-content-center border-0 fw-500 alt-font pb-5">
               <li class="nav active"><a data-filter="*" href="#">All</a></li>
               <li class="nav">
@@ -158,1324 +82,1101 @@
               <li class="nav"><a data-filter=".web" href="#">Web</a></li>
               <li class="nav"><a data-filter=".haldi" href="#">Haldi</a></li>
             </ul> -->
-            <!-- end filter navigation -->
-          </div>
+          <!-- end filter navigation -->
         </div>
       </div>
-      <!-- Square -->
-      <div class="container pt-5">
-        <div class="row">
-          <div class="col-12 filter-content">
-            <ul
-              class="portfolio-wrapper grid-loading grid grid-3col xxl-grid-3col xl-grid-3col lg-grid-3col md-grid-2col sm-grid-2col xs-grid-1col gutter-large text-center">
-              <li class="grid-sizer"></li>
-              <!-- start portfolio item -->
-              <li
-                class="grid-item haldi transition-inner-all atropos"
-                data-atropos
-                data-atropos-perspective="1450">
-                <div class="position-relative">
-                  <a href="#" class="portfolio-link"></a>
-                  <div class="atropos-scale">
-                    <div class="atropos-rotate">
-                      <div class="atropos-inner" data-atropos-offset="3">
-                        <div class="portfolio-box">
-                          <div class="portfolio-image">
-                            <img src="images/gallery/1.jpg" alt="" />
-                          </div>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              </li>
-              <!-- end portfolio item -->
-              <!-- start portfolio item -->
-              <li
-                class="grid-item web transition-inner-all atropos"
-                data-atropos
-                data-atropos-perspective="1450">
-                <div class="position-relative">
-                  <a href="#" class="portfolio-link"></a>
-                  <div class="atropos-scale">
-                    <div class="atropos-rotate">
-                      <div class="atropos-inner" data-atropos-offset="3">
-                        <div class="portfolio-box">
-                          <div class="portfolio-image">
-                            <img src="images/gallery/4.jpg" alt="" />
-                          </div>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              </li>
-              <!-- end portfolio item -->
-              <!-- start portfolio item -->
-              <li
-                class="grid-item web transition-inner-all atropos"
-                data-atropos
-                data-atropos-perspective="1450">
-                <div class="position-relative">
-                  <a href="#" class="portfolio-link"></a>
-                  <div class="atropos-scale">
-                    <div class="atropos-rotate">
-                      <div class="atropos-inner" data-atropos-offset="3">
-                        <div class="portfolio-box">
-                          <div class="portfolio-image">
-                            <img src="images/gallery/19.jpg" alt="" />
-                          </div>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              </li>
-              <!-- end portfolio item -->
-              <!-- start portfolio item -->
-              <li
-                class="grid-item digital transition-inner-all atropos"
-                data-atropos
-                data-atropos-perspective="1450">
-                <div class="position-relative">
-                  <a href="#" class="portfolio-link"></a>
-                  <div class="atropos-scale">
-                    <div class="atropos-rotate">
-                      <div class="atropos-inner" data-atropos-offset="3">
-                        <div class="portfolio-box">
-                          <div class="portfolio-image">
-                            <img src="images/gallery/20.jpg" alt="" />
-                          </div>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              </li>
-              <!-- end portfolio item -->
-
-              <!-- start portfolio item -->
-              <li
-                class="grid-item web branding transition-inner-all atropos"
-                data-atropos
-                data-atropos-perspective="1450">
-                <div class="position-relative">
-                  <a href="#" class="portfolio-link"></a>
-                  <div class="atropos-scale">
-                    <div class="atropos-rotate">
-                      <div class="atropos-inner" data-atropos-offset="3">
-                        <div class="portfolio-box">
-                          <div class="portfolio-image">
-                            <img src="images/gallery/21.jpg" alt="" />
-                          </div>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              </li>
-              <!-- end portfolio item -->
-              <!-- start portfolio item -->
-              <li
-                class="grid-item web digital transition-inner-all atropos"
-                data-atropos
-                data-atropos-perspective="1450">
-                <div class="position-relative">
-                  <a href="#" class="portfolio-link"></a>
-                  <div class="atropos-scale">
-                    <div class="atropos-rotate">
-                      <div class="atropos-inner" data-atropos-offset="3">
-                        <div class="portfolio-box">
-                          <div class="portfolio-image">
-                            <img src="images/gallery/22.jpg" alt="" />
-                          </div>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              </li>
-              <!-- end portfolio item -->
-              <!-- start portfolio item -->
-              <li
-                class="grid-item selected digital transition-inner-all atropos"
-                data-atropos
-                data-atropos-perspective="1450">
-                <div class="position-relative">
-                  <a href="#" class="portfolio-link"></a>
-                  <div class="atropos-scale">
-                    <div class="atropos-rotate">
-                      <div class="atropos-inner" data-atropos-offset="3">
-                        <div class="portfolio-box">
-                          <div class="portfolio-image">
-                            <img src="images/gallery/24.jpg" alt="" />
-                          </div>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              </li>
-              <!-- end portfolio item -->
-              <!-- start portfolio item -->
-              <li
-                class="grid-item transition-inner-all atropos"
-                data-atropos
-                data-atropos-perspective="1450">
-                <div class="position-relative">
-                  <a href="#" class="portfolio-link"></a>
-                  <div class="atropos-scale">
-                    <div class="atropos-rotate">
-                      <div class="atropos-inner" data-atropos-offset="3">
-                        <div class="portfolio-box">
-                          <div class="portfolio-image">
-                            <img src="images/gallery/25.jpg" alt="" />
-                          </div>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              </li>
-              <!-- end portfolio item -->
-
-              <!-- start portfolio item -->
-              <li
-                class="grid-item transition-inner-all atropos"
-                data-atropos
-                data-atropos-perspective="1450">
-                <div class="position-relative">
-                  <a href="#" class="portfolio-link"></a>
-                  <div class="atropos-scale">
-                    <div class="atropos-rotate">
-                      <div class="atropos-inner" data-atropos-offset="3">
-                        <div class="portfolio-box">
-                          <div class="portfolio-image">
-                            <img src="images/gallery/26.jpg" alt="" />
-                          </div>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              </li>
-              <!-- end portfolio item -->
-              <!-- start portfolio item -->
-              <li
-                class="grid-item selected digital transition-inner-all atropos"
-                data-atropos
-                data-atropos-perspective="1450">
-                <div class="position-relative">
-                  <a href="#" class="portfolio-link"></a>
-                  <div class="atropos-scale">
-                    <div class="atropos-rotate">
-                      <div class="atropos-inner" data-atropos-offset="3">
-                        <div class="portfolio-box">
-                          <div class="portfolio-image">
-                            <img src="images/gallery/27.jpg" alt="" />
-                          </div>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              </li>
-              <!-- end portfolio item -->
-              <!-- start portfolio item -->
-              <li
-                class="grid-item selected transition-inner-all atropos"
-                data-atropos
-                data-atropos-perspective="1450">
-                <div class="position-relative">
-                  <a href="#" class="portfolio-link"></a>
-                  <div class="atropos-scale">
-                    <div class="atropos-rotate">
-                      <div class="atropos-inner" data-atropos-offset="3">
-                        <div class="portfolio-box">
-                          <div class="portfolio-image">
-                            <img src="images/gallery/29.jpg" alt="" />
-                          </div>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              </li>
-              <!-- end portfolio item -->
-              <!-- start portfolio item -->
-              <li
-                class="grid-item branding transition-inner-all atropos"
-                data-atropos
-                data-atropos-perspective="1450">
-                <div class="position-relative">
-                  <a href="#" class="portfolio-link"></a>
-                  <div class="atropos-scale">
-                    <div class="atropos-rotate">
-                      <div class="atropos-inner" data-atropos-offset="3">
-                        <div class="portfolio-box">
-                          <div class="portfolio-image">
-                            <img src="images/gallery/30.jpg" alt="" />
-                          </div>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              </li>
-              <!-- end portfolio item -->
-              <!-- start portfolio item -->
-              <li
-                class="grid-item branding transition-inner-all atropos"
-                data-atropos
-                data-atropos-perspective="1450">
-                <div class="position-relative">
-                  <a href="#" class="portfolio-link"></a>
-                  <div class="atropos-scale">
-                    <div class="atropos-rotate">
-                      <div class="atropos-inner" data-atropos-offset="3">
-                        <div class="portfolio-box">
-                          <div class="portfolio-image">
-                            <img src="images/gallery/33.jpg" alt="" />
-                          </div>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              </li>
-              <!-- end portfolio item -->
-              <!-- start portfolio item -->
-              <li
-                class="grid-item branding transition-inner-all atropos"
-                data-atropos
-                data-atropos-perspective="1450">
-                <div class="position-relative">
-                  <a href="#" class="portfolio-link"></a>
-                  <div class="atropos-scale">
-                    <div class="atropos-rotate">
-                      <div class="atropos-inner" data-atropos-offset="3">
-                        <div class="portfolio-box">
-                          <div class="portfolio-image">
-                            <img src="images/gallery/34.jpg" alt="" />
-                          </div>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              </li>
-              <!-- end portfolio item -->
-              <!-- start portfolio item -->
-              <li
-                class="grid-item branding transition-inner-all atropos"
-                data-atropos
-                data-atropos-perspective="1450">
-                <div class="position-relative">
-                  <a href="#" class="portfolio-link"></a>
-                  <div class="atropos-scale">
-                    <div class="atropos-rotate">
-                      <div class="atropos-inner" data-atropos-offset="3">
-                        <div class="portfolio-box">
-                          <div class="portfolio-image">
-                            <img src="images/gallery/36.jpg" alt="" />
-                          </div>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              </li>
-              <!-- end portfolio item -->
-              <!-- start portfolio item -->
-              <li
-                class="grid-item branding transition-inner-all atropos"
-                data-atropos
-                data-atropos-perspective="1450">
-                <div class="position-relative">
-                  <a href="#" class="portfolio-link"></a>
-                  <div class="atropos-scale">
-                    <div class="atropos-rotate">
-                      <div class="atropos-inner" data-atropos-offset="3">
-                        <div class="portfolio-box">
-                          <div class="portfolio-image">
-                            <img src="images/gallery/37.jpg" alt="" />
-                          </div>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              </li>
-              <!-- end portfolio item -->
-              <!-- start portfolio item -->
-              <li
-                class="grid-item branding transition-inner-all atropos"
-                data-atropos
-                data-atropos-perspective="1450">
-                <div class="position-relative">
-                  <a href="#" class="portfolio-link"></a>
-                  <div class="atropos-scale">
-                    <div class="atropos-rotate">
-                      <div class="atropos-inner" data-atropos-offset="3">
-                        <div class="portfolio-box">
-                          <div class="portfolio-image">
-                            <img src="images/gallery/39.jpg" alt="" />
-                          </div>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              </li>
-              <!-- end portfolio item -->
-              <!-- start portfolio item -->
-              <li
-                class="grid-item branding transition-inner-all atropos"
-                data-atropos
-                data-atropos-perspective="1450">
-                <div class="position-relative">
-                  <a href="#" class="portfolio-link"></a>
-                  <div class="atropos-scale">
-                    <div class="atropos-rotate">
-                      <div class="atropos-inner" data-atropos-offset="3">
-                        <div class="portfolio-box">
-                          <div class="portfolio-image">
-                            <img src="images/gallery/41.jpg" alt="" />
-                          </div>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              </li>
-              <!-- end portfolio item -->
-              <!-- start portfolio item -->
-              <li
-                class="grid-item branding transition-inner-all atropos"
-                data-atropos
-                data-atropos-perspective="1450">
-                <div class="position-relative">
-                  <a href="#" class="portfolio-link"></a>
-                  <div class="atropos-scale">
-                    <div class="atropos-rotate">
-                      <div class="atropos-inner" data-atropos-offset="3">
-                        <div class="portfolio-box">
-                          <div class="portfolio-image">
-                            <img src="images/gallery/42.jpg" alt="" />
-                          </div>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              </li>
-              <!-- end portfolio item -->
-              <!-- start portfolio item -->
-              <li
-                class="grid-item branding transition-inner-all atropos"
-                data-atropos
-                data-atropos-perspective="1450">
-                <div class="position-relative">
-                  <a href="#" class="portfolio-link"></a>
-                  <div class="atropos-scale">
-                    <div class="atropos-rotate">
-                      <div class="atropos-inner" data-atropos-offset="3">
-                        <div class="portfolio-box">
-                          <div class="portfolio-image">
-                            <img src="images/gallery/43.jpg" alt="" />
-                          </div>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              </li>
-              <!-- end portfolio item -->
-              <!-- start portfolio item -->
-              <li
-                class="grid-item branding transition-inner-all atropos"
-                data-atropos
-                data-atropos-perspective="1450">
-                <div class="position-relative">
-                  <a href="#" class="portfolio-link"></a>
-                  <div class="atropos-scale">
-                    <div class="atropos-rotate">
-                      <div class="atropos-inner" data-atropos-offset="3">
-                        <div class="portfolio-box">
-                          <div class="portfolio-image">
-                            <img src="images/gallery/44.jpg" alt="" />
-                          </div>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              </li>
-              <!-- end portfolio item -->
-              <!-- start portfolio item -->
-              <li
-                class="grid-item branding transition-inner-all atropos"
-                data-atropos
-                data-atropos-perspective="1450">
-                <div class="position-relative">
-                  <a href="#" class="portfolio-link"></a>
-                  <div class="atropos-scale">
-                    <div class="atropos-rotate">
-                      <div class="atropos-inner" data-atropos-offset="3">
-                        <div class="portfolio-box">
-                          <div class="portfolio-image">
-                            <img src="images/gallery/46.jpg" alt="" />
-                          </div>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              </li>
-              <!-- end portfolio item -->
-              <!-- start portfolio item -->
-              <li
-                class="grid-item branding transition-inner-all atropos"
-                data-atropos
-                data-atropos-perspective="1450">
-                <div class="position-relative">
-                  <a href="#" class="portfolio-link"></a>
-                  <div class="atropos-scale">
-                    <div class="atropos-rotate">
-                      <div class="atropos-inner" data-atropos-offset="3">
-                        <div class="portfolio-box">
-                          <div class="portfolio-image">
-                            <img src="images/gallery/48.jpg" alt="" />
-                          </div>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              </li>
-              <!-- end portfolio item -->
-              <!-- start portfolio item -->
-              <li
-                class="grid-item branding transition-inner-all atropos"
-                data-atropos
-                data-atropos-perspective="1450">
-                <div class="position-relative">
-                  <a href="#" class="portfolio-link"></a>
-                  <div class="atropos-scale">
-                    <div class="atropos-rotate">
-                      <div class="atropos-inner" data-atropos-offset="3">
-                        <div class="portfolio-box">
-                          <div class="portfolio-image">
-                            <img src="images/gallery/49.jpg" alt="" />
-                          </div>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              </li>
-              <!-- end portfolio item -->
-            </ul>
-          </div>
-        </div>
-      </div>
-      <!-- Portrait -->
-      <div class="container pt-5">
-        <div class="row">
-          <div class="col-12 filter-content">
-            <ul
-              class="portfolio-wrapper grid-loading grid grid-3col xxl-grid-3col xl-grid-3col lg-grid-3col md-grid-2col sm-grid-2col xs-grid-1col gutter-large text-center">
-              <li class="grid-sizer"></li>
-              <!-- start portfolio item -->
-              <li
-                class="grid-item haldi transition-inner-all atropos"
-                data-atropos
-                data-atropos-perspective="1450">
-                <div class="position-relative">
-                  <a href="#" class="portfolio-link"></a>
-                  <div class="atropos-scale">
-                    <div class="atropos-rotate">
-                      <div class="atropos-inner" data-atropos-offset="3">
-                        <div class="portfolio-box">
-                          <div class="portfolio-image">
-                            <img src="images/gallery/2.jpg" alt="" />
-                          </div>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              </li>
-              <!-- end portfolio item -->
-              <!-- start portfolio item -->
-              <li
-                class="grid-item web transition-inner-all atropos"
-                data-atropos
-                data-atropos-perspective="1450">
-                <div class="position-relative">
-                  <a href="#" class="portfolio-link"></a>
-                  <div class="atropos-scale">
-                    <div class="atropos-rotate">
-                      <div class="atropos-inner" data-atropos-offset="3">
-                        <div class="portfolio-box">
-                          <div class="portfolio-image">
-                            <img src="images/gallery/6.jpg" alt="" />
-                          </div>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              </li>
-              <!-- end portfolio item -->
-              <!-- start portfolio item -->
-              <li
-                class="grid-item web transition-inner-all atropos"
-                data-atropos
-                data-atropos-perspective="1450">
-                <div class="position-relative">
-                  <a href="#" class="portfolio-link"></a>
-                  <div class="atropos-scale">
-                    <div class="atropos-rotate">
-                      <div class="atropos-inner" data-atropos-offset="3">
-                        <div class="portfolio-box">
-                          <div class="portfolio-image">
-                            <img src="images/gallery/9.jpg" alt="" />
-                          </div>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              </li>
-              <!-- end portfolio item -->
-              <!-- start portfolio item -->
-              <li
-                class="grid-item digital transition-inner-all atropos"
-                data-atropos
-                data-atropos-perspective="1450">
-                <div class="position-relative">
-                  <a href="#" class="portfolio-link"></a>
-                  <div class="atropos-scale">
-                    <div class="atropos-rotate">
-                      <div class="atropos-inner" data-atropos-offset="3">
-                        <div class="portfolio-box">
-                          <div class="portfolio-image">
-                            <img src="images/gallery/12.jpg" alt="" />
-                          </div>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              </li>
-              <!-- end portfolio item -->
-
-              <!-- start portfolio item -->
-              <li
-                class="grid-item web branding transition-inner-all atropos"
-                data-atropos
-                data-atropos-perspective="1450">
-                <div class="position-relative">
-                  <a href="#" class="portfolio-link"></a>
-                  <div class="atropos-scale">
-                    <div class="atropos-rotate">
-                      <div class="atropos-inner" data-atropos-offset="3">
-                        <div class="portfolio-box">
-                          <div class="portfolio-image">
-                            <img src="images/gallery/14.jpg" alt="" />
-                          </div>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              </li>
-              <!-- end portfolio item -->
-              <!-- start portfolio item -->
-              <li
-                class="grid-item web digital transition-inner-all atropos"
-                data-atropos
-                data-atropos-perspective="1450">
-                <div class="position-relative">
-                  <a href="#" class="portfolio-link"></a>
-                  <div class="atropos-scale">
-                    <div class="atropos-rotate">
-                      <div class="atropos-inner" data-atropos-offset="3">
-                        <div class="portfolio-box">
-                          <div class="portfolio-image">
-                            <img src="images/gallery/17.jpg" alt="" />
-                          </div>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              </li>
-              <!-- end portfolio item -->
-              <!-- start portfolio item -->
-              <li
-                class="grid-item selected digital transition-inner-all atropos"
-                data-atropos
-                data-atropos-perspective="1450">
-                <div class="position-relative">
-                  <a href="#" class="portfolio-link"></a>
-                  <div class="atropos-scale">
-                    <div class="atropos-rotate">
-                      <div class="atropos-inner" data-atropos-offset="3">
-                        <div class="portfolio-box">
-                          <div class="portfolio-image">
-                            <img src="images/gallery/23.jpg" alt="" />
-                          </div>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              </li>
-              <!-- end portfolio item -->
-              <!-- start portfolio item -->
-              <li
-                class="grid-item transition-inner-all atropos"
-                data-atropos
-                data-atropos-perspective="1450">
-                <div class="position-relative">
-                  <a href="#" class="portfolio-link"></a>
-                  <div class="atropos-scale">
-                    <div class="atropos-rotate">
-                      <div class="atropos-inner" data-atropos-offset="3">
-                        <div class="portfolio-box">
-                          <div class="portfolio-image">
-                            <img src="images/gallery/32.jpg" alt="" />
-                          </div>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              </li>
-              <!-- end portfolio item -->
-              <!-- start portfolio item -->
-              <li
-                class="grid-item transition-inner-all atropos"
-                data-atropos
-                data-atropos-perspective="1450">
-                <div class="position-relative">
-                  <a href="#" class="portfolio-link"></a>
-                  <div class="atropos-scale">
-                    <div class="atropos-rotate">
-                      <div class="atropos-inner" data-atropos-offset="3">
-                        <div class="portfolio-box">
-                          <div class="portfolio-image">
-                            <img src="images/gallery/47.jpg" alt="" />
-                          </div>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              </li>
-              <!-- end portfolio item -->
-            </ul>
-          </div>
-        </div>
-      </div>
-
-      <!-- Landscape -->
-      <div class="container pt-5">
-        <div class="row">
-          <div class="col-12 filter-content">
-            <ul
-              class="portfolio-wrapper grid-loading grid grid-3col xxl-grid-3col xl-grid-3col lg-grid-3col md-grid-2col sm-grid-2col xs-grid-1col gutter-large text-center">
-              <li class="grid-sizer"></li>
-              <!-- start portfolio item -->
-              <li
-                class="grid-item haldi transition-inner-all atropos"
-                data-atropos
-                data-atropos-perspective="1450">
-                <div class="position-relative">
-                  <a href="#" class="portfolio-link"></a>
-                  <div class="atropos-scale">
-                    <div class="atropos-rotate">
-                      <div class="atropos-inner" data-atropos-offset="3">
-                        <div class="portfolio-box">
-                          <div class="portfolio-image">
-                            <img src="images/gallery/3.jpg" alt="" />
-                          </div>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              </li>
-              <!-- end portfolio item -->
-              <!-- start portfolio item -->
-              <li
-                class="grid-item web transition-inner-all atropos"
-                data-atropos
-                data-atropos-perspective="1450">
-                <div class="position-relative">
-                  <a href="#" class="portfolio-link"></a>
-                  <div class="atropos-scale">
-                    <div class="atropos-rotate">
-                      <div class="atropos-inner" data-atropos-offset="3">
-                        <div class="portfolio-box">
-                          <div class="portfolio-image">
-                            <img src="images/gallery/5.jpg" alt="" />
-                          </div>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              </li>
-              <!-- end portfolio item -->
-              <!-- start portfolio item -->
-              <li
-                class="grid-item web transition-inner-all atropos"
-                data-atropos
-                data-atropos-perspective="1450">
-                <div class="position-relative">
-                  <a href="#" class="portfolio-link"></a>
-                  <div class="atropos-scale">
-                    <div class="atropos-rotate">
-                      <div class="atropos-inner" data-atropos-offset="3">
-                        <div class="portfolio-box">
-                          <div class="portfolio-image">
-                            <img src="images/gallery/7.jpg" alt="" />
-                          </div>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              </li>
-              <!-- end portfolio item -->
-              <!-- start portfolio item -->
-              <li
-                class="grid-item digital transition-inner-all atropos"
-                data-atropos
-                data-atropos-perspective="1450">
-                <div class="position-relative">
-                  <a href="#" class="portfolio-link"></a>
-                  <div class="atropos-scale">
-                    <div class="atropos-rotate">
-                      <div class="atropos-inner" data-atropos-offset="3">
-                        <div class="portfolio-box">
-                          <div class="portfolio-image">
-                            <img src="images/gallery/8.jpg" alt="" />
-                          </div>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              </li>
-              <!-- end portfolio item -->
-
-              <!-- start portfolio item -->
-              <li
-                class="grid-item web branding transition-inner-all atropos"
-                data-atropos
-                data-atropos-perspective="1450">
-                <div class="position-relative">
-                  <a href="#" class="portfolio-link"></a>
-                  <div class="atropos-scale">
-                    <div class="atropos-rotate">
-                      <div class="atropos-inner" data-atropos-offset="3">
-                        <div class="portfolio-box">
-                          <div class="portfolio-image">
-                            <img src="images/gallery/10.jpg" alt="" />
-                          </div>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              </li>
-              <!-- end portfolio item -->
-              <!-- start portfolio item -->
-              <li
-                class="grid-item web digital transition-inner-all atropos"
-                data-atropos
-                data-atropos-perspective="1450">
-                <div class="position-relative">
-                  <a href="#" class="portfolio-link"></a>
-                  <div class="atropos-scale">
-                    <div class="atropos-rotate">
-                      <div class="atropos-inner" data-atropos-offset="3">
-                        <div class="portfolio-box">
-                          <div class="portfolio-image">
-                            <img src="images/gallery/11.jpg" alt="" />
-                          </div>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              </li>
-              <!-- end portfolio item -->
-              <!-- start portfolio item -->
-              <li
-                class="grid-item selected digital transition-inner-all atropos"
-                data-atropos
-                data-atropos-perspective="1450">
-                <div class="position-relative">
-                  <a href="#" class="portfolio-link"></a>
-                  <div class="atropos-scale">
-                    <div class="atropos-rotate">
-                      <div class="atropos-inner" data-atropos-offset="3">
-                        <div class="portfolio-box">
-                          <div class="portfolio-image">
-                            <img src="images/gallery/13.jpg" alt="" />
-                          </div>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              </li>
-              <!-- end portfolio item -->
-              <!-- start portfolio item -->
-              <li
-                class="grid-item transition-inner-all atropos"
-                data-atropos
-                data-atropos-perspective="1450">
-                <div class="position-relative">
-                  <a href="#" class="portfolio-link"></a>
-                  <div class="atropos-scale">
-                    <div class="atropos-rotate">
-                      <div class="atropos-inner" data-atropos-offset="3">
-                        <div class="portfolio-box">
-                          <div class="portfolio-image">
-                            <img src="images/gallery/15.jpg" alt="" />
-                          </div>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              </li>
-              <!-- end portfolio item -->
-
-              <!-- start portfolio item -->
-              <li
-                class="grid-item transition-inner-all atropos"
-                data-atropos
-                data-atropos-perspective="1450">
-                <div class="position-relative">
-                  <a href="#" class="portfolio-link"></a>
-                  <div class="atropos-scale">
-                    <div class="atropos-rotate">
-                      <div class="atropos-inner" data-atropos-offset="3">
-                        <div class="portfolio-box">
-                          <div class="portfolio-image">
-                            <img src="images/gallery/16.jpg" alt="" />
-                          </div>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              </li>
-              <!-- end portfolio item -->
-              <!-- start portfolio item -->
-              <li
-                class="grid-item selected digital transition-inner-all atropos"
-                data-atropos
-                data-atropos-perspective="1450">
-                <div class="position-relative">
-                  <a href="#" class="portfolio-link"></a>
-                  <div class="atropos-scale">
-                    <div class="atropos-rotate">
-                      <div class="atropos-inner" data-atropos-offset="3">
-                        <div class="portfolio-box">
-                          <div class="portfolio-image">
-                            <img src="images/gallery/18.jpg" alt="" />
-                          </div>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              </li>
-              <!-- end portfolio item -->
-              <!-- start portfolio item -->
-              <li
-                class="grid-item selected transition-inner-all atropos"
-                data-atropos
-                data-atropos-perspective="1450">
-                <div class="position-relative">
-                  <a href="#" class="portfolio-link"></a>
-                  <div class="atropos-scale">
-                    <div class="atropos-rotate">
-                      <div class="atropos-inner" data-atropos-offset="3">
-                        <div class="portfolio-box">
-                          <div class="portfolio-image">
-                            <img src="images/gallery/28.jpg" alt="" />
-                          </div>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              </li>
-              <!-- end portfolio item -->
-              <!-- start portfolio item -->
-              <li
-                class="grid-item branding transition-inner-all atropos"
-                data-atropos
-                data-atropos-perspective="1450">
-                <div class="position-relative">
-                  <a href="#" class="portfolio-link"></a>
-                  <div class="atropos-scale">
-                    <div class="atropos-rotate">
-                      <div class="atropos-inner" data-atropos-offset="3">
-                        <div class="portfolio-box">
-                          <div class="portfolio-image">
-                            <img src="images/gallery/31.jpg" alt="" />
-                          </div>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              </li>
-              <!-- end portfolio item -->
-              <!-- start portfolio item -->
-              <li
-                class="grid-item branding transition-inner-all atropos"
-                data-atropos
-                data-atropos-perspective="1450">
-                <div class="position-relative">
-                  <a href="#" class="portfolio-link"></a>
-                  <div class="atropos-scale">
-                    <div class="atropos-rotate">
-                      <div class="atropos-inner" data-atropos-offset="3">
-                        <div class="portfolio-box">
-                          <div class="portfolio-image">
-                            <img src="images/gallery/35.jpg" alt="" />
-                          </div>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              </li>
-              <!-- end portfolio item -->
-              <!-- start portfolio item -->
-              <li
-                class="grid-item branding transition-inner-all atropos"
-                data-atropos
-                data-atropos-perspective="1450">
-                <div class="position-relative">
-                  <a href="#" class="portfolio-link"></a>
-                  <div class="atropos-scale">
-                    <div class="atropos-rotate">
-                      <div class="atropos-inner" data-atropos-offset="3">
-                        <div class="portfolio-box">
-                          <div class="portfolio-image">
-                            <img src="images/gallery/38.jpg" alt="" />
-                          </div>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              </li>
-              <!-- end portfolio item -->
-              <!-- start portfolio item -->
-              <li
-                class="grid-item branding transition-inner-all atropos"
-                data-atropos
-                data-atropos-perspective="1450">
-                <div class="position-relative">
-                  <a href="#" class="portfolio-link"></a>
-                  <div class="atropos-scale">
-                    <div class="atropos-rotate">
-                      <div class="atropos-inner" data-atropos-offset="3">
-                        <div class="portfolio-box">
-                          <div class="portfolio-image">
-                            <img src="images/gallery/40.jpg" alt="" />
-                          </div>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              </li>
-              <!-- end portfolio item -->
-              <!-- start portfolio item -->
-              <li
-                class="grid-item branding transition-inner-all atropos"
-                data-atropos
-                data-atropos-perspective="1450">
-                <div class="position-relative">
-                  <a href="#" class="portfolio-link"></a>
-                  <div class="atropos-scale">
-                    <div class="atropos-rotate">
-                      <div class="atropos-inner" data-atropos-offset="3">
-                        <div class="portfolio-box">
-                          <div class="portfolio-image">
-                            <img src="images/gallery/45.jpg" alt="" />
-                          </div>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              </li>
-              <!-- end portfolio item -->
-            </ul>
-          </div>
-        </div>
-      </div>
-    </section>
-    <!-- end section -->
-
-    <!-- start section -->
-    <section></section>
-    <!-- end section -->
-
-    <!-- start footer -->
-    <footer
-      class="bg-very-light-gray pb-50px sm-pt-20px xs-pb-30px background-repeat background-position-center sm-background-image-none">
-      <div class="container">
-        <div class="row overlap-section">
-          <div class="col-12 text-center">
-            <img
-              class="rounded-circle footer-logo"
-              src="images/logo/footer_logo.jpg"
-              alt=""
-              height="170px" />
-          </div>
-        </div>
-        <!--  -->
-
-        <div class="container">
-          <div
-            class="row justify-content-center pt-55px pb-55px sm-pt-40px sm-pb-40px">
-            <!-- start footer column -->
-            <div
-              class="col-lg-3 col-md-4 col-sm-6 sm-mb-30px last-paragraph-no-margin text-center text-sm-start">
-              <span
-                class="d-block text-base-color fs-15 ls-1px mb-5px text-uppercase fw-600"
-                >Office Address</span
-              >
-              <p class="lh-30 w-80 lg-w-100 text-black">
-                Jr Mig 101 Bhartiniketan Govindpura - 462023
-                <!-- <br />
-                +91 93017 38925
-                <br />
-                event.ritualsbyritu@gmail.com -->
-              </p>
-            </div>
-            <!-- end footer column -->
-            <!-- start footer column -->
-            <div
-              class="col-lg-3 col-md-4 col-sm-6 xs-mb-30px last-paragraph-no-margin text-center text-sm-start">
-              <span
-                class="d-block text-base-color fs-15 ls-1px mb-5px text-uppercase fw-600"
-                >Connect With Us</span
-              >
-              <a href="tel:+91 93017 38925" class="text-black lh-30"
-                >+91 93017 38925</a
-              ><br />
-              <a href="mailto:event.ritualsbyritu@gmail.com" class="text-black"
-                >event.ritualsbyritu@gmail.com</a
-              >
-            </div>
-            <!-- end footer column -->
-            <!-- start footer column -->
-            <!-- <div
-              class="col-lg-3 col-md-12 col-sm-6 last-paragraph-no-margin text-center text-sm-start text-md-center text-lg-start md-mb-30px">
-              <a
-                href="#"
-                class="footer-logo d-inline-block"
-                ><img
-                  src=""
-                  data-at2x=""
-                  alt=""
-              /></a>
-            </div> -->
-            <!-- end footer column -->
-            <!-- start footer column -->
-            <div
-              class="col-lg-3 col-md-4 col-sm-6 last-paragraph-no-margin text-center text-sm-start">
-              <span
-                class="d-block text-base-color fs-15 ls-1px mb-10px text-uppercase fw-600"
-                >Follow Us</span
-              >
-              <div class="elements-social social-icon-style-09">
-                <ul class="medium-icon dark">
-                  <li>
-                    <a
-                      class="facebook"
-                      href="https://www.facebook.com/"
-                      target="_blank"
-                      ><i class="fa-brands fa-facebook-f"></i><span></span
-                    ></a>
-                  </li>
-                  <li>
-                    <a
-                      class="instagram"
-                      href="http://www.instagram.com"
-                      target="_blank"
-                      ><i class="fa-brands fa-instagram"></i><span></span
-                    ></a>
-                  </li>
-                  <li>
-                    <a
-                      class="twitter"
-                      href="http://www.twitter.com"
-                      target="_blank"
-                      ><i class="fa-brands fa-twitter"></i><span></span
-                    ></a>
-                  </li>
-                </ul>
-              </div>
-            </div>
-            <!-- end footer column -->
-          </div>
-        </div>
-
-        <!-- start instagram -->
-        <div
-          class="row row-cols-3 row-cols-lg-5 row-cols-sm-3 align-items-center justify-content-center mb-4 md-mb-50px xs-mb-40px instagram-follow-api position-relative">
-          <div class="col instafeed-grid md-mb-30px xs-mb-15px">
-            <figure class="border-radius-0px">
-              <a href="https://www.instagram.com" target="_blank"
-                ><img
-                  src="images/footer/insta_1.jpg"
-                  class="insta-image"
-                  alt="" /><span class="insta-icon"
-                  ><i class="fa-brands fa-instagram"></i></span
-              ></a>
-            </figure>
-          </div>
-          <div class="col instafeed-grid md-mb-30px xs-mb-15px">
-            <figure class="border-radius-0px">
-              <a href="https://www.instagram.com" target="_blank"
-                ><img
-                  src="images/footer/insta_2.jpg"
-                  class="insta-image"
-                  alt="" /><span class="insta-icon"
-                  ><i class="fa-brands fa-instagram"></i></span
-              ></a>
-            </figure>
-          </div>
-          <div class="col instafeed-grid md-mb-30px xs-mb-15px">
-            <figure class="border-radius-0px">
-              <a href="https://www.instagram.com" target="_blank"
-                ><img
-                  src="images/footer/insta_3.jpg"
-                  class="insta-image"
-                  alt="" /><span class="insta-icon"
-                  ><i class="fa-brands fa-instagram"></i></span
-              ></a>
-            </figure>
-          </div>
-          <div class="col instafeed-grid">
-            <figure class="border-radius-0px">
-              <a href="https://www.instagram.com" target="_blank"
-                ><img
-                  src="images/footer/insta_4.jpg"
-                  class="insta-image"
-                  alt="" /><span class="insta-icon"
-                  ><i class="fa-brands fa-instagram"></i></span
-              ></a>
-            </figure>
-          </div>
-          <div class="col instafeed-grid">
-            <figure class="border-radius-0px">
-              <a href="https://www.instagram.com" target="_blank"
-                ><img
-                  src="images/footer/insta_5.jpg"
-                  class="insta-image"
-                  alt="" /><span class="insta-icon"
-                  ><i class="fa-brands fa-instagram"></i></span
-              ></a>
-            </figure>
-          </div>
-          <div class="absolute-middle-center z-index-1 w-auto">
-            <a
-              href="https://www.instagram.com"
-              target="_blank"
-              class="btn btn-large btn-switch-text btn-white btn-rounded left-icon btn-box-shadow instagram-button">
-              <span>
-                <span
-                  ><i class="fa-brands fa-instagram text-base-color"></i
-                ></span>
-                <span class="btn-double-text" data-text="Follow Rituals By Ritu"
-                  >Follow Rituals By Ritu</span
-                >
-              </span>
-            </a>
-          </div>
-        </div>
-        <!-- end instagram -->
-        <div class="row align-items-center">
-          <div
-            class="col-xl-3 col-sm-6 text-center text-sm-start last-paragraph-no-margin fs-15 order-3 order-md-1">
-            <p>
-              &COPY; Copyright 2026
-              <a
-                href="index.html"
-                target="_blank"
-                class="text-decoration-line-bottom text-dark-gray fw-500"
-                >RITUALS BY RITU
-              </a>
-            </p>
-          </div>
-          <div
-            class="col-xl-6 text-center lg-mt-10px sm-mt-0 sm-mb-10px order-1 order-xl-2 order-md-3">
-            <ul class="footer-navbar fs-17 fw-600">
-              <li class="nav-item active">
-                <a href="#" class="nav-link">Privacy Policy</a>
-              </li>
-              <li class="nav-item">
-                <a href="#" class="nav-link">Terms of Service</a>
-              </li>
-              <li class="nav-item">
-                <a href="#" class="nav-link">Disclaimer</a>
-              </li>
-              <li class="nav-item">
-                <a href="#" class="nav-link">Career</a>
-              </li>
-              <li class="nav-item">
-                <a href="contact.html" class="nav-link">Contact</a>
-              </li>
-            </ul>
-          </div>
-          <div
-            class="col-xl-3 col-sm-6 position-relative text-center text-sm-end elements-social social-text-style-01 order-2 order-xl-3 xs-mb-10px">
-            <p>
-              Powered By
-              <a
-                href="https://letsdigin.in/"
-                target="_blank"
-                class="text-decoration-line-bottom text-dark-gray fw-500"
-                >DigIN Media
-              </a>
-            </p>
-          </div>
-        </div>
-      </div>
-    </footer>
-    <!-- end footer -->
-
-    <!-- start scroll progress -->
-    <div class="scroll-progress d-none d-xxl-block">
-      <a href="#" class="scroll-top" aria-label="scroll">
-        <span class="scroll-text">Scroll</span
-        ><span class="scroll-line"><span class="scroll-point"></span></span>
-      </a>
     </div>
-    <!-- end scroll progress -->
+    <!-- Square -->
+    <div class="container pt-5">
+      <div class="row">
+        <div class="col-12 filter-content">
+          <ul
+            class="portfolio-wrapper grid-loading grid grid-3col xxl-grid-3col xl-grid-3col lg-grid-3col md-grid-2col sm-grid-2col xs-grid-1col gutter-large text-center">
+            <li class="grid-sizer"></li>
+            <!-- start portfolio item -->
+            <li
+              class="grid-item haldi transition-inner-all atropos"
+              data-atropos
+              data-atropos-perspective="1450">
+              <div class="position-relative">
+                <a href="#" class="portfolio-link"></a>
+                <div class="atropos-scale">
+                  <div class="atropos-rotate">
+                    <div class="atropos-inner" data-atropos-offset="3">
+                      <div class="portfolio-box">
+                        <div class="portfolio-image">
+                          <img src="images/gallery/1.jpg" alt="" />
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </li>
+            <!-- end portfolio item -->
+            <!-- start portfolio item -->
+            <li
+              class="grid-item web transition-inner-all atropos"
+              data-atropos
+              data-atropos-perspective="1450">
+              <div class="position-relative">
+                <a href="#" class="portfolio-link"></a>
+                <div class="atropos-scale">
+                  <div class="atropos-rotate">
+                    <div class="atropos-inner" data-atropos-offset="3">
+                      <div class="portfolio-box">
+                        <div class="portfolio-image">
+                          <img src="images/gallery/4.jpg" alt="" />
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </li>
+            <!-- end portfolio item -->
+            <!-- start portfolio item -->
+            <li
+              class="grid-item web transition-inner-all atropos"
+              data-atropos
+              data-atropos-perspective="1450">
+              <div class="position-relative">
+                <a href="#" class="portfolio-link"></a>
+                <div class="atropos-scale">
+                  <div class="atropos-rotate">
+                    <div class="atropos-inner" data-atropos-offset="3">
+                      <div class="portfolio-box">
+                        <div class="portfolio-image">
+                          <img src="images/gallery/19.jpg" alt="" />
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </li>
+            <!-- end portfolio item -->
+            <!-- start portfolio item -->
+            <li
+              class="grid-item digital transition-inner-all atropos"
+              data-atropos
+              data-atropos-perspective="1450">
+              <div class="position-relative">
+                <a href="#" class="portfolio-link"></a>
+                <div class="atropos-scale">
+                  <div class="atropos-rotate">
+                    <div class="atropos-inner" data-atropos-offset="3">
+                      <div class="portfolio-box">
+                        <div class="portfolio-image">
+                          <img src="images/gallery/20.jpg" alt="" />
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </li>
+            <!-- end portfolio item -->
 
-    <!-- javascript libraries -->
-    <script type="text/javascript" src="js/jquery.js"></script>
-    <script type="text/javascript" src="js/vendors.min.js"></script>
-    <script type="text/javascript" src="js/main.js"></script>
-  </body>
+            <!-- start portfolio item -->
+            <li
+              class="grid-item web branding transition-inner-all atropos"
+              data-atropos
+              data-atropos-perspective="1450">
+              <div class="position-relative">
+                <a href="#" class="portfolio-link"></a>
+                <div class="atropos-scale">
+                  <div class="atropos-rotate">
+                    <div class="atropos-inner" data-atropos-offset="3">
+                      <div class="portfolio-box">
+                        <div class="portfolio-image">
+                          <img src="images/gallery/21.jpg" alt="" />
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </li>
+            <!-- end portfolio item -->
+            <!-- start portfolio item -->
+            <li
+              class="grid-item web digital transition-inner-all atropos"
+              data-atropos
+              data-atropos-perspective="1450">
+              <div class="position-relative">
+                <a href="#" class="portfolio-link"></a>
+                <div class="atropos-scale">
+                  <div class="atropos-rotate">
+                    <div class="atropos-inner" data-atropos-offset="3">
+                      <div class="portfolio-box">
+                        <div class="portfolio-image">
+                          <img src="images/gallery/22.jpg" alt="" />
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </li>
+            <!-- end portfolio item -->
+            <!-- start portfolio item -->
+            <li
+              class="grid-item selected digital transition-inner-all atropos"
+              data-atropos
+              data-atropos-perspective="1450">
+              <div class="position-relative">
+                <a href="#" class="portfolio-link"></a>
+                <div class="atropos-scale">
+                  <div class="atropos-rotate">
+                    <div class="atropos-inner" data-atropos-offset="3">
+                      <div class="portfolio-box">
+                        <div class="portfolio-image">
+                          <img src="images/gallery/24.jpg" alt="" />
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </li>
+            <!-- end portfolio item -->
+            <!-- start portfolio item -->
+            <li
+              class="grid-item transition-inner-all atropos"
+              data-atropos
+              data-atropos-perspective="1450">
+              <div class="position-relative">
+                <a href="#" class="portfolio-link"></a>
+                <div class="atropos-scale">
+                  <div class="atropos-rotate">
+                    <div class="atropos-inner" data-atropos-offset="3">
+                      <div class="portfolio-box">
+                        <div class="portfolio-image">
+                          <img src="images/gallery/25.jpg" alt="" />
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </li>
+            <!-- end portfolio item -->
+
+            <!-- start portfolio item -->
+            <li
+              class="grid-item transition-inner-all atropos"
+              data-atropos
+              data-atropos-perspective="1450">
+              <div class="position-relative">
+                <a href="#" class="portfolio-link"></a>
+                <div class="atropos-scale">
+                  <div class="atropos-rotate">
+                    <div class="atropos-inner" data-atropos-offset="3">
+                      <div class="portfolio-box">
+                        <div class="portfolio-image">
+                          <img src="images/gallery/26.jpg" alt="" />
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </li>
+            <!-- end portfolio item -->
+            <!-- start portfolio item -->
+            <li
+              class="grid-item selected digital transition-inner-all atropos"
+              data-atropos
+              data-atropos-perspective="1450">
+              <div class="position-relative">
+                <a href="#" class="portfolio-link"></a>
+                <div class="atropos-scale">
+                  <div class="atropos-rotate">
+                    <div class="atropos-inner" data-atropos-offset="3">
+                      <div class="portfolio-box">
+                        <div class="portfolio-image">
+                          <img src="images/gallery/27.jpg" alt="" />
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </li>
+            <!-- end portfolio item -->
+            <!-- start portfolio item -->
+            <li
+              class="grid-item selected transition-inner-all atropos"
+              data-atropos
+              data-atropos-perspective="1450">
+              <div class="position-relative">
+                <a href="#" class="portfolio-link"></a>
+                <div class="atropos-scale">
+                  <div class="atropos-rotate">
+                    <div class="atropos-inner" data-atropos-offset="3">
+                      <div class="portfolio-box">
+                        <div class="portfolio-image">
+                          <img src="images/gallery/29.jpg" alt="" />
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </li>
+            <!-- end portfolio item -->
+            <!-- start portfolio item -->
+            <li
+              class="grid-item branding transition-inner-all atropos"
+              data-atropos
+              data-atropos-perspective="1450">
+              <div class="position-relative">
+                <a href="#" class="portfolio-link"></a>
+                <div class="atropos-scale">
+                  <div class="atropos-rotate">
+                    <div class="atropos-inner" data-atropos-offset="3">
+                      <div class="portfolio-box">
+                        <div class="portfolio-image">
+                          <img src="images/gallery/30.jpg" alt="" />
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </li>
+            <!-- end portfolio item -->
+            <!-- start portfolio item -->
+            <li
+              class="grid-item branding transition-inner-all atropos"
+              data-atropos
+              data-atropos-perspective="1450">
+              <div class="position-relative">
+                <a href="#" class="portfolio-link"></a>
+                <div class="atropos-scale">
+                  <div class="atropos-rotate">
+                    <div class="atropos-inner" data-atropos-offset="3">
+                      <div class="portfolio-box">
+                        <div class="portfolio-image">
+                          <img src="images/gallery/33.jpg" alt="" />
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </li>
+            <!-- end portfolio item -->
+            <!-- start portfolio item -->
+            <li
+              class="grid-item branding transition-inner-all atropos"
+              data-atropos
+              data-atropos-perspective="1450">
+              <div class="position-relative">
+                <a href="#" class="portfolio-link"></a>
+                <div class="atropos-scale">
+                  <div class="atropos-rotate">
+                    <div class="atropos-inner" data-atropos-offset="3">
+                      <div class="portfolio-box">
+                        <div class="portfolio-image">
+                          <img src="images/gallery/34.jpg" alt="" />
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </li>
+            <!-- end portfolio item -->
+            <!-- start portfolio item -->
+            <li
+              class="grid-item branding transition-inner-all atropos"
+              data-atropos
+              data-atropos-perspective="1450">
+              <div class="position-relative">
+                <a href="#" class="portfolio-link"></a>
+                <div class="atropos-scale">
+                  <div class="atropos-rotate">
+                    <div class="atropos-inner" data-atropos-offset="3">
+                      <div class="portfolio-box">
+                        <div class="portfolio-image">
+                          <img src="images/gallery/36.jpg" alt="" />
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </li>
+            <!-- end portfolio item -->
+            <!-- start portfolio item -->
+            <li
+              class="grid-item branding transition-inner-all atropos"
+              data-atropos
+              data-atropos-perspective="1450">
+              <div class="position-relative">
+                <a href="#" class="portfolio-link"></a>
+                <div class="atropos-scale">
+                  <div class="atropos-rotate">
+                    <div class="atropos-inner" data-atropos-offset="3">
+                      <div class="portfolio-box">
+                        <div class="portfolio-image">
+                          <img src="images/gallery/37.jpg" alt="" />
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </li>
+            <!-- end portfolio item -->
+            <!-- start portfolio item -->
+            <li
+              class="grid-item branding transition-inner-all atropos"
+              data-atropos
+              data-atropos-perspective="1450">
+              <div class="position-relative">
+                <a href="#" class="portfolio-link"></a>
+                <div class="atropos-scale">
+                  <div class="atropos-rotate">
+                    <div class="atropos-inner" data-atropos-offset="3">
+                      <div class="portfolio-box">
+                        <div class="portfolio-image">
+                          <img src="images/gallery/39.jpg" alt="" />
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </li>
+            <!-- end portfolio item -->
+            <!-- start portfolio item -->
+            <li
+              class="grid-item branding transition-inner-all atropos"
+              data-atropos
+              data-atropos-perspective="1450">
+              <div class="position-relative">
+                <a href="#" class="portfolio-link"></a>
+                <div class="atropos-scale">
+                  <div class="atropos-rotate">
+                    <div class="atropos-inner" data-atropos-offset="3">
+                      <div class="portfolio-box">
+                        <div class="portfolio-image">
+                          <img src="images/gallery/41.jpg" alt="" />
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </li>
+            <!-- end portfolio item -->
+            <!-- start portfolio item -->
+            <li
+              class="grid-item branding transition-inner-all atropos"
+              data-atropos
+              data-atropos-perspective="1450">
+              <div class="position-relative">
+                <a href="#" class="portfolio-link"></a>
+                <div class="atropos-scale">
+                  <div class="atropos-rotate">
+                    <div class="atropos-inner" data-atropos-offset="3">
+                      <div class="portfolio-box">
+                        <div class="portfolio-image">
+                          <img src="images/gallery/42.jpg" alt="" />
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </li>
+            <!-- end portfolio item -->
+            <!-- start portfolio item -->
+            <li
+              class="grid-item branding transition-inner-all atropos"
+              data-atropos
+              data-atropos-perspective="1450">
+              <div class="position-relative">
+                <a href="#" class="portfolio-link"></a>
+                <div class="atropos-scale">
+                  <div class="atropos-rotate">
+                    <div class="atropos-inner" data-atropos-offset="3">
+                      <div class="portfolio-box">
+                        <div class="portfolio-image">
+                          <img src="images/gallery/43.jpg" alt="" />
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </li>
+            <!-- end portfolio item -->
+            <!-- start portfolio item -->
+            <li
+              class="grid-item branding transition-inner-all atropos"
+              data-atropos
+              data-atropos-perspective="1450">
+              <div class="position-relative">
+                <a href="#" class="portfolio-link"></a>
+                <div class="atropos-scale">
+                  <div class="atropos-rotate">
+                    <div class="atropos-inner" data-atropos-offset="3">
+                      <div class="portfolio-box">
+                        <div class="portfolio-image">
+                          <img src="images/gallery/44.jpg" alt="" />
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </li>
+            <!-- end portfolio item -->
+            <!-- start portfolio item -->
+            <li
+              class="grid-item branding transition-inner-all atropos"
+              data-atropos
+              data-atropos-perspective="1450">
+              <div class="position-relative">
+                <a href="#" class="portfolio-link"></a>
+                <div class="atropos-scale">
+                  <div class="atropos-rotate">
+                    <div class="atropos-inner" data-atropos-offset="3">
+                      <div class="portfolio-box">
+                        <div class="portfolio-image">
+                          <img src="images/gallery/46.jpg" alt="" />
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </li>
+            <!-- end portfolio item -->
+            <!-- start portfolio item -->
+            <li
+              class="grid-item branding transition-inner-all atropos"
+              data-atropos
+              data-atropos-perspective="1450">
+              <div class="position-relative">
+                <a href="#" class="portfolio-link"></a>
+                <div class="atropos-scale">
+                  <div class="atropos-rotate">
+                    <div class="atropos-inner" data-atropos-offset="3">
+                      <div class="portfolio-box">
+                        <div class="portfolio-image">
+                          <img src="images/gallery/48.jpg" alt="" />
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </li>
+            <!-- end portfolio item -->
+            <!-- start portfolio item -->
+            <li
+              class="grid-item branding transition-inner-all atropos"
+              data-atropos
+              data-atropos-perspective="1450">
+              <div class="position-relative">
+                <a href="#" class="portfolio-link"></a>
+                <div class="atropos-scale">
+                  <div class="atropos-rotate">
+                    <div class="atropos-inner" data-atropos-offset="3">
+                      <div class="portfolio-box">
+                        <div class="portfolio-image">
+                          <img src="images/gallery/49.jpg" alt="" />
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </li>
+            <!-- end portfolio item -->
+          </ul>
+        </div>
+      </div>
+    </div>
+    <!-- Portrait -->
+    <div class="container pt-5">
+      <div class="row">
+        <div class="col-12 filter-content">
+          <ul
+            class="portfolio-wrapper grid-loading grid grid-3col xxl-grid-3col xl-grid-3col lg-grid-3col md-grid-2col sm-grid-2col xs-grid-1col gutter-large text-center">
+            <li class="grid-sizer"></li>
+            <!-- start portfolio item -->
+            <li
+              class="grid-item haldi transition-inner-all atropos"
+              data-atropos
+              data-atropos-perspective="1450">
+              <div class="position-relative">
+                <a href="#" class="portfolio-link"></a>
+                <div class="atropos-scale">
+                  <div class="atropos-rotate">
+                    <div class="atropos-inner" data-atropos-offset="3">
+                      <div class="portfolio-box">
+                        <div class="portfolio-image">
+                          <img src="images/gallery/2.jpg" alt="" />
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </li>
+            <!-- end portfolio item -->
+            <!-- start portfolio item -->
+            <li
+              class="grid-item web transition-inner-all atropos"
+              data-atropos
+              data-atropos-perspective="1450">
+              <div class="position-relative">
+                <a href="#" class="portfolio-link"></a>
+                <div class="atropos-scale">
+                  <div class="atropos-rotate">
+                    <div class="atropos-inner" data-atropos-offset="3">
+                      <div class="portfolio-box">
+                        <div class="portfolio-image">
+                          <img src="images/gallery/6.jpg" alt="" />
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </li>
+            <!-- end portfolio item -->
+            <!-- start portfolio item -->
+            <li
+              class="grid-item web transition-inner-all atropos"
+              data-atropos
+              data-atropos-perspective="1450">
+              <div class="position-relative">
+                <a href="#" class="portfolio-link"></a>
+                <div class="atropos-scale">
+                  <div class="atropos-rotate">
+                    <div class="atropos-inner" data-atropos-offset="3">
+                      <div class="portfolio-box">
+                        <div class="portfolio-image">
+                          <img src="images/gallery/9.jpg" alt="" />
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </li>
+            <!-- end portfolio item -->
+            <!-- start portfolio item -->
+            <li
+              class="grid-item digital transition-inner-all atropos"
+              data-atropos
+              data-atropos-perspective="1450">
+              <div class="position-relative">
+                <a href="#" class="portfolio-link"></a>
+                <div class="atropos-scale">
+                  <div class="atropos-rotate">
+                    <div class="atropos-inner" data-atropos-offset="3">
+                      <div class="portfolio-box">
+                        <div class="portfolio-image">
+                          <img src="images/gallery/12.jpg" alt="" />
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </li>
+            <!-- end portfolio item -->
+
+            <!-- start portfolio item -->
+            <li
+              class="grid-item web branding transition-inner-all atropos"
+              data-atropos
+              data-atropos-perspective="1450">
+              <div class="position-relative">
+                <a href="#" class="portfolio-link"></a>
+                <div class="atropos-scale">
+                  <div class="atropos-rotate">
+                    <div class="atropos-inner" data-atropos-offset="3">
+                      <div class="portfolio-box">
+                        <div class="portfolio-image">
+                          <img src="images/gallery/14.jpg" alt="" />
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </li>
+            <!-- end portfolio item -->
+            <!-- start portfolio item -->
+            <li
+              class="grid-item web digital transition-inner-all atropos"
+              data-atropos
+              data-atropos-perspective="1450">
+              <div class="position-relative">
+                <a href="#" class="portfolio-link"></a>
+                <div class="atropos-scale">
+                  <div class="atropos-rotate">
+                    <div class="atropos-inner" data-atropos-offset="3">
+                      <div class="portfolio-box">
+                        <div class="portfolio-image">
+                          <img src="images/gallery/17.jpg" alt="" />
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </li>
+            <!-- end portfolio item -->
+            <!-- start portfolio item -->
+            <li
+              class="grid-item selected digital transition-inner-all atropos"
+              data-atropos
+              data-atropos-perspective="1450">
+              <div class="position-relative">
+                <a href="#" class="portfolio-link"></a>
+                <div class="atropos-scale">
+                  <div class="atropos-rotate">
+                    <div class="atropos-inner" data-atropos-offset="3">
+                      <div class="portfolio-box">
+                        <div class="portfolio-image">
+                          <img src="images/gallery/23.jpg" alt="" />
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </li>
+            <!-- end portfolio item -->
+            <!-- start portfolio item -->
+            <li
+              class="grid-item transition-inner-all atropos"
+              data-atropos
+              data-atropos-perspective="1450">
+              <div class="position-relative">
+                <a href="#" class="portfolio-link"></a>
+                <div class="atropos-scale">
+                  <div class="atropos-rotate">
+                    <div class="atropos-inner" data-atropos-offset="3">
+                      <div class="portfolio-box">
+                        <div class="portfolio-image">
+                          <img src="images/gallery/32.jpg" alt="" />
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </li>
+            <!-- end portfolio item -->
+            <!-- start portfolio item -->
+            <li
+              class="grid-item transition-inner-all atropos"
+              data-atropos
+              data-atropos-perspective="1450">
+              <div class="position-relative">
+                <a href="#" class="portfolio-link"></a>
+                <div class="atropos-scale">
+                  <div class="atropos-rotate">
+                    <div class="atropos-inner" data-atropos-offset="3">
+                      <div class="portfolio-box">
+                        <div class="portfolio-image">
+                          <img src="images/gallery/47.jpg" alt="" />
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </li>
+            <!-- end portfolio item -->
+          </ul>
+        </div>
+      </div>
+    </div>
+
+    <!-- Landscape -->
+    <div class="container pt-5">
+      <div class="row">
+        <div class="col-12 filter-content">
+          <ul
+            class="portfolio-wrapper grid-loading grid grid-3col xxl-grid-3col xl-grid-3col lg-grid-3col md-grid-2col sm-grid-2col xs-grid-1col gutter-large text-center">
+            <li class="grid-sizer"></li>
+            <!-- start portfolio item -->
+            <li
+              class="grid-item haldi transition-inner-all atropos"
+              data-atropos
+              data-atropos-perspective="1450">
+              <div class="position-relative">
+                <a href="#" class="portfolio-link"></a>
+                <div class="atropos-scale">
+                  <div class="atropos-rotate">
+                    <div class="atropos-inner" data-atropos-offset="3">
+                      <div class="portfolio-box">
+                        <div class="portfolio-image">
+                          <img src="images/gallery/3.jpg" alt="" />
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </li>
+            <!-- end portfolio item -->
+            <!-- start portfolio item -->
+            <li
+              class="grid-item web transition-inner-all atropos"
+              data-atropos
+              data-atropos-perspective="1450">
+              <div class="position-relative">
+                <a href="#" class="portfolio-link"></a>
+                <div class="atropos-scale">
+                  <div class="atropos-rotate">
+                    <div class="atropos-inner" data-atropos-offset="3">
+                      <div class="portfolio-box">
+                        <div class="portfolio-image">
+                          <img src="images/gallery/5.jpg" alt="" />
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </li>
+            <!-- end portfolio item -->
+            <!-- start portfolio item -->
+            <li
+              class="grid-item web transition-inner-all atropos"
+              data-atropos
+              data-atropos-perspective="1450">
+              <div class="position-relative">
+                <a href="#" class="portfolio-link"></a>
+                <div class="atropos-scale">
+                  <div class="atropos-rotate">
+                    <div class="atropos-inner" data-atropos-offset="3">
+                      <div class="portfolio-box">
+                        <div class="portfolio-image">
+                          <img src="images/gallery/7.jpg" alt="" />
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </li>
+            <!-- end portfolio item -->
+            <!-- start portfolio item -->
+            <li
+              class="grid-item digital transition-inner-all atropos"
+              data-atropos
+              data-atropos-perspective="1450">
+              <div class="position-relative">
+                <a href="#" class="portfolio-link"></a>
+                <div class="atropos-scale">
+                  <div class="atropos-rotate">
+                    <div class="atropos-inner" data-atropos-offset="3">
+                      <div class="portfolio-box">
+                        <div class="portfolio-image">
+                          <img src="images/gallery/8.jpg" alt="" />
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </li>
+            <!-- end portfolio item -->
+
+            <!-- start portfolio item -->
+            <li
+              class="grid-item web branding transition-inner-all atropos"
+              data-atropos
+              data-atropos-perspective="1450">
+              <div class="position-relative">
+                <a href="#" class="portfolio-link"></a>
+                <div class="atropos-scale">
+                  <div class="atropos-rotate">
+                    <div class="atropos-inner" data-atropos-offset="3">
+                      <div class="portfolio-box">
+                        <div class="portfolio-image">
+                          <img src="images/gallery/10.jpg" alt="" />
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </li>
+            <!-- end portfolio item -->
+            <!-- start portfolio item -->
+            <li
+              class="grid-item web digital transition-inner-all atropos"
+              data-atropos
+              data-atropos-perspective="1450">
+              <div class="position-relative">
+                <a href="#" class="portfolio-link"></a>
+                <div class="atropos-scale">
+                  <div class="atropos-rotate">
+                    <div class="atropos-inner" data-atropos-offset="3">
+                      <div class="portfolio-box">
+                        <div class="portfolio-image">
+                          <img src="images/gallery/11.jpg" alt="" />
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </li>
+            <!-- end portfolio item -->
+            <!-- start portfolio item -->
+            <li
+              class="grid-item selected digital transition-inner-all atropos"
+              data-atropos
+              data-atropos-perspective="1450">
+              <div class="position-relative">
+                <a href="#" class="portfolio-link"></a>
+                <div class="atropos-scale">
+                  <div class="atropos-rotate">
+                    <div class="atropos-inner" data-atropos-offset="3">
+                      <div class="portfolio-box">
+                        <div class="portfolio-image">
+                          <img src="images/gallery/13.jpg" alt="" />
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </li>
+            <!-- end portfolio item -->
+            <!-- start portfolio item -->
+            <li
+              class="grid-item transition-inner-all atropos"
+              data-atropos
+              data-atropos-perspective="1450">
+              <div class="position-relative">
+                <a href="#" class="portfolio-link"></a>
+                <div class="atropos-scale">
+                  <div class="atropos-rotate">
+                    <div class="atropos-inner" data-atropos-offset="3">
+                      <div class="portfolio-box">
+                        <div class="portfolio-image">
+                          <img src="images/gallery/15.jpg" alt="" />
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </li>
+            <!-- end portfolio item -->
+
+            <!-- start portfolio item -->
+            <li
+              class="grid-item transition-inner-all atropos"
+              data-atropos
+              data-atropos-perspective="1450">
+              <div class="position-relative">
+                <a href="#" class="portfolio-link"></a>
+                <div class="atropos-scale">
+                  <div class="atropos-rotate">
+                    <div class="atropos-inner" data-atropos-offset="3">
+                      <div class="portfolio-box">
+                        <div class="portfolio-image">
+                          <img src="images/gallery/16.jpg" alt="" />
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </li>
+            <!-- end portfolio item -->
+            <!-- start portfolio item -->
+            <li
+              class="grid-item selected digital transition-inner-all atropos"
+              data-atropos
+              data-atropos-perspective="1450">
+              <div class="position-relative">
+                <a href="#" class="portfolio-link"></a>
+                <div class="atropos-scale">
+                  <div class="atropos-rotate">
+                    <div class="atropos-inner" data-atropos-offset="3">
+                      <div class="portfolio-box">
+                        <div class="portfolio-image">
+                          <img src="images/gallery/18.jpg" alt="" />
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </li>
+            <!-- end portfolio item -->
+            <!-- start portfolio item -->
+            <li
+              class="grid-item selected transition-inner-all atropos"
+              data-atropos
+              data-atropos-perspective="1450">
+              <div class="position-relative">
+                <a href="#" class="portfolio-link"></a>
+                <div class="atropos-scale">
+                  <div class="atropos-rotate">
+                    <div class="atropos-inner" data-atropos-offset="3">
+                      <div class="portfolio-box">
+                        <div class="portfolio-image">
+                          <img src="images/gallery/28.jpg" alt="" />
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </li>
+            <!-- end portfolio item -->
+            <!-- start portfolio item -->
+            <li
+              class="grid-item branding transition-inner-all atropos"
+              data-atropos
+              data-atropos-perspective="1450">
+              <div class="position-relative">
+                <a href="#" class="portfolio-link"></a>
+                <div class="atropos-scale">
+                  <div class="atropos-rotate">
+                    <div class="atropos-inner" data-atropos-offset="3">
+                      <div class="portfolio-box">
+                        <div class="portfolio-image">
+                          <img src="images/gallery/31.jpg" alt="" />
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </li>
+            <!-- end portfolio item -->
+            <!-- start portfolio item -->
+            <li
+              class="grid-item branding transition-inner-all atropos"
+              data-atropos
+              data-atropos-perspective="1450">
+              <div class="position-relative">
+                <a href="#" class="portfolio-link"></a>
+                <div class="atropos-scale">
+                  <div class="atropos-rotate">
+                    <div class="atropos-inner" data-atropos-offset="3">
+                      <div class="portfolio-box">
+                        <div class="portfolio-image">
+                          <img src="images/gallery/35.jpg" alt="" />
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </li>
+            <!-- end portfolio item -->
+            <!-- start portfolio item -->
+            <li
+              class="grid-item branding transition-inner-all atropos"
+              data-atropos
+              data-atropos-perspective="1450">
+              <div class="position-relative">
+                <a href="#" class="portfolio-link"></a>
+                <div class="atropos-scale">
+                  <div class="atropos-rotate">
+                    <div class="atropos-inner" data-atropos-offset="3">
+                      <div class="portfolio-box">
+                        <div class="portfolio-image">
+                          <img src="images/gallery/38.jpg" alt="" />
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </li>
+            <!-- end portfolio item -->
+            <!-- start portfolio item -->
+            <li
+              class="grid-item branding transition-inner-all atropos"
+              data-atropos
+              data-atropos-perspective="1450">
+              <div class="position-relative">
+                <a href="#" class="portfolio-link"></a>
+                <div class="atropos-scale">
+                  <div class="atropos-rotate">
+                    <div class="atropos-inner" data-atropos-offset="3">
+                      <div class="portfolio-box">
+                        <div class="portfolio-image">
+                          <img src="images/gallery/40.jpg" alt="" />
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </li>
+            <!-- end portfolio item -->
+            <!-- start portfolio item -->
+            <li
+              class="grid-item branding transition-inner-all atropos"
+              data-atropos
+              data-atropos-perspective="1450">
+              <div class="position-relative">
+                <a href="#" class="portfolio-link"></a>
+                <div class="atropos-scale">
+                  <div class="atropos-rotate">
+                    <div class="atropos-inner" data-atropos-offset="3">
+                      <div class="portfolio-box">
+                        <div class="portfolio-image">
+                          <img src="images/gallery/45.jpg" alt="" />
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </li>
+            <!-- end portfolio item -->
+          </ul>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- end section -->
+
+  <!-- start section -->
+  <section></section>
+  <!-- end section -->
+
+  <!-- start footer -->
+  <?php include_once 'includes/footer.php'; ?>
+  <!-- end footer -->
+
+  <!-- start scroll progress -->
+  <div class="scroll-progress d-none d-xxl-block">
+    <a href="#" class="scroll-top" aria-label="scroll">
+      <span class="scroll-text">Scroll</span><span class="scroll-line"><span class="scroll-point"></span></span>
+    </a>
+  </div>
+  <!-- end scroll progress -->
+
+  <!-- javascript libraries -->
+  <script type="text/javascript" src="js/jquery.js"></script>
+  <script type="text/javascript" src="js/vendors.min.js"></script>
+  <script type="text/javascript" src="js/main.js"></script>
+</body>
+
 </html>

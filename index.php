@@ -1,296 +1,207 @@
 <!doctype html>
 <html class="no-js" lang="en">
-  <head>
-    <title>Rituals By Ritu</title>
-    <meta charset="utf-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="author" content="" />
-    <meta name="viewport" content="width=device-width,initial-scale=1.0" />
-    <meta name="description" content="" />
-    <!-- favicon icon -->
-    <link rel="shortcut icon" href="images/favicon.png" />
-    <link rel="apple-touch-icon" href="images/apple-touch-icon-57x57.png" />
-    <link
-      rel="apple-touch-icon"
-      sizes="72x72"
-      href="images/apple-touch-icon-72x72.png" />
-    <link
-      rel="apple-touch-icon"
-      sizes="114x114"
-      href="images/apple-touch-icon-114x114.png" />
-    <!-- google fonts preconnect -->
-    <link rel="preconnect" href="https://fonts.googleapis.com" crossorigin />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <!-- style sheets and font icons  -->
-    <link rel="stylesheet" href="css/vendors.min.css" />
-    <link rel="stylesheet" href="css/icon.min.css" />
-    <link rel="stylesheet" href="css/style.css" />
-    <link rel="stylesheet" href="css/responsive.css" />
-    <link rel="stylesheet" href="css/custom.css" />
-  </head>
-  <body data-mobile-nav-style="classic">
-    <!-- start header -->
-    <header>
-      <nav
-        class="navbar navbar-expand-lg header-light bg-white center-logo header-reverse">
-        <div class="container-fluid">
-          <div class="col-auto col-xl-2 col-lg-1 menu-logo">
-            <div class="d-none d-xl-block">
-              <div class="widget-text fw-600">
-                <i class="bi bi-telephone-outbound text-base-color me-10px"></i
-                ><a href="tel:+91 9301738925">+91 9301738925 </a>
-              </div>
-            </div>
-            <a class="navbar-brand" href="index.html">
-              <img
-                src="images/logo/logo.png"
-                data-at2x="images/logo/logo.png"
-                alt=""
-                class="default-logo img-fluid" />
-              <img
-                src="images/logo/logo.png"
-                data-at2x="images/logo/logo.png"
-                alt=""
-                class="alt-logo img-fluid"
-                height="65px" />
-              <img
-                src="images/logo/logo.png"
-                data-at2x="images/logo/logo.png"
-                alt=""
-                class="mobile-logo img-fluid" />
+
+<head>
+  <title>Rituals By Ritu</title>
+  <meta charset="utf-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="author" content="" />
+  <meta name="viewport" content="width=device-width,initial-scale=1.0" />
+  <meta name="description" content="" />
+  <!-- favicon icon -->
+  <link rel="shortcut icon" href="images/favicon.png" />
+  <link rel="apple-touch-icon" href="images/apple-touch-icon-57x57.png" />
+  <link
+    rel="apple-touch-icon"
+    sizes="72x72"
+    href="images/apple-touch-icon-72x72.png" />
+  <link
+    rel="apple-touch-icon"
+    sizes="114x114"
+    href="images/apple-touch-icon-114x114.png" />
+  <!-- google fonts preconnect -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" crossorigin />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <!-- style sheets and font icons  -->
+  <link rel="stylesheet" href="css/vendors.min.css" />
+  <link rel="stylesheet" href="css/icon.min.css" />
+  <link rel="stylesheet" href="css/style.css" />
+  <link rel="stylesheet" href="css/responsive.css" />
+  <link rel="stylesheet" href="css/custom.css" />
+</head>
+
+<body data-mobile-nav-style="classic">
+
+  <!-- start header -->
+  <?php include_once 'includes/header.php'; ?>
+  <!-- end header -->
+
+  <!-- start banner slider -->
+  <section
+    class="p-0 top-space-margin full-screen md-h-600px sm-h-500px border-top border-4 border-color-base-color position-relative"
+    data-parallax-background-ratio="0.3"
+    style="background-image: url(images/home/desktop_slider_1.jpg)">
+    <div class="opacity-light bg-black"></div>
+    <div class="container h-100 position-relative">
+      <div class="row align-items-center h-100 justify-content-center">
+        <div
+          class="col-md-10 position-relative text-white d-flex flex-column justify-content-center text-center h-100"
+          data-anime='{ "el": "childs", "translateY": [-15, 0], "perspective": [1200,1200], "scale": [1.1, 1], "rotateX": [50, 0], "opacity": [0,1], "duration": 600, "delay": 100, "staggervalue": 300, "easing": "easeOutQuad" }'>
+          <h5 class="alt-font fw-400 mb-20px text-shadow-double-large">
+            Where Dreams Turn Into Forever
+          </h5>
+          <div
+            class="alt-font fs-150 lg-fs-200 md-fs-170 sm-fs-150 xs-fs-110 fw-700 mb-20px text-shadow-double-large">
+            RITUALS
+          </div>
+          <div
+            class="alt-font fs-50 lg-fs-60 md-fs-55 sm-fs-50 xs-fs-30 fw-700 mb-20px text-shadow-double-large">
+            BY RITU
+          </div>
+          <div class="mb-30px">
+            <a
+              href="contact.html"
+              class="btn btn-extra-large btn-switch-text btn-white fw-700 btn-round-edge btn-box-shadow">
+              <span>
+                <span class="btn-double-text" data-text="PLAN WITH US">PLAN WITH US</span>
+                <span><i class="fa-solid fa-arrow-right fs-14"></i></span>
+              </span>
             </a>
           </div>
-          <div class="col-auto col-xl-8 col-lg-10 menu-order">
-            <button
-              class="navbar-toggler float-end"
-              type="button"
-              data-bs-toggle="collapse"
-              data-bs-target="#navbarNav"
-              aria-controls="navbarNav"
-              aria-label="Toggle navigation">
-              <span class="navbar-toggler-line"></span>
-              <span class="navbar-toggler-line"></span>
-              <span class="navbar-toggler-line"></span>
-              <span class="navbar-toggler-line"></span>
-            </button>
-            <div
-              class="collapse navbar-collapse justify-content-between"
-              id="navbarNav">
-              <ul class="navbar-nav navbar-left justify-content-end">
-                <li class="nav-item">
-                  <a href="index.html" class="nav-link">Home</a>
-                </li>
-                <li class="nav-item">
-                  <a href="about-us.html" class="nav-link">About us</a>
-                </li>
-                <li class="nav-item">
-                  <a href="services.html" class="nav-link">Services</a>
-                </li>
-              </ul>
-              <ul class="navbar-nav navbar-right justify-content-start">
-                <li class="nav-item">
-                  <a href="portfolio.html" class="nav-link">Portfolio</a>
-                </li>
-                <li class="nav-item">
-                  <a href="blogs.html" class="nav-link">Blogs</a>
-                </li>
-                <li class="nav-item">
-                  <a href="contact.html" class="nav-link">Contact</a>
-                </li>
-              </ul>
-            </div>
-          </div>
-          <div class="col-auto col-xl-2 col-lg-1 text-end">
-            <div class="d-none d-xl-flex align-items-center widget-text fw-600">
-              <i class="bi bi-calendar-check text-base-color me-10px"></i
-              ><a href="contact.html">Book Your Slot</a>
-            </div>
-          </div>
-        </div>
-      </nav>
-    </header>
-    <!-- end header -->
-
-    <!-- start banner slider -->
-    <section
-      class="p-0 top-space-margin full-screen md-h-600px sm-h-500px border-top border-4 border-color-base-color position-relative"
-      data-parallax-background-ratio="0.3"
-      style="background-image: url(images/home/desktop_slider_1.jpg)">
-      <div class="opacity-light bg-black"></div>
-      <div class="container h-100 position-relative">
-        <div class="row align-items-center h-100 justify-content-center">
           <div
-            class="col-md-10 position-relative text-white d-flex flex-column justify-content-center text-center h-100"
-            data-anime='{ "el": "childs", "translateY": [-15, 0], "perspective": [1200,1200], "scale": [1.1, 1], "rotateX": [50, 0], "opacity": [0,1], "duration": 600, "delay": 100, "staggervalue": 300, "easing": "easeOutQuad" }'>
-            <h5 class="alt-font fw-400 mb-20px text-shadow-double-large">
-              Where Dreams Turn Into Forever
-            </h5>
-            <div
-              class="alt-font fs-150 lg-fs-200 md-fs-170 sm-fs-150 xs-fs-110 fw-700 mb-20px text-shadow-double-large">
-              RITUALS
-            </div>
-            <div
-              class="alt-font fs-50 lg-fs-60 md-fs-55 sm-fs-50 xs-fs-30 fw-700 mb-20px text-shadow-double-large">
-              BY RITU
-            </div>
-            <div class="mb-30px">
-              <a
-                href="contact.html"
-                class="btn btn-extra-large btn-switch-text btn-white fw-700 btn-round-edge btn-box-shadow">
-                <span>
-                  <span class="btn-double-text" data-text="PLAN WITH US"
-                    >PLAN WITH US</span
-                  >
-                  <span><i class="fa-solid fa-arrow-right fs-14"></i></span>
-                </span>
-              </a>
-            </div>
-            <div
-              class="position-absolute sm-position-relative bottom-80px lg-bottom-50px sm-bottom-0px left-0px right-0px d-flex justify-content-center align-items-center">
-              <div class="fs-22 fw-500">
-                Crafting Unforgettable Wedding Experiences for Your Special Day.
-              </div>
+            class="position-absolute sm-position-relative bottom-80px lg-bottom-50px sm-bottom-0px left-0px right-0px d-flex justify-content-center align-items-center">
+            <div class="fs-22 fw-500">
+              Crafting Unforgettable Wedding Experiences for Your Special Day.
             </div>
           </div>
         </div>
       </div>
-    </section>
-    <!-- end banner slider -->
+    </div>
+  </section>
+  <!-- end banner slider -->
 
-    <!-- start section -->
-    <section class="bg-very-light-gray half-section ps-6 pe-6">
-      <div class="container-fluid">
+  <!-- start section -->
+  <section class="bg-very-light-gray half-section ps-6 pe-6">
+    <div class="container-fluid">
+      <div
+        class="row row-cols-1 row-cols-lg-4 row-cols-md-2 justify-content-center"
+        data-anime='{ "el": "childs", "translateX": [-15, 0], "opacity": [0,1], "duration": 600, "delay": 0, "staggervalue": 300, "easing": "easeOutQuad" }'>
+        <!-- start features box item -->
         <div
-          class="row row-cols-1 row-cols-lg-4 row-cols-md-2 justify-content-center"
-          data-anime='{ "el": "childs", "translateX": [-15, 0], "opacity": [0,1], "duration": 600, "delay": 0, "staggervalue": 300, "easing": "easeOutQuad" }'>
-          <!-- start features box item -->
-          <div
-            class="col icon-with-text-style-10 border-end border-1 sm-border-end-0 border-color-transparent-base-color md-mb-50px">
-            <div class="feature-box ps-8 pe-8 xl-ps-5 xl-pe-5">
-              <div
-                class="feature-box-icon feature-box-icon-rounded w-120px h-120px rounded-circle mb-20px">
-                <i class="fa-solid fa-gem icon-extra-large text-base-color"></i>
-              </div>
-              <div class="feature-box-content last-paragraph-no-margin">
-                <span class="alt-font text-dark-gray fs-22 ls-0px">
-                  Personalized Wedding Experiences</span
-                >
-                <p>
-                  Personalized concepts tailored to your traditions, style, and
-                  love story.
-                </p>
-              </div>
+          class="col icon-with-text-style-10 border-end border-1 sm-border-end-0 border-color-transparent-base-color md-mb-50px">
+          <div class="feature-box ps-8 pe-8 xl-ps-5 xl-pe-5">
+            <div
+              class="feature-box-icon feature-box-icon-rounded w-120px h-120px rounded-circle mb-20px">
+              <i class="fa-solid fa-gem icon-extra-large text-base-color"></i>
+            </div>
+            <div class="feature-box-content last-paragraph-no-margin">
+              <span class="alt-font text-dark-gray fs-22 ls-0px">
+                Personalized Wedding Experiences</span>
+              <p>
+                Personalized concepts tailored to your traditions, style, and
+                love story.
+              </p>
             </div>
           </div>
-          <!-- end features box item -->
-          <!-- start features box item -->
-          <div
-            class="col icon-with-text-style-10 border-end border-1 md-border-end-0 border-color-transparent-base-color md-mb-50px">
-            <div class="feature-box ps-8 pe-8 xl-ps-5 xl-pe-5">
-              <div
-                class="feature-box-icon feature-box-icon-rounded w-120px h-120px rounded-circle mb-20px">
-                <i
-                  class="fa-solid fa-wand-magic-sparkles icon-extra-large text-base-color"></i>
-              </div>
-              <div class="feature-box-content last-paragraph-no-margin">
-                <span class="alt-font text-dark-gray fs-22 ls-0px"
-                  >Beautifully Curated Celebrations</span
-                >
-                <p>
-                  Elegant themes and stunning setups to leave lasting
-                  impressions.
-                </p>
-              </div>
-            </div>
-          </div>
-          <!-- end features box item -->
-          <!-- start features box item -->
-          <div
-            class="col icon-with-text-style-10 border-end border-1 sm-border-end-0 border-color-transparent-base-color sm-mb-50px">
-            <div class="feature-box ps-8 pe-8 xl-ps-5 xl-pe-5">
-              <div
-                class="feature-box-icon feature-box-icon-rounded w-120px h-120px rounded-circle mb-20px">
-                <i
-                  class="fa-solid fa-plane-departure icon-extra-large text-base-color"></i>
-              </div>
-              <div class="feature-box-content last-paragraph-no-margin">
-                <span class="alt-font text-dark-gray fs-22 ls-0px">
-                  Expert Planning & Execution
-                </span>
-                <p>
-                  Magical ceremonies across India's most breathtaking venues.
-                </p>
-              </div>
-            </div>
-          </div>
-          <!-- end features box item -->
-          <!-- start features box item -->
-          <div class="col icon-with-text-style-10">
-            <div class="feature-box ps-8 pe-8 xl-ps-5 xl-pe-5">
-              <div
-                class="feature-box-icon feature-box-icon-rounded w-120px h-120px rounded-circle mb-20px">
-                <i
-                  class="fa-solid fa-calendar-check icon-extra-large text-base-color"></i>
-              </div>
-              <div class="feature-box-content last-paragraph-no-margin">
-                <span class="alt-font text-dark-gray fs-22 ls-0px"
-                  >Seamless Celebration Management</span
-                >
-                <p>
-                  Flawless coordination from the first ritual to the final
-                  celebration.
-                </p>
-              </div>
-            </div>
-          </div>
-          <!-- end features box item -->
         </div>
-      </div>
-    </section>
-    <!-- end section -->
-
-    <!-- start section -->
-    <section class="pb-0">
-      <div class="container">
-        <div class="row align-items-center mb-12 md-mb-17 xs-mb-25">
-          <div
-            class="col-lg-5 md-mb-50px"
-            data-anime='{ "el": "childs", "opacity": [0, 1], "rotateY": [-90, 0], "rotateZ": [-10, 0], "translateY": [80, 0], "translateZ": [50, 0], "staggervalue": 200, "duration": 800, "delay": 200, "easing": "easeOutCirc" }'>
-            <span
-              class="mb-10px text-base-color fw-500 d-block fs-20 text-uppercase"
-              >About Rituals By Ritu</span
-            >
-            <h2 class="alt-font text-dark-gray ls-minus-2px">
-              Where Traditions Meet Timeless Elegance.
-            </h2>
-            <p class="w-80 xl-w-100 mb-35px xs-mb-10px">
-              Rituals By Ritu is a bespoke wedding planning company dedicated to
-              turning your dream celebration into a beautifully curated reality.
-              We believe every wedding is more than just an event — it’s a story
-              of love, traditions, and unforgettable moments.
-            </p>
-            <div class="d-inline-block w-100">
-              <a
-                href="about-us.html"
-                class="btn btn-extra-large btn-switch-text btn-dark-gray btn-box-shadow btn-round-edge d-inline-block align-middle me-30px xs-me-10px xs-mt-20px">
-                <span>
-                  <span class="btn-double-text" data-text="About Rituals"
-                    >About Rituals</span
-                  >
-                </span>
-              </a>
-              <div
-                class="fs-20 fw-600 d-inline-block align-middle text-dark-gray xs-mt-20px">
-                <a href="tel:+91 9301738925"
-                  ><i
-                    class="bi bi-telephone-outbound text-medium-gray icon-small me-10px"></i
-                  >+91 9301738925</a
-                >
-              </div>
+        <!-- end features box item -->
+        <!-- start features box item -->
+        <div
+          class="col icon-with-text-style-10 border-end border-1 md-border-end-0 border-color-transparent-base-color md-mb-50px">
+          <div class="feature-box ps-8 pe-8 xl-ps-5 xl-pe-5">
+            <div
+              class="feature-box-icon feature-box-icon-rounded w-120px h-120px rounded-circle mb-20px">
+              <i
+                class="fa-solid fa-wand-magic-sparkles icon-extra-large text-base-color"></i>
+            </div>
+            <div class="feature-box-content last-paragraph-no-margin">
+              <span class="alt-font text-dark-gray fs-22 ls-0px">Beautifully Curated Celebrations</span>
+              <p>
+                Elegant themes and stunning setups to leave lasting
+                impressions.
+              </p>
             </div>
           </div>
-          <div class="col-lg-6 position-relative offset-lg-1">
-            <!-- <span
+        </div>
+        <!-- end features box item -->
+        <!-- start features box item -->
+        <div
+          class="col icon-with-text-style-10 border-end border-1 sm-border-end-0 border-color-transparent-base-color sm-mb-50px">
+          <div class="feature-box ps-8 pe-8 xl-ps-5 xl-pe-5">
+            <div
+              class="feature-box-icon feature-box-icon-rounded w-120px h-120px rounded-circle mb-20px">
+              <i
+                class="fa-solid fa-plane-departure icon-extra-large text-base-color"></i>
+            </div>
+            <div class="feature-box-content last-paragraph-no-margin">
+              <span class="alt-font text-dark-gray fs-22 ls-0px">
+                Expert Planning & Execution
+              </span>
+              <p>
+                Magical ceremonies across India's most breathtaking venues.
+              </p>
+            </div>
+          </div>
+        </div>
+        <!-- end features box item -->
+        <!-- start features box item -->
+        <div class="col icon-with-text-style-10">
+          <div class="feature-box ps-8 pe-8 xl-ps-5 xl-pe-5">
+            <div
+              class="feature-box-icon feature-box-icon-rounded w-120px h-120px rounded-circle mb-20px">
+              <i
+                class="fa-solid fa-calendar-check icon-extra-large text-base-color"></i>
+            </div>
+            <div class="feature-box-content last-paragraph-no-margin">
+              <span class="alt-font text-dark-gray fs-22 ls-0px">Seamless Celebration Management</span>
+              <p>
+                Flawless coordination from the first ritual to the final
+                celebration.
+              </p>
+            </div>
+          </div>
+        </div>
+        <!-- end features box item -->
+      </div>
+    </div>
+  </section>
+  <!-- end section -->
+
+  <!-- start section -->
+  <section class="pb-0">
+    <div class="container">
+      <div class="row align-items-center mb-12 md-mb-17 xs-mb-25">
+        <div
+          class="col-lg-5 md-mb-50px"
+          data-anime='{ "el": "childs", "opacity": [0, 1], "rotateY": [-90, 0], "rotateZ": [-10, 0], "translateY": [80, 0], "translateZ": [50, 0], "staggervalue": 200, "duration": 800, "delay": 200, "easing": "easeOutCirc" }'>
+          <span
+            class="mb-10px text-base-color fw-500 d-block fs-20 text-uppercase">About Rituals By Ritu</span>
+          <h2 class="alt-font text-dark-gray ls-minus-2px">
+            Where Traditions Meet Timeless Elegance.
+          </h2>
+          <p class="w-80 xl-w-100 mb-35px xs-mb-10px">
+            Rituals By Ritu is a bespoke wedding planning company dedicated to
+            turning your dream celebration into a beautifully curated reality.
+            We believe every wedding is more than just an event — it’s a story
+            of love, traditions, and unforgettable moments.
+          </p>
+          <div class="d-inline-block w-100">
+            <a
+              href="about-us.html"
+              class="btn btn-extra-large btn-switch-text btn-dark-gray btn-box-shadow btn-round-edge d-inline-block align-middle me-30px xs-me-10px xs-mt-20px">
+              <span>
+                <span class="btn-double-text" data-text="About Rituals">About Rituals</span>
+              </span>
+            </a>
+            <div
+              class="fs-20 fw-600 d-inline-block align-middle text-dark-gray xs-mt-20px">
+              <a href="tel:+91 9301738925"><i
+                  class="bi bi-telephone-outbound text-medium-gray icon-small me-10px"></i>+91 9301738925</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-6 position-relative offset-lg-1">
+          <!-- <span
               class="fs-90 position-absolute left-60px md-left-100px sm-left-70px xs-left-10px top-90px xs-top-50px text-dark-gray fw-700 z-index-1"
               data-bottom-top="transform: translateY(50px) scale(1,1)"
               data-top-bottom="transform: translateY(-50px) scale(1,1)"
@@ -300,230 +211,204 @@
                 >Started in</span
               >2015</span
             > -->
-            <div
-              class="w-75 overflow-hidden position-relative xs-w-80 border-radius-4px float-end"
-              data-anime='{ "effect": "slide", "color": "#A0875B", "direction":"rl", "easing": "easeOutQuad", "duration": 600, "delay":400}'>
-              <img class="w-100" src="images/home/home_about_1.jpg" alt="" />
-            </div>
-            <div
-              class="position-absolute left-minus-70px md-left-15px bottom-minus-50px w-55 overflow-hidden"
-              data-bottom-top="transform: translateY(50px)"
-              data-top-bottom="transform: translateY(-50px)"
-              data-anime='{ "effect": "slide", "color": "#ffffff", "direction":"lr", "easing": "easeOutQuad", "duration": 600, "delay":500}'>
-              <img
-                class="w-100 border-radius-4px"
-                src="images/home/home_about_2.jpg"
-                alt="" />
-            </div>
-          </div>
-        </div>
-      </div>
-    </section>
-    <!-- end section -->
-
-    <!-- start section -->
-    <section class="bg-very-light-gray overlap-height position-relative">
-      <div class="container overlap-gap-section">
-        <div class="row justify-content-center mb-5 xs-mb-7">
           <div
-            class="col-md-8 text-center"
-            data-anime='{ "el": "childs", "translateY": [30, 0], "opacity": [0,1], "duration": 600, "delay": 0, "staggervalue": 300, "easing": "easeOutQuad" }'>
-            <h2 class="alt-font mb-5px text-dark-gray ls-minus-2px">
-              Our Signature Services
-            </h2>
-            <span class="d-inline-block"
-              >Personalized planning and creative execution designed to bring
-              your vision to life.</span
-            >
+            class="w-75 overflow-hidden position-relative xs-w-80 border-radius-4px float-end"
+            data-anime='{ "effect": "slide", "color": "#A0875B", "direction":"rl", "easing": "easeOutQuad", "duration": 600, "delay":400}'>
+            <img class="w-100" src="images/home/home_about_1.jpg" alt="" />
           </div>
-        </div>
-        <div
-          class="row row-cols-1 row-cols-lg-3 row-cols-md-2 transition-inner-all justify-content-center mb-4"
-          data-anime='{ "el": "childs", "translateY": [20, 0], "opacity": [0,1], "duration": 600, "delay": 300, "staggervalue": 300, "easing": "easeOutQuad" }'>
-          <!-- start fancy text box item -->
-          <div class="col mb-20px">
-            <div class="services-box-style-01 hover-box">
-              <div
-                class="position-relative box-image border-radius-6px overflow-hidden">
-                <a href="services.html">
-                  <img src="images/home/Wedding_Planning_2.jpg" alt="" />
-                  <div
-                    class="box-overlay bg-gradient-blue-ironstone-brown"></div>
-                  <span
-                    class="d-flex justify-content-center align-items-center mx-auto icon-box absolute-middle-center z-index-1 w-65px h-65px rounded-circle border border-color-transparent-white border-1"
-                    ><i
-                      class="bi bi-arrow-right-short text-white icon-very-medium d-flex"></i
-                  ></span>
-                </a>
-              </div>
-              <div class="p-25px last-paragraph-no-margin text-center">
-                <span class="fs-22 text-dark-gray alt-font"
-                  >Complete Wedding Planning</span
-                >
-                <p class="lh-26">
-                  End-to-end planning from budgeting to flawless execution — we
-                  manage every detail so you can enjoy every moment.
-                </p>
-              </div>
-            </div>
+          <div
+            class="position-absolute left-minus-70px md-left-15px bottom-minus-50px w-55 overflow-hidden"
+            data-bottom-top="transform: translateY(50px)"
+            data-top-bottom="transform: translateY(-50px)"
+            data-anime='{ "effect": "slide", "color": "#ffffff", "direction":"lr", "easing": "easeOutQuad", "duration": 600, "delay":500}'>
+            <img
+              class="w-100 border-radius-4px"
+              src="images/home/home_about_2.jpg"
+              alt="" />
           </div>
-          <!-- end fancy text box item -->
-          <!-- start fancy text box item -->
-          <div class="col mb-20px">
-            <div class="services-box-style-01 hover-box">
-              <div
-                class="position-relative box-image border-radius-6px overflow-hidden">
-                <a href="services.html">
-                  <img
-                    src="images/home/Outdoor-Wedding-Stage-Design.jpg"
-                    alt="" />
-                  <div
-                    class="box-overlay bg-gradient-blue-ironstone-brown"></div>
-                  <span
-                    class="d-flex justify-content-center align-items-center mx-auto icon-box absolute-middle-center z-index-1 w-65px h-65px rounded-circle border border-color-transparent-white border-1"
-                    ><i
-                      class="bi bi-arrow-right-short text-white icon-very-medium d-flex"></i
-                  ></span>
-                </a>
-              </div>
-              <div class="p-25px last-paragraph-no-margin text-center">
-                <span class="fs-22 text-dark-gray alt-font"
-                  >Décor & Theme Conceptualization</span
-                >
-                <p class="lh-26">
-                  Customized décor themes, mandap design, floral styling,
-                  lighting concepts, and luxury stage setups crafted to match
-                  your vision.
-                </p>
-              </div>
-            </div>
-          </div>
-          <!-- end fancy text box item -->
-          <!-- start fancy text box item -->
-          <div class="col mb-20px">
-            <div class="services-box-style-01 hover-box">
-              <div
-                class="position-relative box-image border-radius-6px overflow-hidden">
-                <a href="services.html">
-                  <img src="images/home/Destination-Weddings.jpg" alt="" />
-                  <div
-                    class="box-overlay bg-gradient-blue-ironstone-brown"></div>
-                  <span
-                    class="d-flex justify-content-center align-items-center mx-auto icon-box absolute-middle-center z-index-1 w-65px h-65px rounded-circle border border-color-transparent-white border-1"
-                    ><i
-                      class="bi bi-arrow-right-short text-white icon-very-medium d-flex"></i
-                  ></span>
-                </a>
-              </div>
-              <div class="p-25px last-paragraph-no-margin text-center">
-                <span class="fs-22 text-dark-gray alt-font"
-                  >Destination & Venue Services</span
-                >
-                <p class="lh-26">
-                  Venue scouting, guest accommodation, travel coordination, and
-                  full-scale destination wedding management across India &
-                  beyond.
-                </p>
-              </div>
-            </div>
-          </div>
-          <!-- end fancy text box item -->
-          <!-- start fancy text box item -->
-          <div class="col md-mb-20px">
-            <div class="services-box-style-01 hover-box">
-              <div
-                class="position-relative box-image border-radius-6px overflow-hidden">
-                <a href="services.html">
-                  <img src="images/home/Haldi-Celebration.jpg" alt="" />
-                  <div
-                    class="box-overlay bg-gradient-blue-ironstone-brown"></div>
-                  <span
-                    class="d-flex justify-content-center align-items-center mx-auto icon-box absolute-middle-center z-index-1 w-65px h-65px rounded-circle border border-color-transparent-white border-1"
-                    ><i
-                      class="bi bi-arrow-right-short text-white icon-very-medium d-flex"></i
-                  ></span>
-                </a>
-              </div>
-              <div class="p-25px last-paragraph-no-margin text-center">
-                <span class="fs-22 text-dark-gray alt-font"
-                  >Pre-Wedding & Celebration Events</span
-                >
-                <p class="lh-26">
-                  Mehendi, Haldi, Sangeet, Cocktail Nights, Engagements — each
-                  event designed with a unique vibe and flawless coordination.
-                </p>
-              </div>
-            </div>
-          </div>
-          <!-- end fancy text box item -->
-          <!-- start fancy text box item -->
-          <div class="col md-mb-20px">
-            <div class="services-box-style-01 hover-box">
-              <div
-                class="position-relative box-image border-radius-6px overflow-hidden">
-                <a href="services.html">
-                  <img
-                    src="images/home/Artist-Entertainment-Curation.jpg"
-                    alt="" />
-                  <div
-                    class="box-overlay bg-gradient-blue-ironstone-brown"></div>
-                  <span
-                    class="d-flex justify-content-center align-items-center mx-auto icon-box absolute-middle-center z-index-1 w-65px h-65px rounded-circle border border-color-transparent-white border-1"
-                    ><i
-                      class="bi bi-arrow-right-short text-white icon-very-medium d-flex"></i
-                  ></span>
-                </a>
-              </div>
-              <div class="p-25px last-paragraph-no-margin text-center">
-                <span class="fs-22 text-dark-gray alt-font"
-                  >Artist & Entertainment Curation</span
-                >
-                <p class="lh-26">
-                  Celebrity artists, live bands, DJs, anchors, choreography
-                  teams, and cultural performances to elevate your celebration.
-                </p>
-              </div>
-            </div>
-          </div>
-          <!-- end fancy text box item -->
-          <!-- start fancy text box item -->
-          <div class="col">
-            <div class="services-box-style-01 hover-box">
-              <div
-                class="position-relative box-image border-radius-6px overflow-hidden">
-                <a href="services.html">
-                  <img
-                    src="images/home/Guest-Hospitality-Logistics.jpg"
-                    alt="" />
-                  <div
-                    class="box-overlay bg-gradient-blue-ironstone-brown"></div>
-                  <span
-                    class="d-flex justify-content-center align-items-center mx-auto icon-box absolute-middle-center z-index-1 w-65px h-65px rounded-circle border border-color-transparent-white border-1"
-                    ><i
-                      class="bi bi-arrow-right-short text-white icon-very-medium d-flex"></i
-                  ></span>
-                </a>
-              </div>
-              <div class="p-25px last-paragraph-no-margin text-center">
-                <span class="fs-22 text-dark-gray alt-font"
-                  >Guest Hospitality & Logistics</span
-                >
-                <p class="lh-26">
-                  RSVP management, welcome hampers, airport transfers,
-                  accommodation coordination, and on-ground hospitality support.
-                </p>
-              </div>
-            </div>
-          </div>
-          <!-- end fancy text box item -->
         </div>
       </div>
-    </section>
-    <!-- end section -->
+    </div>
+  </section>
+  <!-- end section -->
 
-    <!-- start section -->
-    <section class="pb-0">
-      <!-- <div class="container overlap-section">
+  <!-- start section -->
+  <section class="bg-very-light-gray overlap-height position-relative">
+    <div class="container overlap-gap-section">
+      <div class="row justify-content-center mb-5 xs-mb-7">
+        <div
+          class="col-md-8 text-center"
+          data-anime='{ "el": "childs", "translateY": [30, 0], "opacity": [0,1], "duration": 600, "delay": 0, "staggervalue": 300, "easing": "easeOutQuad" }'>
+          <h2 class="alt-font mb-5px text-dark-gray ls-minus-2px">
+            Our Signature Services
+          </h2>
+          <span class="d-inline-block">Personalized planning and creative execution designed to bring
+            your vision to life.</span>
+        </div>
+      </div>
+      <div
+        class="row row-cols-1 row-cols-lg-3 row-cols-md-2 transition-inner-all justify-content-center mb-4"
+        data-anime='{ "el": "childs", "translateY": [20, 0], "opacity": [0,1], "duration": 600, "delay": 300, "staggervalue": 300, "easing": "easeOutQuad" }'>
+        <!-- start fancy text box item -->
+        <div class="col mb-20px">
+          <div class="services-box-style-01 hover-box">
+            <div
+              class="position-relative box-image border-radius-6px overflow-hidden">
+              <a href="services.html">
+                <img src="images/home/Wedding_Planning_2.jpg" alt="" />
+                <div
+                  class="box-overlay bg-gradient-blue-ironstone-brown"></div>
+                <span
+                  class="d-flex justify-content-center align-items-center mx-auto icon-box absolute-middle-center z-index-1 w-65px h-65px rounded-circle border border-color-transparent-white border-1"><i
+                    class="bi bi-arrow-right-short text-white icon-very-medium d-flex"></i></span>
+              </a>
+            </div>
+            <div class="p-25px last-paragraph-no-margin text-center">
+              <span class="fs-22 text-dark-gray alt-font">Complete Wedding Planning</span>
+              <p class="lh-26">
+                End-to-end planning from budgeting to flawless execution — we
+                manage every detail so you can enjoy every moment.
+              </p>
+            </div>
+          </div>
+        </div>
+        <!-- end fancy text box item -->
+        <!-- start fancy text box item -->
+        <div class="col mb-20px">
+          <div class="services-box-style-01 hover-box">
+            <div
+              class="position-relative box-image border-radius-6px overflow-hidden">
+              <a href="services.html">
+                <img
+                  src="images/home/Outdoor-Wedding-Stage-Design.jpg"
+                  alt="" />
+                <div
+                  class="box-overlay bg-gradient-blue-ironstone-brown"></div>
+                <span
+                  class="d-flex justify-content-center align-items-center mx-auto icon-box absolute-middle-center z-index-1 w-65px h-65px rounded-circle border border-color-transparent-white border-1"><i
+                    class="bi bi-arrow-right-short text-white icon-very-medium d-flex"></i></span>
+              </a>
+            </div>
+            <div class="p-25px last-paragraph-no-margin text-center">
+              <span class="fs-22 text-dark-gray alt-font">Décor & Theme Conceptualization</span>
+              <p class="lh-26">
+                Customized décor themes, mandap design, floral styling,
+                lighting concepts, and luxury stage setups crafted to match
+                your vision.
+              </p>
+            </div>
+          </div>
+        </div>
+        <!-- end fancy text box item -->
+        <!-- start fancy text box item -->
+        <div class="col mb-20px">
+          <div class="services-box-style-01 hover-box">
+            <div
+              class="position-relative box-image border-radius-6px overflow-hidden">
+              <a href="services.html">
+                <img src="images/home/Destination-Weddings.jpg" alt="" />
+                <div
+                  class="box-overlay bg-gradient-blue-ironstone-brown"></div>
+                <span
+                  class="d-flex justify-content-center align-items-center mx-auto icon-box absolute-middle-center z-index-1 w-65px h-65px rounded-circle border border-color-transparent-white border-1"><i
+                    class="bi bi-arrow-right-short text-white icon-very-medium d-flex"></i></span>
+              </a>
+            </div>
+            <div class="p-25px last-paragraph-no-margin text-center">
+              <span class="fs-22 text-dark-gray alt-font">Destination & Venue Services</span>
+              <p class="lh-26">
+                Venue scouting, guest accommodation, travel coordination, and
+                full-scale destination wedding management across India &
+                beyond.
+              </p>
+            </div>
+          </div>
+        </div>
+        <!-- end fancy text box item -->
+        <!-- start fancy text box item -->
+        <div class="col md-mb-20px">
+          <div class="services-box-style-01 hover-box">
+            <div
+              class="position-relative box-image border-radius-6px overflow-hidden">
+              <a href="services.html">
+                <img src="images/home/Haldi-Celebration.jpg" alt="" />
+                <div
+                  class="box-overlay bg-gradient-blue-ironstone-brown"></div>
+                <span
+                  class="d-flex justify-content-center align-items-center mx-auto icon-box absolute-middle-center z-index-1 w-65px h-65px rounded-circle border border-color-transparent-white border-1"><i
+                    class="bi bi-arrow-right-short text-white icon-very-medium d-flex"></i></span>
+              </a>
+            </div>
+            <div class="p-25px last-paragraph-no-margin text-center">
+              <span class="fs-22 text-dark-gray alt-font">Pre-Wedding & Celebration Events</span>
+              <p class="lh-26">
+                Mehendi, Haldi, Sangeet, Cocktail Nights, Engagements — each
+                event designed with a unique vibe and flawless coordination.
+              </p>
+            </div>
+          </div>
+        </div>
+        <!-- end fancy text box item -->
+        <!-- start fancy text box item -->
+        <div class="col md-mb-20px">
+          <div class="services-box-style-01 hover-box">
+            <div
+              class="position-relative box-image border-radius-6px overflow-hidden">
+              <a href="services.html">
+                <img
+                  src="images/home/Artist-Entertainment-Curation.jpg"
+                  alt="" />
+                <div
+                  class="box-overlay bg-gradient-blue-ironstone-brown"></div>
+                <span
+                  class="d-flex justify-content-center align-items-center mx-auto icon-box absolute-middle-center z-index-1 w-65px h-65px rounded-circle border border-color-transparent-white border-1"><i
+                    class="bi bi-arrow-right-short text-white icon-very-medium d-flex"></i></span>
+              </a>
+            </div>
+            <div class="p-25px last-paragraph-no-margin text-center">
+              <span class="fs-22 text-dark-gray alt-font">Artist & Entertainment Curation</span>
+              <p class="lh-26">
+                Celebrity artists, live bands, DJs, anchors, choreography
+                teams, and cultural performances to elevate your celebration.
+              </p>
+            </div>
+          </div>
+        </div>
+        <!-- end fancy text box item -->
+        <!-- start fancy text box item -->
+        <div class="col">
+          <div class="services-box-style-01 hover-box">
+            <div
+              class="position-relative box-image border-radius-6px overflow-hidden">
+              <a href="services.html">
+                <img
+                  src="images/home/Guest-Hospitality-Logistics.jpg"
+                  alt="" />
+                <div
+                  class="box-overlay bg-gradient-blue-ironstone-brown"></div>
+                <span
+                  class="d-flex justify-content-center align-items-center mx-auto icon-box absolute-middle-center z-index-1 w-65px h-65px rounded-circle border border-color-transparent-white border-1"><i
+                    class="bi bi-arrow-right-short text-white icon-very-medium d-flex"></i></span>
+              </a>
+            </div>
+            <div class="p-25px last-paragraph-no-margin text-center">
+              <span class="fs-22 text-dark-gray alt-font">Guest Hospitality & Logistics</span>
+              <p class="lh-26">
+                RSVP management, welcome hampers, airport transfers,
+                accommodation coordination, and on-ground hospitality support.
+              </p>
+            </div>
+          </div>
+        </div>
+        <!-- end fancy text box item -->
+      </div>
+    </div>
+  </section>
+  <!-- end section -->
+
+  <!-- start section -->
+  <section class="pb-0">
+    <!-- <div class="container overlap-section">
         <div
           class="row bg-white box-shadow-extra-large border-radius-6px ps-5 pe-5 pt-3 pb-3 g-0 sm-p-6 sm-ps-19 align-items-center mb-8 overflow-hidden position-relative">
           <div class="col-lg-2 col-md-3 text-center sm-mb-25px">
@@ -551,246 +436,206 @@
           </div>
         </div>
       </div> -->
-      <div class="container">
-        <div class="row justify-content-center mb-5 xs-mb-7">
-          <div
-            class="col-md-8 text-center"
-            data-anime='{ "el": "childs", "translateY": [30, 0], "opacity": [0,1], "duration": 600, "delay": 0, "staggervalue": 300, "easing": "easeOutQuad" }'>
-            <h2 class="alt-font mb-5px text-dark-gray ls-minus-2px">
-              Wedding Experiences
-            </h2>
-            <span class="d-inline-block"
-              >Thoughtfully designed celebrations tailored to your story.</span
-            >
-          </div>
-        </div>
-        <div
-          class="row row-cols-1 row-cols-lg-3 row-cols-md-2 justify-content-center mb-9"
-          data-anime='{ "el": "childs", "translateY": [-30, 0], "opacity": [0,1], "duration": 600, "delay": 0, "staggervalue": 300, "easing": "easeOutQuad" }'>
-          <!-- start interactive banner item -->
-          <div class="col interactive-banner-style-07 md-mb-30px xs-mb-15px">
-            <figure
-              class="mb-0 border-radius-6px overflow-hidden box-shadow-quadruple-large-hover box-shadow-quadruple-large">
-              <img src="images/gallery/12.jpg" alt="" />
-              <div class="overlay-bg bg-dark-gray opacity-extra-medium"></div>
-              <figcaption>
-                <div
-                  class="hover-content align-items-center d-flex flex-column justify-content-center h-100 p-50px text-center">
-                  <div class="w-65 lg-w-90 mt-auto mb-auto">
-                    <span class="fs-14 fw-500 ls-2px text-white text-uppercase"
-                      >Curated
-                    </span>
-                    <div
-                      class="divider-style-03 divider-style-03-01 border-color-transparent-white-very-light pt-15px mt-10px"></div>
-                    <h6 class="alt-font text-white mb-0">
-                      Wedding <br />Experiences
-                    </h6>
-                  </div>
-                  <div class="hover-show-content text-center">
-                    <a
-                      href="#"
-                      class="bg-base-color w-55px h-55px rounded-circle position-relative mx-auto d-block">
-                      <i
-                        class="bi bi-arrow-right-short icon-extra-medium absolute-middle-center text-white"></i>
-                    </a>
-                  </div>
-                  <div class="hover-hide-content">
-                    <span
-                      class="fs-13 lh-34 text-dark-gray text-uppercase bg-white ps-20px pe-20px d-inline-block border-radius-4px fw-700"
-                      >Discover More</span
-                    >
-                  </div>
-                </div>
-              </figcaption>
-            </figure>
-          </div>
-          <!-- end interactive banner item -->
-          <!-- start interactive banner item -->
-          <div class="col interactive-banner-style-07 md-mb-30px xs-mb-15px">
-            <figure
-              class="mb-0 border-radius-6px overflow-hidden box-shadow-quadruple-large-hover box-shadow-quadruple-large">
-              <img src="images/gallery/23.jpg" alt="" />
-              <div class="overlay-bg bg-dark-gray opacity-extra-medium"></div>
-              <figcaption>
-                <div
-                  class="hover-content align-items-center d-flex flex-column justify-content-center h-100 p-60px text-center">
-                  <div class="w-65 lg-w-90 mt-auto mb-auto">
-                    <span class="fs-14 fw-500 ls-2px text-white text-uppercase"
-                      >GRAND</span
-                    >
-                    <div
-                      class="divider-style-03 divider-style-03-01 border-color-transparent-white-very-light pt-15px mt-10px"></div>
-                    <h6 class="alt-font text-white mb-0">
-                      Royal Luxury<br />Celebration
-                    </h6>
-                  </div>
-                  <div class="hover-show-content text-center">
-                    <a
-                      href="#"
-                      class="bg-base-color w-55px h-55px rounded-circle position-relative mx-auto d-block">
-                      <i
-                        class="bi bi-arrow-right-short icon-extra-medium absolute-middle-center text-white"></i>
-                    </a>
-                  </div>
-                  <div class="hover-hide-content">
-                    <span
-                      class="fs-13 lh-34 text-dark-gray text-uppercase bg-white ps-20px pe-20px d-inline-block border-radius-4px fw-700"
-                      >Explore This Style</span
-                    >
-                  </div>
-                </div>
-              </figcaption>
-            </figure>
-          </div>
-          <!-- end interactive banner item -->
-          <!-- start interactive banner item -->
-          <div class="col interactive-banner-style-07">
-            <figure
-              class="mb-0 border-radius-6px overflow-hidden box-shadow-quadruple-large-hover box-shadow-quadruple-large">
-              <img
-                src="images/home/Destination-Weddings-Experiences.jpg"
-                alt="" />
-              <div class="overlay-bg bg-dark-gray opacity-extra-medium"></div>
-              <figcaption>
-                <div
-                  class="hover-content align-items-center d-flex flex-column justify-content-center h-100 p-60px text-center">
-                  <div class="w-65 lg-w-90 mt-auto mb-auto">
-                    <span class="fs-14 fw-500 ls-2px text-white text-uppercase"
-                      >DESTINATION</span
-                    >
-                    <div
-                      class="divider-style-03 divider-style-03-01 border-color-transparent-white-very-light pt-15px mt-10px"></div>
-                    <h6 class="alt-font text-white mb-0">
-                      Destination<br />Wedding
-                    </h6>
-                  </div>
-                  <div class="hover-show-content text-center">
-                    <a
-                      href="#"
-                      class="bg-base-color w-55px h-55px rounded-circle position-relative mx-auto d-block">
-                      <i
-                        class="bi bi-arrow-right-short icon-extra-medium absolute-middle-center text-white"></i>
-                    </a>
-                  </div>
-                  <div class="hover-hide-content">
-                    <span
-                      class="fs-13 lh-34 text-dark-gray text-uppercase bg-white ps-20px pe-20px d-inline-block border-radius-4px fw-700"
-                      >Plan Your Destination</span
-                    >
-                  </div>
-                </div>
-              </figcaption>
-            </figure>
-          </div>
-          <!-- end interactive banner item -->
-        </div>
-      </div>
-    </section>
-    <!-- end section -->
-
-    <!-- start section -->
-    <section class="p-0 overflow-hidden">
+    <div class="container">
       <div class="row justify-content-center mb-5 xs-mb-7">
         <div
           class="col-md-8 text-center"
           data-anime='{ "el": "childs", "translateY": [30, 0], "opacity": [0,1], "duration": 600, "delay": 0, "staggervalue": 300, "easing": "easeOutQuad" }'>
           <h2 class="alt-font mb-5px text-dark-gray ls-minus-2px">
-            Wedding Styles We Specialize In
+            Wedding Experiences
           </h2>
-          <span class="d-inline-block"
-            >Thoughtfully designed celebrations tailored to your story.</span
-          >
+          <span class="d-inline-block">Thoughtfully designed celebrations tailored to your story.</span>
         </div>
       </div>
-      <div class="container-fluid p-0">
-        <div class="row g-0 bg-very-light-gray">
-          <div
-            class="col-xl-3 col-lg-4 col-md-5 tab-style-07 d-flex align-items-start align-items-xl-center">
-            <ul
-              class="nav nav-tabs justify-content-center border-0 text-left fs-24 alt-font">
-              <li class="nav-item">
-                <a
-                  data-bs-toggle="tab"
-                  href="#tab_seven1"
-                  class="nav-link active">
+      <div
+        class="row row-cols-1 row-cols-lg-3 row-cols-md-2 justify-content-center mb-9"
+        data-anime='{ "el": "childs", "translateY": [-30, 0], "opacity": [0,1], "duration": 600, "delay": 0, "staggervalue": 300, "easing": "easeOutQuad" }'>
+        <!-- start interactive banner item -->
+        <div class="col interactive-banner-style-07 md-mb-30px xs-mb-15px">
+          <figure
+            class="mb-0 border-radius-6px overflow-hidden box-shadow-quadruple-large-hover box-shadow-quadruple-large">
+            <img src="images/gallery/12.jpg" alt="" />
+            <div class="overlay-bg bg-dark-gray opacity-extra-medium"></div>
+            <figcaption>
+              <div
+                class="hover-content align-items-center d-flex flex-column justify-content-center h-100 p-50px text-center">
+                <div class="w-65 lg-w-90 mt-auto mb-auto">
+                  <span class="fs-14 fw-500 ls-2px text-white text-uppercase">Curated
+                  </span>
+                  <div
+                    class="divider-style-03 divider-style-03-01 border-color-transparent-white-very-light pt-15px mt-10px"></div>
+                  <h6 class="alt-font text-white mb-0">
+                    Wedding <br />Experiences
+                  </h6>
+                </div>
+                <div class="hover-show-content text-center">
+                  <a
+                    href="#"
+                    class="bg-base-color w-55px h-55px rounded-circle position-relative mx-auto d-block">
+                    <i
+                      class="bi bi-arrow-right-short icon-extra-medium absolute-middle-center text-white"></i>
+                  </a>
+                </div>
+                <div class="hover-hide-content">
                   <span
-                    ><span class="primary-font me-10px fs-18 fw-600">01</span
-                    >Traditional Weddings</span
-                  >
+                    class="fs-13 lh-34 text-dark-gray text-uppercase bg-white ps-20px pe-20px d-inline-block border-radius-4px fw-700">Discover More</span>
+                </div>
+              </div>
+            </figcaption>
+          </figure>
+        </div>
+        <!-- end interactive banner item -->
+        <!-- start interactive banner item -->
+        <div class="col interactive-banner-style-07 md-mb-30px xs-mb-15px">
+          <figure
+            class="mb-0 border-radius-6px overflow-hidden box-shadow-quadruple-large-hover box-shadow-quadruple-large">
+            <img src="images/gallery/23.jpg" alt="" />
+            <div class="overlay-bg bg-dark-gray opacity-extra-medium"></div>
+            <figcaption>
+              <div
+                class="hover-content align-items-center d-flex flex-column justify-content-center h-100 p-60px text-center">
+                <div class="w-65 lg-w-90 mt-auto mb-auto">
+                  <span class="fs-14 fw-500 ls-2px text-white text-uppercase">GRAND</span>
+                  <div
+                    class="divider-style-03 divider-style-03-01 border-color-transparent-white-very-light pt-15px mt-10px"></div>
+                  <h6 class="alt-font text-white mb-0">
+                    Royal Luxury<br />Celebration
+                  </h6>
+                </div>
+                <div class="hover-show-content text-center">
+                  <a
+                    href="#"
+                    class="bg-base-color w-55px h-55px rounded-circle position-relative mx-auto d-block">
+                    <i
+                      class="bi bi-arrow-right-short icon-extra-medium absolute-middle-center text-white"></i>
+                  </a>
+                </div>
+                <div class="hover-hide-content">
                   <span
-                    class="number-box d-flex justify-content-center align-items-center rounded-circle h-70px w-70px bg-base-color text-white"
-                    ><i class="bi bi-arrow-right icon-extra-medium"></i
-                  ></span>
-                  <span class="bg-hover bg-base-color"></span>
-                </a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" data-bs-toggle="tab" href="#tab_seven2">
+                    class="fs-13 lh-34 text-dark-gray text-uppercase bg-white ps-20px pe-20px d-inline-block border-radius-4px fw-700">Explore This Style</span>
+                </div>
+              </div>
+            </figcaption>
+          </figure>
+        </div>
+        <!-- end interactive banner item -->
+        <!-- start interactive banner item -->
+        <div class="col interactive-banner-style-07">
+          <figure
+            class="mb-0 border-radius-6px overflow-hidden box-shadow-quadruple-large-hover box-shadow-quadruple-large">
+            <img
+              src="images/home/Destination-Weddings-Experiences.jpg"
+              alt="" />
+            <div class="overlay-bg bg-dark-gray opacity-extra-medium"></div>
+            <figcaption>
+              <div
+                class="hover-content align-items-center d-flex flex-column justify-content-center h-100 p-60px text-center">
+                <div class="w-65 lg-w-90 mt-auto mb-auto">
+                  <span class="fs-14 fw-500 ls-2px text-white text-uppercase">DESTINATION</span>
+                  <div
+                    class="divider-style-03 divider-style-03-01 border-color-transparent-white-very-light pt-15px mt-10px"></div>
+                  <h6 class="alt-font text-white mb-0">
+                    Destination<br />Wedding
+                  </h6>
+                </div>
+                <div class="hover-show-content text-center">
+                  <a
+                    href="#"
+                    class="bg-base-color w-55px h-55px rounded-circle position-relative mx-auto d-block">
+                    <i
+                      class="bi bi-arrow-right-short icon-extra-medium absolute-middle-center text-white"></i>
+                  </a>
+                </div>
+                <div class="hover-hide-content">
                   <span
-                    ><span class="primary-font me-10px fs-18 fw-600">02</span
-                    >Modern & Luxury Weddings</span
-                  >
-                  <span
-                    class="number-box d-flex justify-content-center align-items-center rounded-circle h-70px w-70px bg-base-color text-white"
-                    ><i class="bi bi-arrow-right icon-extra-medium"></i
-                  ></span>
-                  <span class="bg-hover bg-base-color"></span>
-                </a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" data-bs-toggle="tab" href="#tab_seven3">
-                  <span
-                    ><span class="primary-font me-10px fs-18 fw-600">03</span
-                    >Thematic Weddings</span
-                  >
-                  <span
-                    class="number-box d-flex justify-content-center align-items-center rounded-circle h-70px w-70px bg-base-color text-white"
-                    ><i class="bi bi-arrow-right icon-extra-medium"></i
-                  ></span>
-                  <span class="bg-hover bg-base-color"></span>
-                </a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" data-bs-toggle="tab" href="#tab_seven4">
-                  <span
-                    ><span class="primary-font me-10px fs-18 fw-600">04</span
-                    >Offbeat Weddings</span
-                  >
-                  <span
-                    class="number-box d-flex justify-content-center align-items-center rounded-circle h-70px w-70px bg-base-color text-white"
-                    ><i class="bi bi-arrow-right icon-extra-medium"></i
-                  ></span>
-                  <span class="bg-hover bg-base-color"></span>
-                </a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" data-bs-toggle="tab" href="#tab_seven5">
-                  <span
-                    ><span class="primary-font me-10px fs-18 fw-600">05</span
-                    >Destination Weddings</span
-                  >
-                  <span
-                    class="number-box d-flex justify-content-center align-items-center rounded-circle h-70px w-70px bg-base-color text-white"
-                    ><i class="bi bi-arrow-right icon-extra-medium"></i
-                  ></span>
-                  <span class="bg-hover bg-base-color"></span>
-                </a>
-              </li>
-            </ul>
-          </div>
-          <div class="col-xl-9 col-lg-8 col-md-7">
-            <div class="tab-content h-100">
-              <!-- start tab content -->
-              <div class="tab-pane fade in active show h-100" id="tab_seven1">
-                <div class="row g-0 h-100 lg-h-auto">
-                  <div class="col-xl-6">
-                    <div
-                      class="h-100 lg-h-400px cover-background position-relative"
-                      style="
+                    class="fs-13 lh-34 text-dark-gray text-uppercase bg-white ps-20px pe-20px d-inline-block border-radius-4px fw-700">Plan Your Destination</span>
+                </div>
+              </div>
+            </figcaption>
+          </figure>
+        </div>
+        <!-- end interactive banner item -->
+      </div>
+    </div>
+  </section>
+  <!-- end section -->
+
+  <!-- start section -->
+  <section class="p-0 overflow-hidden">
+    <div class="row justify-content-center mb-5 xs-mb-7">
+      <div
+        class="col-md-8 text-center"
+        data-anime='{ "el": "childs", "translateY": [30, 0], "opacity": [0,1], "duration": 600, "delay": 0, "staggervalue": 300, "easing": "easeOutQuad" }'>
+        <h2 class="alt-font mb-5px text-dark-gray ls-minus-2px">
+          Wedding Styles We Specialize In
+        </h2>
+        <span class="d-inline-block">Thoughtfully designed celebrations tailored to your story.</span>
+      </div>
+    </div>
+    <div class="container-fluid p-0">
+      <div class="row g-0 bg-very-light-gray">
+        <div
+          class="col-xl-3 col-lg-4 col-md-5 tab-style-07 d-flex align-items-start align-items-xl-center">
+          <ul
+            class="nav nav-tabs justify-content-center border-0 text-left fs-24 alt-font">
+            <li class="nav-item">
+              <a
+                data-bs-toggle="tab"
+                href="#tab_seven1"
+                class="nav-link active">
+                <span><span class="primary-font me-10px fs-18 fw-600">01</span>Traditional Weddings</span>
+                <span
+                  class="number-box d-flex justify-content-center align-items-center rounded-circle h-70px w-70px bg-base-color text-white"><i class="bi bi-arrow-right icon-extra-medium"></i></span>
+                <span class="bg-hover bg-base-color"></span>
+              </a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" data-bs-toggle="tab" href="#tab_seven2">
+                <span><span class="primary-font me-10px fs-18 fw-600">02</span>Modern & Luxury Weddings</span>
+                <span
+                  class="number-box d-flex justify-content-center align-items-center rounded-circle h-70px w-70px bg-base-color text-white"><i class="bi bi-arrow-right icon-extra-medium"></i></span>
+                <span class="bg-hover bg-base-color"></span>
+              </a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" data-bs-toggle="tab" href="#tab_seven3">
+                <span><span class="primary-font me-10px fs-18 fw-600">03</span>Thematic Weddings</span>
+                <span
+                  class="number-box d-flex justify-content-center align-items-center rounded-circle h-70px w-70px bg-base-color text-white"><i class="bi bi-arrow-right icon-extra-medium"></i></span>
+                <span class="bg-hover bg-base-color"></span>
+              </a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" data-bs-toggle="tab" href="#tab_seven4">
+                <span><span class="primary-font me-10px fs-18 fw-600">04</span>Offbeat Weddings</span>
+                <span
+                  class="number-box d-flex justify-content-center align-items-center rounded-circle h-70px w-70px bg-base-color text-white"><i class="bi bi-arrow-right icon-extra-medium"></i></span>
+                <span class="bg-hover bg-base-color"></span>
+              </a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" data-bs-toggle="tab" href="#tab_seven5">
+                <span><span class="primary-font me-10px fs-18 fw-600">05</span>Destination Weddings</span>
+                <span
+                  class="number-box d-flex justify-content-center align-items-center rounded-circle h-70px w-70px bg-base-color text-white"><i class="bi bi-arrow-right icon-extra-medium"></i></span>
+                <span class="bg-hover bg-base-color"></span>
+              </a>
+            </li>
+          </ul>
+        </div>
+        <div class="col-xl-9 col-lg-8 col-md-7">
+          <div class="tab-content h-100">
+            <!-- start tab content -->
+            <div class="tab-pane fade in active show h-100" id="tab_seven1">
+              <div class="row g-0 h-100 lg-h-auto">
+                <div class="col-xl-6">
+                  <div
+                    class="h-100 lg-h-400px cover-background position-relative"
+                    style="
                         background-image: url(images/home/Traditional-Weddings.jpg);
                       ">
-                      <div class="position-absolute right-0px bottom-0 d-flex">
-                        <!-- <div
+                    <div class="position-absolute right-0px bottom-0 d-flex">
+                      <!-- <div
                           class="ps-40px pe-40px h-110px bg-white d-flex align-items-center">
                           <div class="fs-30 fw-700 text-dark-gray">
                             <span
@@ -799,70 +644,66 @@
                             >$50.00
                           </div>
                         </div> -->
-                        <div
-                          class="ps-40px pe-40px xs-ps-30px xs-pe-30px h-110px bg-dark-gray d-flex align-items-center">
-                          <a
-                            href="contact.html"
-                            class="d-flex align-items-center text-white">
-                            <span
-                              class="fs-18 fw-600 lh-22 text-uppercase me-15px"
-                              >Connect<br />now</span
-                            ><span
-                              class="w-55px h-55px bg-white-transparent-extra-light border-radius-100 text-white position-relative"
-                              ><i
-                                class="bi bi-arrow-right-short icon-extra-medium absolute-middle-center lh-0px"></i
-                            ></span>
-                          </a>
-                        </div>
+                      <div
+                        class="ps-40px pe-40px xs-ps-30px xs-pe-30px h-110px bg-dark-gray d-flex align-items-center">
+                        <a
+                          href="contact.html"
+                          class="d-flex align-items-center text-white">
+                          <span
+                            class="fs-18 fw-600 lh-22 text-uppercase me-15px">Connect<br />now</span><span
+                            class="w-55px h-55px bg-white-transparent-extra-light border-radius-100 text-white position-relative"><i
+                              class="bi bi-arrow-right-short icon-extra-medium absolute-middle-center lh-0px"></i></span>
+                        </a>
                       </div>
                     </div>
                   </div>
-                  <div class="col-xl-6 bg-very-light-gray pt-6 pb-6 ps-8 pe-8">
-                    <div
-                      class="d-flex align-items-xl-start align-items-center text-center text-xl-start flex-column justify-content-center h-100">
-                      <h3 class="text-dark-gray mb-15px alt-font">
-                        Traditional Weddings
-                      </h3>
-                      <p>
-                        We craft traditional weddings that beautifully honour
-                        age-old customs, sacred rituals, and cultural heritage.
-                        Every ceremony is thoughtfully planned to preserve
-                        authenticity while ensuring a seamless and joyful
-                        experience for the couple and their families.
-                      </p>
-                      <ul class="p-0 list-style-01 fw-500 mb-40px">
-                        <li
-                          class="border-color-transparent-dark-light pt-10px pb-10px text-dark-gray">
-                          Sacred ritual coordination & priest management.
-                        </li>
-                        <li
-                          class="border-color-transparent-dark-light pt-10px pb-10px text-dark-gray">
-                          Traditional décor & mandap styling.
-                        </li>
-                        <li
-                          class="border-color-transparent-dark-light pt-10px pb-10px text-dark-gray">
-                          Ceremony flow planning & family coordination.
-                        </li>
-                        <li
-                          class="border-color-transparent-dark-light pt-10px pb-10px text-dark-gray">
-                          Cultural music, customs & ritual detailing.
-                        </li>
-                      </ul>
-                    </div>
+                </div>
+                <div class="col-xl-6 bg-very-light-gray pt-6 pb-6 ps-8 pe-8">
+                  <div
+                    class="d-flex align-items-xl-start align-items-center text-center text-xl-start flex-column justify-content-center h-100">
+                    <h3 class="text-dark-gray mb-15px alt-font">
+                      Traditional Weddings
+                    </h3>
+                    <p>
+                      We craft traditional weddings that beautifully honour
+                      age-old customs, sacred rituals, and cultural heritage.
+                      Every ceremony is thoughtfully planned to preserve
+                      authenticity while ensuring a seamless and joyful
+                      experience for the couple and their families.
+                    </p>
+                    <ul class="p-0 list-style-01 fw-500 mb-40px">
+                      <li
+                        class="border-color-transparent-dark-light pt-10px pb-10px text-dark-gray">
+                        Sacred ritual coordination & priest management.
+                      </li>
+                      <li
+                        class="border-color-transparent-dark-light pt-10px pb-10px text-dark-gray">
+                        Traditional décor & mandap styling.
+                      </li>
+                      <li
+                        class="border-color-transparent-dark-light pt-10px pb-10px text-dark-gray">
+                        Ceremony flow planning & family coordination.
+                      </li>
+                      <li
+                        class="border-color-transparent-dark-light pt-10px pb-10px text-dark-gray">
+                        Cultural music, customs & ritual detailing.
+                      </li>
+                    </ul>
                   </div>
                 </div>
               </div>
-              <!-- end tab content -->
+            </div>
+            <!-- end tab content -->
 
-              <!-- start tab content -->
-              <div class="tab-pane fade in h-100" id="tab_seven2">
-                <div class="row g-0 h-100 lg-h-auto">
-                  <div class="col-xl-6">
-                    <div
-                      class="h-100 lg-h-400px cover-background position-relative"
-                      style="background-image: url(images/gallery/21.jpg)">
-                      <div class="position-absolute right-0px bottom-0 d-flex">
-                        <!-- <div
+            <!-- start tab content -->
+            <div class="tab-pane fade in h-100" id="tab_seven2">
+              <div class="row g-0 h-100 lg-h-auto">
+                <div class="col-xl-6">
+                  <div
+                    class="h-100 lg-h-400px cover-background position-relative"
+                    style="background-image: url(images/gallery/21.jpg)">
+                    <div class="position-absolute right-0px bottom-0 d-flex">
+                      <!-- <div
                           class="ps-40px pe-40px h-110px bg-white d-flex align-items-center">
                           <div class="fs-30 fw-700 text-dark-gray">
                             <span
@@ -871,69 +712,65 @@
                             >$50.00
                           </div>
                         </div> -->
-                        <div
-                          class="ps-40px pe-40px xs-ps-30px xs-pe-30px h-110px bg-dark-gray d-flex align-items-center">
-                          <a
-                            href="contact.html"
-                            class="d-flex align-items-center text-white">
-                            <span
-                              class="fs-18 fw-600 lh-22 text-uppercase me-15px"
-                              >Connect<br />now</span
-                            ><span
-                              class="w-55px h-55px bg-white-transparent-extra-light border-radius-100 text-white position-relative"
-                              ><i
-                                class="bi bi-arrow-right-short icon-extra-medium absolute-middle-center lh-0px"></i
-                            ></span>
-                          </a>
-                        </div>
+                      <div
+                        class="ps-40px pe-40px xs-ps-30px xs-pe-30px h-110px bg-dark-gray d-flex align-items-center">
+                        <a
+                          href="contact.html"
+                          class="d-flex align-items-center text-white">
+                          <span
+                            class="fs-18 fw-600 lh-22 text-uppercase me-15px">Connect<br />now</span><span
+                            class="w-55px h-55px bg-white-transparent-extra-light border-radius-100 text-white position-relative"><i
+                              class="bi bi-arrow-right-short icon-extra-medium absolute-middle-center lh-0px"></i></span>
+                        </a>
                       </div>
                     </div>
                   </div>
-                  <div class="col-xl-6 bg-very-light-gray pt-6 pb-6 ps-8 pe-8">
-                    <div
-                      class="d-flex align-items-xl-start align-items-center text-center text-xl-start flex-column justify-content-center h-100">
-                      <h3 class="text-dark-gray mb-15px alt-font">
-                        Modern & Luxury Weddings
-                      </h3>
-                      <p>
-                        For couples who envision sophistication and grandeur, we
-                        curate modern celebrations that blend contemporary
-                        aesthetics with refined elegance. Each wedding is
-                        designed to feel exclusive, stylish, and flawlessly
-                        executed.
-                      </p>
-                      <ul class="p-0 list-style-01 fw-500 mb-40px">
-                        <li
-                          class="border-color-transparent-dark-light pt-10px pb-10px text-dark-gray">
-                          Bespoke luxury décor concepts.
-                        </li>
-                        <li
-                          class="border-color-transparent-dark-light pt-10px pb-10px text-dark-gray">
-                          Designer floral & lighting arrangements.
-                        </li>
-                        <li
-                          class="border-color-transparent-dark-light pt-10px pb-10px text-dark-gray">
-                          Premium venue styling & production.
-                        </li>
-                        <li
-                          class="border-color-transparent-dark-light pt-10px pb-10px text-dark-gray">
-                          End-to-end coordination & management.
-                        </li>
-                      </ul>
-                    </div>
+                </div>
+                <div class="col-xl-6 bg-very-light-gray pt-6 pb-6 ps-8 pe-8">
+                  <div
+                    class="d-flex align-items-xl-start align-items-center text-center text-xl-start flex-column justify-content-center h-100">
+                    <h3 class="text-dark-gray mb-15px alt-font">
+                      Modern & Luxury Weddings
+                    </h3>
+                    <p>
+                      For couples who envision sophistication and grandeur, we
+                      curate modern celebrations that blend contemporary
+                      aesthetics with refined elegance. Each wedding is
+                      designed to feel exclusive, stylish, and flawlessly
+                      executed.
+                    </p>
+                    <ul class="p-0 list-style-01 fw-500 mb-40px">
+                      <li
+                        class="border-color-transparent-dark-light pt-10px pb-10px text-dark-gray">
+                        Bespoke luxury décor concepts.
+                      </li>
+                      <li
+                        class="border-color-transparent-dark-light pt-10px pb-10px text-dark-gray">
+                        Designer floral & lighting arrangements.
+                      </li>
+                      <li
+                        class="border-color-transparent-dark-light pt-10px pb-10px text-dark-gray">
+                        Premium venue styling & production.
+                      </li>
+                      <li
+                        class="border-color-transparent-dark-light pt-10px pb-10px text-dark-gray">
+                        End-to-end coordination & management.
+                      </li>
+                    </ul>
                   </div>
                 </div>
               </div>
-              <!-- end tab content -->
-              <!-- start tab content -->
-              <div class="tab-pane fade in h-100" id="tab_seven3">
-                <div class="row g-0 h-100 lg-h-auto">
-                  <div class="col-xl-6">
-                    <div
-                      class="h-100 lg-h-400px cover-background position-relative"
-                      style="background-image: url(images/gallery/36.jpg)">
-                      <div class="position-absolute right-0px bottom-0 d-flex">
-                        <!-- <div
+            </div>
+            <!-- end tab content -->
+            <!-- start tab content -->
+            <div class="tab-pane fade in h-100" id="tab_seven3">
+              <div class="row g-0 h-100 lg-h-auto">
+                <div class="col-xl-6">
+                  <div
+                    class="h-100 lg-h-400px cover-background position-relative"
+                    style="background-image: url(images/gallery/36.jpg)">
+                    <div class="position-absolute right-0px bottom-0 d-flex">
+                      <!-- <div
                           class="ps-40px pe-40px h-110px bg-white d-flex align-items-center">
                           <div class="fs-30 fw-700 text-dark-gray">
                             <span
@@ -942,71 +779,67 @@
                             >$50.00
                           </div>
                         </div> -->
-                        <div
-                          class="ps-40px pe-40px xs-ps-30px xs-pe-30px h-110px bg-dark-gray d-flex align-items-center">
-                          <a
-                            href="contact.html"
-                            class="d-flex align-items-center text-white">
-                            <span
-                              class="fs-18 fw-600 lh-22 text-uppercase me-15px"
-                              >Connect<br />now</span
-                            ><span
-                              class="w-55px h-55px bg-white-transparent-extra-light border-radius-100 text-white position-relative"
-                              ><i
-                                class="bi bi-arrow-right-short icon-extra-medium absolute-middle-center lh-0px"></i
-                            ></span>
-                          </a>
-                        </div>
+                      <div
+                        class="ps-40px pe-40px xs-ps-30px xs-pe-30px h-110px bg-dark-gray d-flex align-items-center">
+                        <a
+                          href="contact.html"
+                          class="d-flex align-items-center text-white">
+                          <span
+                            class="fs-18 fw-600 lh-22 text-uppercase me-15px">Connect<br />now</span><span
+                            class="w-55px h-55px bg-white-transparent-extra-light border-radius-100 text-white position-relative"><i
+                              class="bi bi-arrow-right-short icon-extra-medium absolute-middle-center lh-0px"></i></span>
+                        </a>
                       </div>
                     </div>
                   </div>
-                  <div class="col-xl-6 bg-very-light-gray pt-6 pb-6 ps-8 pe-8">
-                    <div
-                      class="d-flex align-items-xl-start align-items-center text-center text-xl-start flex-column justify-content-center h-100">
-                      <h3 class="text-dark-gray mb-15px alt-font">
-                        Thematic Weddings
-                      </h3>
-                      <p>
-                        A themed wedding is about storytelling, and we bring
-                        your vision to life with creativity and precision.
-                        Whether inspired by royalty, vintage romance, or a
-                        unique personal concept, we create cohesive and
-                        immersive celebrations.
-                      </p>
-                      <ul class="p-0 list-style-01 fw-500 mb-40px">
-                        <li
-                          class="border-color-transparent-dark-light pt-10px pb-10px text-dark-gray">
-                          Custom theme conceptualisation.
-                        </li>
-                        <li
-                          class="border-color-transparent-dark-light pt-10px pb-10px text-dark-gray">
-                          Coordinated colour palettes & styling.
-                        </li>
-                        <li
-                          class="border-color-transparent-dark-light pt-10px pb-10px text-dark-gray">
-                          Creative stage & décor design.
-                        </li>
-                        <li
-                          class="border-color-transparent-dark-light pt-10px pb-10px text-dark-gray">
-                          Themed entertainment & experiences.
-                        </li>
-                      </ul>
-                    </div>
+                </div>
+                <div class="col-xl-6 bg-very-light-gray pt-6 pb-6 ps-8 pe-8">
+                  <div
+                    class="d-flex align-items-xl-start align-items-center text-center text-xl-start flex-column justify-content-center h-100">
+                    <h3 class="text-dark-gray mb-15px alt-font">
+                      Thematic Weddings
+                    </h3>
+                    <p>
+                      A themed wedding is about storytelling, and we bring
+                      your vision to life with creativity and precision.
+                      Whether inspired by royalty, vintage romance, or a
+                      unique personal concept, we create cohesive and
+                      immersive celebrations.
+                    </p>
+                    <ul class="p-0 list-style-01 fw-500 mb-40px">
+                      <li
+                        class="border-color-transparent-dark-light pt-10px pb-10px text-dark-gray">
+                        Custom theme conceptualisation.
+                      </li>
+                      <li
+                        class="border-color-transparent-dark-light pt-10px pb-10px text-dark-gray">
+                        Coordinated colour palettes & styling.
+                      </li>
+                      <li
+                        class="border-color-transparent-dark-light pt-10px pb-10px text-dark-gray">
+                        Creative stage & décor design.
+                      </li>
+                      <li
+                        class="border-color-transparent-dark-light pt-10px pb-10px text-dark-gray">
+                        Themed entertainment & experiences.
+                      </li>
+                    </ul>
                   </div>
                 </div>
               </div>
-              <!-- end tab content -->
-              <!-- start tab content -->
-              <div class="tab-pane fade in h-100" id="tab_seven4">
-                <div class="row g-0 h-100 lg-h-auto">
-                  <div class="col-xl-6">
-                    <div
-                      class="h-100 lg-h-400px cover-background position-relative"
-                      style="
+            </div>
+            <!-- end tab content -->
+            <!-- start tab content -->
+            <div class="tab-pane fade in h-100" id="tab_seven4">
+              <div class="row g-0 h-100 lg-h-auto">
+                <div class="col-xl-6">
+                  <div
+                    class="h-100 lg-h-400px cover-background position-relative"
+                    style="
                         background-image: url(images/home/Offbeat-Weddings.jpg);
                       ">
-                      <div class="position-absolute right-0px bottom-0 d-flex">
-                        <!-- <div
+                    <div class="position-absolute right-0px bottom-0 d-flex">
+                      <!-- <div
                           class="ps-40px pe-40px h-110px bg-white d-flex align-items-center">
                           <div class="fs-30 fw-700 text-dark-gray">
                             <span
@@ -1015,71 +848,67 @@
                             >$50.00
                           </div>
                         </div> -->
-                        <div
-                          class="ps-40px pe-40px xs-ps-30px xs-pe-30px h-110px bg-dark-gray d-flex align-items-center">
-                          <a
-                            href="contact.html"
-                            class="d-flex align-items-center text-white">
-                            <span
-                              class="fs-18 fw-600 lh-22 text-uppercase me-15px"
-                              >Connect<br />now</span
-                            ><span
-                              class="w-55px h-55px bg-white-transparent-extra-light border-radius-100 text-white position-relative"
-                              ><i
-                                class="bi bi-arrow-right-short icon-extra-medium absolute-middle-center lh-0px"></i
-                            ></span>
-                          </a>
-                        </div>
+                      <div
+                        class="ps-40px pe-40px xs-ps-30px xs-pe-30px h-110px bg-dark-gray d-flex align-items-center">
+                        <a
+                          href="contact.html"
+                          class="d-flex align-items-center text-white">
+                          <span
+                            class="fs-18 fw-600 lh-22 text-uppercase me-15px">Connect<br />now</span><span
+                            class="w-55px h-55px bg-white-transparent-extra-light border-radius-100 text-white position-relative"><i
+                              class="bi bi-arrow-right-short icon-extra-medium absolute-middle-center lh-0px"></i></span>
+                        </a>
                       </div>
                     </div>
                   </div>
-                  <div class="col-xl-6 bg-very-light-gray pt-6 pb-6 ps-8 pe-8">
-                    <div
-                      class="d-flex align-items-xl-start align-items-center text-center text-xl-start flex-column justify-content-center h-100">
-                      <h3 class="text-dark-gray mb-15px alt-font">
-                        Offbeat Weddings
-                      </h3>
-                      <p>
-                        For couples who wish to break away from convention, we
-                        design weddings that are bold, personal, and
-                        refreshingly unique. Every element is curated to reflect
-                        your individuality and create a celebration that feels
-                        truly yours.
-                      </p>
-                      <ul class="p-0 list-style-01 fw-500 mb-40px">
-                        <li
-                          class="border-color-transparent-dark-light pt-10px pb-10px text-dark-gray">
-                          Unique venue selection.
-                        </li>
-                        <li
-                          class="border-color-transparent-dark-light pt-10px pb-10px text-dark-gray">
-                          Intimate & alternative ceremony setups.
-                        </li>
-                        <li
-                          class="border-color-transparent-dark-light pt-10px pb-10px text-dark-gray">
-                          Creative décor & styling ideas.
-                        </li>
-                        <li
-                          class="border-color-transparent-dark-light pt-10px pb-10px text-dark-gray">
-                          Personalised rituals & concepts.
-                        </li>
-                      </ul>
-                    </div>
+                </div>
+                <div class="col-xl-6 bg-very-light-gray pt-6 pb-6 ps-8 pe-8">
+                  <div
+                    class="d-flex align-items-xl-start align-items-center text-center text-xl-start flex-column justify-content-center h-100">
+                    <h3 class="text-dark-gray mb-15px alt-font">
+                      Offbeat Weddings
+                    </h3>
+                    <p>
+                      For couples who wish to break away from convention, we
+                      design weddings that are bold, personal, and
+                      refreshingly unique. Every element is curated to reflect
+                      your individuality and create a celebration that feels
+                      truly yours.
+                    </p>
+                    <ul class="p-0 list-style-01 fw-500 mb-40px">
+                      <li
+                        class="border-color-transparent-dark-light pt-10px pb-10px text-dark-gray">
+                        Unique venue selection.
+                      </li>
+                      <li
+                        class="border-color-transparent-dark-light pt-10px pb-10px text-dark-gray">
+                        Intimate & alternative ceremony setups.
+                      </li>
+                      <li
+                        class="border-color-transparent-dark-light pt-10px pb-10px text-dark-gray">
+                        Creative décor & styling ideas.
+                      </li>
+                      <li
+                        class="border-color-transparent-dark-light pt-10px pb-10px text-dark-gray">
+                        Personalised rituals & concepts.
+                      </li>
+                    </ul>
                   </div>
                 </div>
               </div>
-              <!-- end tab content -->
-              <!-- start tab content -->
-              <div class="tab-pane fade in h-100" id="tab_seven5">
-                <div class="row g-0 h-100 lg-h-auto">
-                  <div class="col-xl-6">
-                    <div
-                      class="h-100 lg-h-400px cover-background position-relative"
-                      style="
+            </div>
+            <!-- end tab content -->
+            <!-- start tab content -->
+            <div class="tab-pane fade in h-100" id="tab_seven5">
+              <div class="row g-0 h-100 lg-h-auto">
+                <div class="col-xl-6">
+                  <div
+                    class="h-100 lg-h-400px cover-background position-relative"
+                    style="
                         background-image: url(images/home/Destination-Weddings.jpg);
                       ">
-                      <div class="position-absolute right-0px bottom-0 d-flex">
-                        <!-- <div
+                    <div class="position-absolute right-0px bottom-0 d-flex">
+                      <!-- <div
                           class="ps-40px pe-40px h-110px bg-white d-flex align-items-center">
                           <div class="fs-30 fw-700 text-dark-gray">
                             <span
@@ -1088,393 +917,156 @@
                             >$50.00
                           </div>
                         </div> -->
-                        <div
-                          class="ps-40px pe-40px xs-ps-30px xs-pe-30px h-110px bg-dark-gray d-flex align-items-center">
-                          <a
-                            href="contact.html"
-                            class="d-flex align-items-center text-white">
-                            <span
-                              class="fs-18 fw-600 lh-22 text-uppercase me-15px"
-                              >Connect<br />now</span
-                            ><span
-                              class="w-55px h-55px bg-white-transparent-extra-light border-radius-100 text-white position-relative"
-                              ><i
-                                class="bi bi-arrow-right-short icon-extra-medium absolute-middle-center lh-0px"></i
-                            ></span>
-                          </a>
-                        </div>
+                      <div
+                        class="ps-40px pe-40px xs-ps-30px xs-pe-30px h-110px bg-dark-gray d-flex align-items-center">
+                        <a
+                          href="contact.html"
+                          class="d-flex align-items-center text-white">
+                          <span
+                            class="fs-18 fw-600 lh-22 text-uppercase me-15px">Connect<br />now</span><span
+                            class="w-55px h-55px bg-white-transparent-extra-light border-radius-100 text-white position-relative"><i
+                              class="bi bi-arrow-right-short icon-extra-medium absolute-middle-center lh-0px"></i></span>
+                        </a>
                       </div>
                     </div>
                   </div>
-                  <div class="col-xl-6 bg-very-light-gray pt-6 pb-6 ps-8 pe-8">
-                    <div
-                      class="d-flex align-items-xl-start align-items-center text-center text-xl-start flex-column justify-content-center h-100">
-                      <h3 class="text-dark-gray mb-15px alt-font">
-                        Destination Weddings
-                      </h3>
-                      <p>
-                        Destination weddings combine celebration with
-                        unforgettable travel experiences. We plan and manage
-                        your special day in stunning locations while ensuring
-                        comfort, coordination, and effortless execution.
-                      </p>
-                      <ul class="p-0 list-style-01 fw-500 mb-40px">
-                        <li
-                          class="border-color-transparent-dark-light pt-10px pb-10px text-dark-gray">
-                          Venue sourcing & location management.
-                        </li>
-                        <li
-                          class="border-color-transparent-dark-light pt-10px pb-10px text-dark-gray">
-                          Travel & accommodation coordination.
-                        </li>
-                        <li
-                          class="border-color-transparent-dark-light pt-10px pb-10px text-dark-gray">
-                          Local vendor & logistics handling.
-                        </li>
-                        <li
-                          class="border-color-transparent-dark-light pt-10px pb-10px text-dark-gray">
-                          On-site wedding planning & hospitality.
-                        </li>
-                      </ul>
-                    </div>
+                </div>
+                <div class="col-xl-6 bg-very-light-gray pt-6 pb-6 ps-8 pe-8">
+                  <div
+                    class="d-flex align-items-xl-start align-items-center text-center text-xl-start flex-column justify-content-center h-100">
+                    <h3 class="text-dark-gray mb-15px alt-font">
+                      Destination Weddings
+                    </h3>
+                    <p>
+                      Destination weddings combine celebration with
+                      unforgettable travel experiences. We plan and manage
+                      your special day in stunning locations while ensuring
+                      comfort, coordination, and effortless execution.
+                    </p>
+                    <ul class="p-0 list-style-01 fw-500 mb-40px">
+                      <li
+                        class="border-color-transparent-dark-light pt-10px pb-10px text-dark-gray">
+                        Venue sourcing & location management.
+                      </li>
+                      <li
+                        class="border-color-transparent-dark-light pt-10px pb-10px text-dark-gray">
+                        Travel & accommodation coordination.
+                      </li>
+                      <li
+                        class="border-color-transparent-dark-light pt-10px pb-10px text-dark-gray">
+                        Local vendor & logistics handling.
+                      </li>
+                      <li
+                        class="border-color-transparent-dark-light pt-10px pb-10px text-dark-gray">
+                        On-site wedding planning & hospitality.
+                      </li>
+                    </ul>
                   </div>
                 </div>
               </div>
-              <!-- end tab content -->
             </div>
+            <!-- end tab content -->
           </div>
         </div>
       </div>
-    </section>
-    <!-- end section -->
+    </div>
+  </section>
+  <!-- end section -->
 
-    <!-- start section -->
-    <section class="">
-      <div class="container">
-        <div class="row justify-content-center mb-5 xs-mb-7">
-          <div
-            class="col-md-8 text-center"
-            data-anime='{ "el": "childs", "translateY": [30, 0], "opacity": [0,1], "duration": 600, "delay": 0, "staggervalue": 300, "easing": "easeOutQuad" }'>
-            <h2 class="alt-font mb-5px text-dark-gray ls-minus-2px">
-              Exclusive Reviews
-            </h2>
-            <span class="d-inline-block"
-              >Heartfelt words from couples and families who trusted us to bring
-              their special day to life.</span
-            >
-          </div>
-        </div>
+  <!-- start section -->
+  <section class="">
+    <div class="container">
+      <div class="row justify-content-center mb-5 xs-mb-7">
         <div
-          class="row row-cols-1 row-cols-xl-2 row-cols-lg-2 row-cols-md-1 position-relative justify-content-center mb-4 sm-mb-30px"
-          data-anime='{ "el": "childs", "perspective": [800, 1200], "scale": [1.1, 1], "rotateX": [50, 0], "opacity": [0,1], "duration": 900, "delay": 0, "staggervalue": 300, "easing": "easeOutQuad" }'>
-          <!-- start review item -->
-          <div class="col review-style-05 md-mb-30px">
-            <div
-              class="border-radius-6px bg-white box-shadow-quadruple-large border border-color-extra-medium-gray last-paragraph-no-margin">
-              <div
-                class="d-flex align-items-center ps-45px pe-45px pt-30px pb-30px lg-p-25px">
-                <img
-                  class="rounded-circle w-120px xs-w-80px me-25px"
-                  src="images/common/review_1.jpg"
-                  alt="" />
-                <p>
-                  Rituals by Ritu turned our wedding into something truly
-                  magical. Every detail, from décor to coordination, was handled
-                  with such care and creativity. We could enjoy every moment
-                  knowing everything was perfectly managed.
-                </p>
-              </div>
-              <div
-                class="border-top border-color-extra-medium-gray pt-15px pb-15px ps-45px pe-45px lg-ps-25px lg-pe-25px text-center text-sm-start">
-                <span
-                  class="alt-font fw-500 text-dark-gray d-inline-block xs-fs-17"
-                  >Priya & Kunal</span
-                >
-                <div class="review-star-icon float-sm-end float-none fs-19">
-                  <i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i
-                  ><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i
-                  ><i class="bi bi-star-fill"></i>
-                </div>
-              </div>
-            </div>
-          </div>
-          <!-- end review item -->
-          <!-- start review item -->
-          <div class="col review-style-05">
-            <div
-              class="border-radius-6px bg-white box-shadow-quadruple-large border border-color-extra-medium-gray last-paragraph-no-margin">
-              <div
-                class="d-flex align-items-center ps-45px pe-45px pt-30px pb-30px lg-p-25px">
-                <img
-                  class="rounded-circle w-120px xs-w-80px me-25px"
-                  src="images/common/review_2.jpg"
-                  alt="" />
-                <p>
-                  Planning a wedding felt overwhelming until we met Ritu and her
-                  team. Their professionalism, ideas, and flawless execution
-                  made our celebration unforgettable. It was exactly how we had
-                  imagined it.
-                </p>
-              </div>
-              <div
-                class="border-top border-color-extra-medium-gray pt-15px pb-15px ps-45px pe-45px lg-ps-25px lg-pe-25px text-center text-sm-start">
-                <span
-                  class="alt-font fw-500 text-dark-gray d-inline-block xs-fs-17"
-                  >Ananya & Rohan</span
-                >
-                <div class="review-star-icon float-sm-end float-none fs-19">
-                  <i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i
-                  ><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i
-                  ><i class="bi bi-star-half"></i>
-                </div>
-              </div>
-            </div>
-          </div>
-          <!-- end review item -->
+          class="col-md-8 text-center"
+          data-anime='{ "el": "childs", "translateY": [30, 0], "opacity": [0,1], "duration": 600, "delay": 0, "staggervalue": 300, "easing": "easeOutQuad" }'>
+          <h2 class="alt-font mb-5px text-dark-gray ls-minus-2px">
+            Exclusive Reviews
+          </h2>
+          <span class="d-inline-block">Heartfelt words from couples and families who trusted us to bring
+            their special day to life.</span>
         </div>
       </div>
-    </section>
-    <!-- end section -->
-
-    <!-- start footer -->
-    <footer
-      class="bg-very-light-gray pb-50px sm-pt-20px xs-pb-30px background-repeat background-position-center sm-background-image-none">
-      <div class="container">
-        <div class="row overlap-section">
-          <div class="col-12 text-center">
-            <img
-              class="rounded-circle footer-logo"
-              src="images/logo/footer_logo.jpg"
-              alt=""
-              height="170px" />
-          </div>
-        </div>
-        <!--  -->
-
-        <div class="container">
+      <div
+        class="row row-cols-1 row-cols-xl-2 row-cols-lg-2 row-cols-md-1 position-relative justify-content-center mb-4 sm-mb-30px"
+        data-anime='{ "el": "childs", "perspective": [800, 1200], "scale": [1.1, 1], "rotateX": [50, 0], "opacity": [0,1], "duration": 900, "delay": 0, "staggervalue": 300, "easing": "easeOutQuad" }'>
+        <!-- start review item -->
+        <div class="col review-style-05 md-mb-30px">
           <div
-            class="row justify-content-center pt-55px pb-55px sm-pt-40px sm-pb-40px">
-            <!-- start footer column -->
+            class="border-radius-6px bg-white box-shadow-quadruple-large border border-color-extra-medium-gray last-paragraph-no-margin">
             <div
-              class="col-lg-3 col-md-4 col-sm-6 sm-mb-30px last-paragraph-no-margin text-center text-sm-start">
-              <span
-                class="d-block text-base-color fs-15 ls-1px mb-5px text-uppercase fw-600"
-                >Office Address</span
-              >
-              <p class="lh-30 w-80 lg-w-100 text-black">
-                Jr Mig 101 Bhartiniketan Govindpura - 462023
-                <!-- <br />
-                +91 93017 38925
-                <br />
-                event.ritualsbyritu@gmail.com -->
+              class="d-flex align-items-center ps-45px pe-45px pt-30px pb-30px lg-p-25px">
+              <img
+                class="rounded-circle w-120px xs-w-80px me-25px"
+                src="images/common/review_1.jpg"
+                alt="" />
+              <p>
+                Rituals by Ritu turned our wedding into something truly
+                magical. Every detail, from décor to coordination, was handled
+                with such care and creativity. We could enjoy every moment
+                knowing everything was perfectly managed.
               </p>
             </div>
-            <!-- end footer column -->
-            <!-- start footer column -->
             <div
-              class="col-lg-3 col-md-4 col-sm-6 xs-mb-30px last-paragraph-no-margin text-center text-sm-start">
+              class="border-top border-color-extra-medium-gray pt-15px pb-15px ps-45px pe-45px lg-ps-25px lg-pe-25px text-center text-sm-start">
               <span
-                class="d-block text-base-color fs-15 ls-1px mb-5px text-uppercase fw-600"
-                >Connect With Us</span
-              >
-              <a href="tel:+91 93017 38925" class="text-black lh-30"
-                >+91 93017 38925</a
-              ><br />
-              <a href="mailto:event.ritualsbyritu@gmail.com" class="text-black"
-                >event.ritualsbyritu@gmail.com</a
-              >
-            </div>
-            <!-- end footer column -->
-            <!-- start footer column -->
-            <!-- <div
-              class="col-lg-3 col-md-12 col-sm-6 last-paragraph-no-margin text-center text-sm-start text-md-center text-lg-start md-mb-30px">
-              <a
-                href="demo-beauty-salon.html"
-                class="footer-logo d-inline-block"
-                ><img
-                  src="images/demo-beauty-salon-logo-white.png"
-                  data-at2x="images/demo-beauty-salon-logo-white@2x.png"
-                  alt=""
-              /></a>
-            </div> -->
-            <!-- end footer column -->
-            <!-- start footer column -->
-            <div
-              class="col-lg-3 col-md-4 col-sm-6 last-paragraph-no-margin text-center text-sm-start">
-              <span
-                class="d-block text-base-color fs-15 ls-1px mb-10px text-uppercase fw-600"
-                >Follow Us</span
-              >
-              <div class="elements-social social-icon-style-09">
-                <ul class="medium-icon dark">
-                  <li>
-                    <a
-                      class="facebook"
-                      href="https://www.facebook.com/"
-                      target="_blank"
-                      ><i class="fa-brands fa-facebook-f"></i><span></span
-                    ></a>
-                  </li>
-                  <li>
-                    <a
-                      class="instagram"
-                      href="http://www.instagram.com"
-                      target="_blank"
-                      ><i class="fa-brands fa-instagram"></i><span></span
-                    ></a>
-                  </li>
-                  <li>
-                    <a
-                      class="twitter"
-                      href="http://www.twitter.com"
-                      target="_blank"
-                      ><i class="fa-brands fa-twitter"></i><span></span
-                    ></a>
-                  </li>
-                </ul>
+                class="alt-font fw-500 text-dark-gray d-inline-block xs-fs-17">Priya & Kunal</span>
+              <div class="review-star-icon float-sm-end float-none fs-19">
+                <i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i>
               </div>
             </div>
-            <!-- end footer column -->
           </div>
         </div>
-
-        <!-- start instagram -->
-        <div
-          class="row row-cols-3 row-cols-lg-5 row-cols-sm-3 align-items-center justify-content-center mb-4 md-mb-50px xs-mb-40px instagram-follow-api position-relative">
-          <div class="col instafeed-grid md-mb-30px xs-mb-15px">
-            <figure class="border-radius-0px">
-              <a href="https://www.instagram.com" target="_blank"
-                ><img
-                  src="images/footer/insta_1.jpg"
-                  class="insta-image"
-                  alt="" /><span class="insta-icon"
-                  ><i class="fa-brands fa-instagram"></i></span
-              ></a>
-            </figure>
-          </div>
-          <div class="col instafeed-grid md-mb-30px xs-mb-15px">
-            <figure class="border-radius-0px">
-              <a href="https://www.instagram.com" target="_blank"
-                ><img
-                  src="images/footer/insta_2.jpg"
-                  class="insta-image"
-                  alt="" /><span class="insta-icon"
-                  ><i class="fa-brands fa-instagram"></i></span
-              ></a>
-            </figure>
-          </div>
-          <div class="col instafeed-grid md-mb-30px xs-mb-15px">
-            <figure class="border-radius-0px">
-              <a href="https://www.instagram.com" target="_blank"
-                ><img
-                  src="images/footer/insta_3.jpg"
-                  class="insta-image"
-                  alt="" /><span class="insta-icon"
-                  ><i class="fa-brands fa-instagram"></i></span
-              ></a>
-            </figure>
-          </div>
-          <div class="col instafeed-grid">
-            <figure class="border-radius-0px">
-              <a href="https://www.instagram.com" target="_blank"
-                ><img
-                  src="images/footer/insta_4.jpg"
-                  class="insta-image"
-                  alt="" /><span class="insta-icon"
-                  ><i class="fa-brands fa-instagram"></i></span
-              ></a>
-            </figure>
-          </div>
-          <div class="col instafeed-grid">
-            <figure class="border-radius-0px">
-              <a href="https://www.instagram.com" target="_blank"
-                ><img
-                  src="images/footer/insta_5.jpg"
-                  class="insta-image"
-                  alt="" /><span class="insta-icon"
-                  ><i class="fa-brands fa-instagram"></i></span
-              ></a>
-            </figure>
-          </div>
-          <div class="absolute-middle-center z-index-1 w-auto">
-            <a
-              href="https://www.instagram.com"
-              target="_blank"
-              class="btn btn-large btn-switch-text btn-white btn-rounded left-icon btn-box-shadow instagram-button">
-              <span>
-                <span
-                  ><i class="fa-brands fa-instagram text-base-color"></i
-                ></span>
-                <span class="btn-double-text" data-text="Follow Rituals By Ritu"
-                  >Follow Rituals By Ritu</span
-                >
-              </span>
-            </a>
+        <!-- end review item -->
+        <!-- start review item -->
+        <div class="col review-style-05">
+          <div
+            class="border-radius-6px bg-white box-shadow-quadruple-large border border-color-extra-medium-gray last-paragraph-no-margin">
+            <div
+              class="d-flex align-items-center ps-45px pe-45px pt-30px pb-30px lg-p-25px">
+              <img
+                class="rounded-circle w-120px xs-w-80px me-25px"
+                src="images/common/review_2.jpg"
+                alt="" />
+              <p>
+                Planning a wedding felt overwhelming until we met Ritu and her
+                team. Their professionalism, ideas, and flawless execution
+                made our celebration unforgettable. It was exactly how we had
+                imagined it.
+              </p>
+            </div>
+            <div
+              class="border-top border-color-extra-medium-gray pt-15px pb-15px ps-45px pe-45px lg-ps-25px lg-pe-25px text-center text-sm-start">
+              <span
+                class="alt-font fw-500 text-dark-gray d-inline-block xs-fs-17">Ananya & Rohan</span>
+              <div class="review-star-icon float-sm-end float-none fs-19">
+                <i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-half"></i>
+              </div>
+            </div>
           </div>
         </div>
-        <!-- end instagram -->
-        <div class="row align-items-center">
-          <div
-            class="col-xl-3 col-sm-6 text-center text-sm-start last-paragraph-no-margin fs-15 order-3 order-md-1">
-            <p>
-              &COPY; Copyright 2026
-              <a
-                href="index.html"
-                target="_blank"
-                class="text-decoration-line-bottom text-dark-gray fw-500"
-                >RITUALS BY RITU
-              </a>
-            </p>
-          </div>
-          <div
-            class="col-xl-6 text-center lg-mt-10px sm-mt-0 sm-mb-10px order-1 order-xl-2 order-md-3">
-            <ul class="footer-navbar fs-17 fw-600">
-              <li class="nav-item active">
-                <a href="#" class="nav-link">Privacy Policy</a>
-              </li>
-              <li class="nav-item">
-                <a href="#" class="nav-link">Terms of Service</a>
-              </li>
-              <li class="nav-item">
-                <a href="#" class="nav-link">Disclaimer</a>
-              </li>
-              <li class="nav-item">
-                <a href="#" class="nav-link">Career</a>
-              </li>
-              <li class="nav-item">
-                <a href="contact.html" class="nav-link">Contact</a>
-              </li>
-            </ul>
-          </div>
-          <div
-            class="col-xl-3 col-sm-6 position-relative text-center text-sm-end elements-social social-text-style-01 order-2 order-xl-3 xs-mb-10px">
-            <p>
-              Powered By
-              <a
-                href="https://letsdigin.in/"
-                target="_blank"
-                class="text-decoration-line-bottom text-dark-gray fw-500"
-                >DigIN Media
-              </a>
-            </p>
-          </div>
-        </div>
+        <!-- end review item -->
       </div>
-    </footer>
-    <!-- end footer -->
-
-    <!-- start scroll progress -->
-    <div class="scroll-progress d-none d-xxl-block">
-      <a href="#" class="scroll-top" aria-label="scroll">
-        <span class="scroll-text">Scroll</span
-        ><span class="scroll-line"><span class="scroll-point"></span></span>
-      </a>
     </div>
-    <!-- end scroll progress -->
+  </section>
+  <!-- end section -->
 
-    <!-- javascript libraries -->
-    <script type="text/javascript" src="js/jquery.js"></script>
-    <script type="text/javascript" src="js/vendors.min.js"></script>
-    <script type="text/javascript" src="js/main.js"></script>
-  </body>
+  <!-- start footer -->
+  <?php include_once 'includes/footer.php'; ?>
+  <!-- end footer -->
+
+  <!-- start scroll progress -->
+  <div class="scroll-progress d-none d-xxl-block">
+    <a href="#" class="scroll-top" aria-label="scroll">
+      <span class="scroll-text">Scroll</span><span class="scroll-line"><span class="scroll-point"></span></span>
+    </a>
+  </div>
+  <!-- end scroll progress -->
+
+  <!-- javascript libraries -->
+  <script type="text/javascript" src="js/jquery.js"></script>
+  <script type="text/javascript" src="js/vendors.min.js"></script>
+  <script type="text/javascript" src="js/main.js"></script>
+</body>
+
 </html>

@@ -1,258 +1,182 @@
 <!doctype html>
 <html class="no-js" lang="en">
-  <head>
-    <title>Rituals By Ritu</title>
-    <meta charset="utf-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="author" content="" />
-    <meta name="viewport" content="width=device-width,initial-scale=1.0" />
-    <meta name="description" content="" />
-    <!-- favicon icon -->
-    <link rel="shortcut icon" href="images/favicon.png" />
-    <link rel="apple-touch-icon" href="images/apple-touch-icon-57x57.png" />
-    <link
-      rel="apple-touch-icon"
-      sizes="72x72"
-      href="images/apple-touch-icon-72x72.png" />
-    <link
-      rel="apple-touch-icon"
-      sizes="114x114"
-      href="images/apple-touch-icon-114x114.png" />
-    <!-- google fonts preconnect -->
-    <link rel="preconnect" href="https://fonts.googleapis.com" crossorigin />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <!-- style sheets and font icons  -->
-    <link rel="stylesheet" href="css/vendors.min.css" />
-    <link rel="stylesheet" href="css/icon.min.css" />
-    <link rel="stylesheet" href="css/style.css" />
-    <link rel="stylesheet" href="css/responsive.css" />
-    <link rel="stylesheet" href="css/custom.css" />
-  </head>
-  <body class="overflow-x-hidden" data-mobile-nav-style="classic">
-    <!-- start header -->
-    <header>
-      <nav
-        class="navbar navbar-expand-lg header-light bg-white center-logo header-reverse">
-        <div class="container-fluid">
-          <div class="col-auto col-xl-2 col-lg-1 menu-logo">
-            <div class="d-none d-xl-block">
-              <div class="widget-text fw-600">
-                <i class="bi bi-telephone-outbound text-base-color me-10px"></i
-                ><a href="tel:+91 9301738925">+91 9301738925 </a>
-              </div>
-            </div>
-            <a class="navbar-brand" href="index.html">
-              <img
-                src="images/logo/logo.png"
-                data-at2x="images/logo/logo.png"
-                alt=""
-                class="default-logo img-fluid" />
-              <img
-                src="images/logo/logo.png"
-                data-at2x="images/logo/logo.png"
-                alt=""
-                class="alt-logo img-fluid"
-                height="65px" />
-              <img
-                src="images/logo/logo.png"
-                data-at2x="images/logo/logo.png"
-                alt=""
-                class="mobile-logo img-fluid" />
-            </a>
-          </div>
-          <div class="col-auto col-xl-8 col-lg-10 menu-order">
-            <button
-              class="navbar-toggler float-end"
-              type="button"
-              data-bs-toggle="collapse"
-              data-bs-target="#navbarNav"
-              aria-controls="navbarNav"
-              aria-label="Toggle navigation">
-              <span class="navbar-toggler-line"></span>
-              <span class="navbar-toggler-line"></span>
-              <span class="navbar-toggler-line"></span>
-              <span class="navbar-toggler-line"></span>
-            </button>
-            <div
-              class="collapse navbar-collapse justify-content-between"
-              id="navbarNav">
-              <ul class="navbar-nav navbar-left justify-content-end">
-                <li class="nav-item">
-                  <a href="index.html" class="nav-link">Home</a>
-                </li>
-                <li class="nav-item">
-                  <a href="about-us.html" class="nav-link">About us</a>
-                </li>
-                <li class="nav-item">
-                  <a href="services.html" class="nav-link">Services</a>
-                </li>
-              </ul>
-              <ul class="navbar-nav navbar-right justify-content-start">
-                <li class="nav-item">
-                  <a href="portfolio.html" class="nav-link">Portfolio</a>
-                </li>
-                <li class="nav-item">
-                  <a href="blogs.html" class="nav-link">Blogs</a>
-                </li>
-                <li class="nav-item">
-                  <a href="contact.html" class="nav-link">Contact</a>
-                </li>
-              </ul>
-            </div>
-          </div>
-          <div class="col-auto col-xl-2 col-lg-1 text-end">
-            <div class="d-none d-xl-flex align-items-center widget-text fw-600">
-              <i class="bi bi-calendar-check text-base-color me-10px"></i
-              ><a href="contact.html">Book Your Slot</a>
-            </div>
-          </div>
-        </div>
-      </nav>
-    </header>
-    <!-- end header -->
 
-    <!-- start page title -->
-    <section
-      class="page-title-separate-breadcrumbs cover-background border-top border-4 border-color-base-color top-space-margin"
-      style="background-image: url(images/gallery/18.jpg)">
-      <!-- style="background-image: url(https://placehold.co/1920x526)"> -->
-      <div class="opacity-full-dark bg-gradient-dark-transparent"></div>
-      <div class="container position-relative">
+<head>
+  <title>Rituals By Ritu</title>
+  <meta charset="utf-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="author" content="" />
+  <meta name="viewport" content="width=device-width,initial-scale=1.0" />
+  <meta name="description" content="" />
+  <!-- favicon icon -->
+  <link rel="shortcut icon" href="images/favicon.png" />
+  <link rel="apple-touch-icon" href="images/apple-touch-icon-57x57.png" />
+  <link
+    rel="apple-touch-icon"
+    sizes="72x72"
+    href="images/apple-touch-icon-72x72.png" />
+  <link
+    rel="apple-touch-icon"
+    sizes="114x114"
+    href="images/apple-touch-icon-114x114.png" />
+  <!-- google fonts preconnect -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" crossorigin />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <!-- style sheets and font icons  -->
+  <link rel="stylesheet" href="css/vendors.min.css" />
+  <link rel="stylesheet" href="css/icon.min.css" />
+  <link rel="stylesheet" href="css/style.css" />
+  <link rel="stylesheet" href="css/responsive.css" />
+  <link rel="stylesheet" href="css/custom.css" />
+</head>
+
+<body class="overflow-x-hidden" data-mobile-nav-style="classic">
+  <!-- start header -->
+  <?php include_once 'includes/header.php'; ?>
+  <!-- end header -->
+
+  <!-- start page title -->
+  <section
+    class="page-title-separate-breadcrumbs cover-background border-top border-4 border-color-base-color top-space-margin"
+    style="background-image: url(images/gallery/18.jpg)">
+    <!-- style="background-image: url(https://placehold.co/1920x526)"> -->
+    <div class="opacity-full-dark bg-gradient-dark-transparent"></div>
+    <div class="container position-relative">
+      <div
+        class="row align-items-start align-items-lg-end justify-content-end flex-column flex-lg-row extra-small-screen"
+        data-anime='{ "el": "childs", "translateY": [15, 0], "opacity": [0,1], "duration": 400, "delay": 0, "staggervalue": 200, "easing": "easeOutQuad" }'>
         <div
-          class="row align-items-start align-items-lg-end justify-content-end flex-column flex-lg-row extra-small-screen"
-          data-anime='{ "el": "childs", "translateY": [15, 0], "opacity": [0,1], "duration": 400, "delay": 0, "staggervalue": 200, "easing": "easeOutQuad" }'>
-          <div
-            class="col-xxl-7 col-lg-6 col-md-10 position-relative page-title-large md-mb-15px xs-mb-5px">
-            <h1 class="text-white alt-font fw-500 ls-minus-2px mb-0">
-              About us
-            </h1>
-          </div>
-          <div class="col-xxl-5 col-lg-6 col-md-10 last-paragraph-no-margin">
-            <p class="fs-20 text-white opacity-7 md-w-80 sm-w-100">
-              Turning Sacred Rituals into Unforgettable Celebrations.
-            </p>
-          </div>
+          class="col-xxl-7 col-lg-6 col-md-10 position-relative page-title-large md-mb-15px xs-mb-5px">
+          <h1 class="text-white alt-font fw-500 ls-minus-2px mb-0">
+            About us
+          </h1>
+        </div>
+        <div class="col-xxl-5 col-lg-6 col-md-10 last-paragraph-no-margin">
+          <p class="fs-20 text-white opacity-7 md-w-80 sm-w-100">
+            Turning Sacred Rituals into Unforgettable Celebrations.
+          </p>
         </div>
       </div>
-    </section>
-    <!-- end page title -->
+    </div>
+  </section>
+  <!-- end page title -->
 
-    <!-- start section -->
-    <section
-      class="background-position-center background-repeat overlap-height pb-5">
-      <div class="container overlap-gap-section">
-        <div class="row">
-          <div
-            class="col-md-6 sm-mb-25px"
-            data-anime='{ "el": "childs", "translateX": [50, 0], "opacity": [0,1], "duration": 1200, "delay": 0, "staggervalue": 150, "easing": "easeOutQuad" }'>
-            <h3 class="alt-font text-dark-gray ls-minus-2px w-90 sm-w-100 mb-0">
-              Personalized celebrations designed with elegance, creativity, and
-              flawless execution.
-            </h3>
-          </div>
-          <div
-            class="col-xl-5 col-md-6 offset-xl-1 last-paragraph-no-margin"
-            data-anime='{ "el": "childs", "translateX": [-50, 0], "opacity": [0,1], "duration": 1200, "delay": 0, "staggervalue": 150, "easing": "easeOutQuad" }'>
-            <h6 class="alt-font text-dark-gray mb-10px">
-              Crafting Weddings as Unique as Your Love Story.
-            </h6>
-            <p class="w-90 lg-w-100">
-              Rituals By Ritu is a bespoke wedding planning company dedicated to
-              turning your dream celebration into a beautifully curated reality.
-              We believe every wedding is more than just an event — it's a story
-              of love, traditions, and unforgettable moments..
-            </p>
-          </div>
+  <!-- start section -->
+  <section
+    class="background-position-center background-repeat overlap-height pb-5">
+    <div class="container overlap-gap-section">
+      <div class="row">
+        <div
+          class="col-md-6 sm-mb-25px"
+          data-anime='{ "el": "childs", "translateX": [50, 0], "opacity": [0,1], "duration": 1200, "delay": 0, "staggervalue": 150, "easing": "easeOutQuad" }'>
+          <h3 class="alt-font text-dark-gray ls-minus-2px w-90 sm-w-100 mb-0">
+            Personalized celebrations designed with elegance, creativity, and
+            flawless execution.
+          </h3>
+        </div>
+        <div
+          class="col-xl-5 col-md-6 offset-xl-1 last-paragraph-no-margin"
+          data-anime='{ "el": "childs", "translateX": [-50, 0], "opacity": [0,1], "duration": 1200, "delay": 0, "staggervalue": 150, "easing": "easeOutQuad" }'>
+          <h6 class="alt-font text-dark-gray mb-10px">
+            Crafting Weddings as Unique as Your Love Story.
+          </h6>
+          <p class="w-90 lg-w-100">
+            Rituals By Ritu is a bespoke wedding planning company dedicated to
+            turning your dream celebration into a beautifully curated reality.
+            We believe every wedding is more than just an event — it's a story
+            of love, traditions, and unforgettable moments..
+          </p>
         </div>
       </div>
-    </section>
-    <!-- end section -->
+    </div>
+  </section>
+  <!-- end section -->
 
-    <!-- start section -->
-    <section class="pb-0">
-      <div class="container">
-        <div class="row align-items-center overlap-section mb-1">
-          <div
-            class="col-12 position-relative"
-            data-anime='{ "opacity": [0,1], "duration": 1200, "delay": 0, "staggervalue": 150, "easing": "easeOutQuad" }'>
-            <div class="outside-box-right-20 about_slider_images">
-              <div
-                class="swiper swiper-width-auto pb-4 magic-cursor"
-                data-slider-options='{ "slidesPerView": "auto", "spaceBetween": 30, "loop": true, "pagination": { "el": ".slider-four-slide-pagination-1", "clickable": true }, "autoplay": { "delay": 3000, "disableOnInteraction": false }, "keyboard": { "enabled": true, "onlyInViewport": true }, "effect": "slide" }'>
-                <div class="swiper-wrapper">
-                  <!-- start content carousal item -->
-                  <div class="swiper-slide">
-                    <img
-                      src="images/gallery/1.jpg"
-                      class="border-radius-6px md-h-350px sm-h-250px"
-                      alt="" />
-                  </div>
-                  <!-- end content carousal item -->
-                  <!-- start content carousal item -->
-                  <div class="swiper-slide">
-                    <img
-                      src="images/gallery/20.jpg"
-                      class="border-radius-6px md-h-350px sm-h-250px"
-                      alt="" />
-                  </div>
-                  <!-- end content carousal item -->
-                  <!-- start content carousal item -->
-                  <div class="swiper-slide">
-                    <img
-                      src="images/gallery/22.jpg"
-                      class="border-radius-6px md-h-350px sm-h-250px"
-                      alt="" />
-                  </div>
-                  <!-- end content carousal item -->
-                  <!-- start content carousal item -->
-                  <div class="swiper-slide">
-                    <img
-                      src="images/gallery/26.jpg"
-                      class="border-radius-6px md-h-350px sm-h-250px"
-                      alt="" />
-                  </div>
-                  <!-- end content carousal item -->
-                  <!-- start content carousal item -->
-                  <div class="swiper-slide">
-                    <img
-                      src="images/gallery/36.jpg"
-                      class="border-radius-6px md-h-350px sm-h-250px"
-                      alt="" />
-                  </div>
-                  <!-- end content carousal item -->
-                  <!-- start content carousal item -->
-                  <div class="swiper-slide">
-                    <img
-                      src="images/gallery/37.jpg"
-                      class="border-radius-6px md-h-350px sm-h-250px"
-                      alt="" />
-                  </div>
-                  <!-- end content carousal item -->
-                  <!-- start content carousal item -->
-                  <div class="swiper-slide">
-                    <img
-                      src="images/gallery/39.jpg"
-                      class="border-radius-6px md-h-350px sm-h-250px"
-                      alt="" />
-                  </div>
-                  <!-- end content carousal item -->
-                  <!-- start content carousal item -->
-                  <div class="swiper-slide">
-                    <img
-                      src="images/gallery/4.jpg"
-                      class="border-radius-6px md-h-350px sm-h-250px"
-                      alt="" />
-                  </div>
-                  <!-- end content carousal item -->
+  <!-- start section -->
+  <section class="pb-0">
+    <div class="container">
+      <div class="row align-items-center overlap-section mb-1">
+        <div
+          class="col-12 position-relative"
+          data-anime='{ "opacity": [0,1], "duration": 1200, "delay": 0, "staggervalue": 150, "easing": "easeOutQuad" }'>
+          <div class="outside-box-right-20 about_slider_images">
+            <div
+              class="swiper swiper-width-auto pb-4 magic-cursor"
+              data-slider-options='{ "slidesPerView": "auto", "spaceBetween": 30, "loop": true, "pagination": { "el": ".slider-four-slide-pagination-1", "clickable": true }, "autoplay": { "delay": 3000, "disableOnInteraction": false }, "keyboard": { "enabled": true, "onlyInViewport": true }, "effect": "slide" }'>
+              <div class="swiper-wrapper">
+                <!-- start content carousal item -->
+                <div class="swiper-slide">
+                  <img
+                    src="images/gallery/1.jpg"
+                    class="border-radius-6px md-h-350px sm-h-250px"
+                    alt="" />
                 </div>
+                <!-- end content carousal item -->
+                <!-- start content carousal item -->
+                <div class="swiper-slide">
+                  <img
+                    src="images/gallery/20.jpg"
+                    class="border-radius-6px md-h-350px sm-h-250px"
+                    alt="" />
+                </div>
+                <!-- end content carousal item -->
+                <!-- start content carousal item -->
+                <div class="swiper-slide">
+                  <img
+                    src="images/gallery/22.jpg"
+                    class="border-radius-6px md-h-350px sm-h-250px"
+                    alt="" />
+                </div>
+                <!-- end content carousal item -->
+                <!-- start content carousal item -->
+                <div class="swiper-slide">
+                  <img
+                    src="images/gallery/26.jpg"
+                    class="border-radius-6px md-h-350px sm-h-250px"
+                    alt="" />
+                </div>
+                <!-- end content carousal item -->
+                <!-- start content carousal item -->
+                <div class="swiper-slide">
+                  <img
+                    src="images/gallery/36.jpg"
+                    class="border-radius-6px md-h-350px sm-h-250px"
+                    alt="" />
+                </div>
+                <!-- end content carousal item -->
+                <!-- start content carousal item -->
+                <div class="swiper-slide">
+                  <img
+                    src="images/gallery/37.jpg"
+                    class="border-radius-6px md-h-350px sm-h-250px"
+                    alt="" />
+                </div>
+                <!-- end content carousal item -->
+                <!-- start content carousal item -->
+                <div class="swiper-slide">
+                  <img
+                    src="images/gallery/39.jpg"
+                    class="border-radius-6px md-h-350px sm-h-250px"
+                    alt="" />
+                </div>
+                <!-- end content carousal item -->
+                <!-- start content carousal item -->
+                <div class="swiper-slide">
+                  <img
+                    src="images/gallery/4.jpg"
+                    class="border-radius-6px md-h-350px sm-h-250px"
+                    alt="" />
+                </div>
+                <!-- end content carousal item -->
               </div>
             </div>
-            <!-- start slider pagination -->
-            <!--<div class="swiper-pagination slider-four-slide-pagination-1 swiper-pagination-style-2 swiper-pagination-clickable swiper-pagination-bullets"></div> -->
-            <!-- end slider pagination -->
           </div>
+          <!-- start slider pagination -->
+          <!--<div class="swiper-pagination slider-four-slide-pagination-1 swiper-pagination-style-2 swiper-pagination-clickable swiper-pagination-bullets"></div> -->
+          <!-- end slider pagination -->
         </div>
-        <!-- <div class="row justify-content-center">
+      </div>
+      <!-- <div class="row justify-content-center">
           <div
             class="col-xl-9 col-lg-10 text-center"
             data-anime='{ "el": "childs", "translateY": [50, 0], "opacity": [0,1], "duration": 1200, "delay": 0, "staggervalue": 150, "easing": "easeOutQuad" }'>
@@ -277,518 +201,275 @@
             </div>
           </div>
         </div> -->
-      </div>
-    </section>
-    <!-- end section -->
+    </div>
+  </section>
+  <!-- end section -->
 
-    <!-- start start -->
-    <section class="pb-0">
-      <div class="container">
-        <div class="row align-items-start" id="down-section">
-          <div
-            class="col-lg-5 lg-mb-45px"
-            data-anime='{ "el": "childs", "translateY": [30, 0], "opacity": [0,1], "duration": 600, "delay": 0, "staggervalue": 300, "easing": "easeOutQuad" }'>
-            <span
-              class="fs-16 text-uppercase text-gradient-san-blue-new-york-red fw-700 mb-10px ls-1px d-inline-block"
-              >15 years of Event Management experience</span
-            >
-            <h2 class="alt-font fw-400 text-dark-gray ls-minus-1px">
-              The Vision Behind Rituals by Ritu.
-            </h2>
-            <h5 class="text-base-color alt-font fw-400 ls-minus-1px mb-1">
-              Meet Ritu
-            </h5>
-            <p class="mb-1">
-              At the heart of Rituals by Ritu is a passion for creating weddings
-              that are meaningful, elegant, and truly unforgettable. With a keen
-              eye for detail and a deep understanding of traditions and modern
-              celebrations, Ritu brings every couple's vision to life with
-              creativity and care. Her approach is simple — every wedding should
-              feel personal and beautifully curated.
-              <br />
-
-              From intimate gatherings to grand celebrations, Ritu and her team
-              focus on thoughtful planning, seamless coordination, and stunning
-              design to ensure every moment feels special. With dedication,
-              creativity, and a commitment to excellence, Rituals by Ritu
-              transforms wedding dreams into timeless celebrations.
-            </p>
-
-            <div class="row align-items-center text-center text-sm-start">
-              <div class="col-sm-auto xs-mb-5px">
-                <h3
-                  class="alt-font text-dark-gray mb-0 d-inline-block align-middle me-10px lg-fs-32">
-                  722+
-                </h3>
-                <div
-                  class="text-center bg-dark-gray text-white fs-14 border-radius-4px d-inline-block ps-15px pe-15px lh-34 align-middle me-5px">
-                  <i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i
-                  ><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i
-                  ><i class="bi bi-star-fill"></i>
-                </div>
-              </div>
-              <div
-                class="col-sm border-start border-2 border-color-dark-gray ps-25px ms-10px xs-border-start-0 lg-ms-0 lg-ps-15px">
-                <p class="m-0 lh-24 text-dark-gray fw-500">
-                  5 star reviews from our satisfied customers.
-                </p>
-              </div>
-            </div>
-          </div>
-          <div class="col-lg-6 offset-lg-1 text-center">
-            <figure class="m-0">
-              <img src="https://placehold.co/600x500" alt="" />
-              <figcaption
-                class="position-absolute left-minus-15px top-100px transform-3d lg-w-30 sm-left-15px">
-                <img
-                  src="images/demo-beauty-salon-story-02.png"
-                  class="animation-float"
-                  alt="" />
-              </figcaption>
-            </figure>
-          </div>
-        </div>
-      </div>
-    </section>
-    <!-- end section -->
-
-    <!-- start section -->
-    <section class="pb-0">
-      <div class="container">
-        <div class="row justify-content-center mb-6 xs-mb-9">
-          <div
-            class="col-md-8 text-center"
-            data-anime='{ "el": "childs", "translateY": [30, 0], "opacity": [0,1], "duration": 600, "delay": 0, "staggervalue": 300, "easing": "easeOutQuad" }'>
-            <h2 class="alt-font mb-5px text-dark-gray ls-minus-2px">
-              What Makes Us Different
-            </h2>
-            <span class="d-inline-block"
-              >Turning your dream wedding into a beautifully planned
-              reality.</span
-            >
-          </div>
-        </div>
+  <!-- start start -->
+  <section class="pb-0">
+    <div class="container">
+      <div class="row align-items-start" id="down-section">
         <div
-          class="row row-cols-1 row-cols-lg-4 row-cols-md-2 justify-content-center mb-5 xs-mb-8">
-          <!-- start fancy text box item -->
-          <div
-            class="col"
-            data-bottom-top="transform: translateY(40px)"
-            data-top-bottom="transform: translateY(-40px)">
-            <div class="services-box-style-01 hover-box md-mb-30px">
-              <div class="position-relative box-image border-radius-6px">
-                <img class="w-100" src="images/about/usp_1.jpg" alt="" />
-              </div>
-              <div class="p-30px last-paragraph-no-margin text-center">
-                <span
-                  class="d-inline-block fs-22 alt-font ls-minus-05px text-dark-gray"
-                  >Personalized Wedding Experiences
-                </span>
-                <p>
-                  Personalized concepts tailored to your traditions, style, and
-                  love story.
-                </p>
-              </div>
-            </div>
-          </div>
-          <!-- end fancy text box item -->
-          <!-- start fancy text box item -->
-          <div
-            class="col"
-            data-bottom-top="transform: translateY(40px)"
-            data-top-bottom="transform: translateY(-40px)">
-            <div class="services-box-style-01 hover-box">
-              <div class="position-relative box-image border-radius-6px">
-                <img class="w-100" src="images/about/usp_2.jpg" alt="" />
-              </div>
-              <div class="p-30px last-paragraph-no-margin text-center">
-                <span
-                  class="d-inline-block fs-22 alt-font ls-minus-05px text-dark-gray"
-                  >Beautifully Curated Celebrations
-                </span>
-                <p>
-                  Elegant themes and stunning setups to leave lasting
-                  impressions.
-                </p>
-              </div>
-            </div>
-          </div>
-          <!-- end fancy text box item -->
-          <!-- start fancy text box item -->
-          <div
-            class="col"
-            data-bottom-top="transform: translateY(40px)"
-            data-top-bottom="transform: translateY(-40px)">
-            <div class="services-box-style-01 hover-box">
-              <div class="position-relative box-image border-radius-6px">
-                <img class="w-100" src="images/about/usp_3.jpg" alt="" />
-              </div>
-              <div class="p-30px last-paragraph-no-margin text-center">
-                <span
-                  class="d-inline-block fs-22 alt-font ls-minus-05px text-dark-gray"
-                  >Expert Planning & Execution
-                </span>
-                <p>
-                  Magical ceremonies across India's most breathtaking venues.
-                </p>
-              </div>
-            </div>
-          </div>
-          <!-- end fancy text box item -->
-          <!-- start fancy text box item -->
-          <div
-            class="col"
-            data-bottom-top="transform: translateY(-40px)"
-            data-top-bottom="transform: translateY(40px)">
-            <div class="services-box-style-01 hover-box md-mb-30px">
-              <div class="position-relative box-image border-radius-6px">
-                <img class="w-100" src="images/about/usp_4.jpg" alt="" />
-              </div>
-              <div class="p-30px last-paragraph-no-margin text-center">
-                <span
-                  class="d-inline-block fs-22 alt-font ls-minus-05px text-dark-gray"
-                  >Seamless Celebration Management
-                </span>
-                <p>
-                  Flawless coordination from the first ritual to the final
-                  celebration.
-                </p>
-              </div>
-            </div>
-          </div>
-          <!-- end fancy text box item -->
-        </div>
-      </div>
-    </section>
-    <!-- end section -->
+          class="col-lg-5 lg-mb-45px"
+          data-anime='{ "el": "childs", "translateY": [30, 0], "opacity": [0,1], "duration": 600, "delay": 0, "staggervalue": 300, "easing": "easeOutQuad" }'>
+          <span
+            class="fs-16 text-uppercase text-gradient-san-blue-new-york-red fw-700 mb-10px ls-1px d-inline-block">15 years of Event Management experience</span>
+          <h2 class="alt-font fw-400 text-dark-gray ls-minus-1px">
+            The Vision Behind Rituals by Ritu.
+          </h2>
+          <h5 class="text-base-color alt-font fw-400 ls-minus-1px mb-1">
+            Meet Ritu
+          </h5>
+          <p class="mb-1">
+            At the heart of Rituals by Ritu is a passion for creating weddings
+            that are meaningful, elegant, and truly unforgettable. With a keen
+            eye for detail and a deep understanding of traditions and modern
+            celebrations, Ritu brings every couple's vision to life with
+            creativity and care. Her approach is simple — every wedding should
+            feel personal and beautifully curated.
+            <br />
 
-    <!-- start section -->
-    <section class="pt-1">
-      <div class="container">
-        <div class="row justify-content-center mb-5 xs-mb-7">
-          <div
-            class="col-md-8 text-center"
-            data-anime='{ "el": "childs", "translateY": [30, 0], "opacity": [0,1], "duration": 600, "delay": 0, "staggervalue": 300, "easing": "easeOutQuad" }'>
-            <h2 class="alt-font mb-5px text-dark-gray ls-minus-2px">
-              Exclusive Reviews
-            </h2>
-            <span class="d-inline-block"
-              >Heartfelt words from couples and families who trusted us to bring
-              their special day to life.</span
-            >
-          </div>
-        </div>
-        <div
-          class="row row-cols-1 row-cols-xl-2 row-cols-lg-2 row-cols-md-1 position-relative justify-content-center mb-4 sm-mb-30px"
-          data-anime='{ "el": "childs", "perspective": [800, 1200], "scale": [1.1, 1], "rotateX": [50, 0], "opacity": [0,1], "duration": 900, "delay": 0, "staggervalue": 300, "easing": "easeOutQuad" }'>
-          <!-- start review item -->
-          <div class="col review-style-05 md-mb-30px">
-            <div
-              class="border-radius-6px bg-white box-shadow-quadruple-large border border-color-extra-medium-gray last-paragraph-no-margin">
+            From intimate gatherings to grand celebrations, Ritu and her team
+            focus on thoughtful planning, seamless coordination, and stunning
+            design to ensure every moment feels special. With dedication,
+            creativity, and a commitment to excellence, Rituals by Ritu
+            transforms wedding dreams into timeless celebrations.
+          </p>
+
+          <div class="row align-items-center text-center text-sm-start">
+            <div class="col-sm-auto xs-mb-5px">
+              <h3
+                class="alt-font text-dark-gray mb-0 d-inline-block align-middle me-10px lg-fs-32">
+                722+
+              </h3>
               <div
-                class="d-flex align-items-center ps-45px pe-45px pt-30px pb-30px lg-p-25px">
-                <img
-                  class="rounded-circle w-120px xs-w-80px me-25px"
-                  src="images/common/review_1.jpg"
-                  alt="" />
-                <p>
-                  Rituals by Ritu turned our wedding into something truly
-                  magical. Every detail, from décor to coordination, was handled
-                  with such care and creativity. We could enjoy every moment
-                  knowing everything was perfectly managed.
-                </p>
-              </div>
-              <div
-                class="border-top border-color-extra-medium-gray pt-15px pb-15px ps-45px pe-45px lg-ps-25px lg-pe-25px text-center text-sm-start">
-                <span
-                  class="alt-font fw-500 text-dark-gray d-inline-block xs-fs-17"
-                  >Priya & Kunal</span
-                >
-                <div class="review-star-icon float-sm-end float-none fs-19">
-                  <i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i
-                  ><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i
-                  ><i class="bi bi-star-fill"></i>
-                </div>
+                class="text-center bg-dark-gray text-white fs-14 border-radius-4px d-inline-block ps-15px pe-15px lh-34 align-middle me-5px">
+                <i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i>
               </div>
             </div>
-          </div>
-          <!-- end review item -->
-          <!-- start review item -->
-          <div class="col review-style-05">
             <div
-              class="border-radius-6px bg-white box-shadow-quadruple-large border border-color-extra-medium-gray last-paragraph-no-margin">
-              <div
-                class="d-flex align-items-center ps-45px pe-45px pt-30px pb-30px lg-p-25px">
-                <img
-                  class="rounded-circle w-120px xs-w-80px me-25px"
-                  src="images/common/review_2.jpg"
-                  alt="" />
-                <p>
-                  Planning a wedding felt overwhelming until we met Ritu and her
-                  team. Their professionalism, ideas, and flawless execution
-                  made our celebration unforgettable. It was exactly how we had
-                  imagined it.
-                </p>
-              </div>
-              <div
-                class="border-top border-color-extra-medium-gray pt-15px pb-15px ps-45px pe-45px lg-ps-25px lg-pe-25px text-center text-sm-start">
-                <span
-                  class="alt-font fw-500 text-dark-gray d-inline-block xs-fs-17"
-                  >Ananya & Rohan</span
-                >
-                <div class="review-star-icon float-sm-end float-none fs-19">
-                  <i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i
-                  ><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i
-                  ><i class="bi bi-star-half"></i>
-                </div>
-              </div>
-            </div>
-          </div>
-          <!-- end review item -->
-        </div>
-      </div>
-    </section>
-    <!-- end section -->
-
-    <!-- start footer -->
-    <footer
-      class="bg-very-light-gray pb-50px sm-pt-20px xs-pb-30px background-repeat background-position-center sm-background-image-none">
-      <div class="container">
-        <div class="row overlap-section">
-          <div class="col-12 text-center">
-            <img
-              class="rounded-circle footer-logo"
-              src="images/logo/footer_logo.jpg"
-              alt=""
-              height="170px" />
-          </div>
-        </div>
-        <!--  -->
-
-        <div class="container">
-          <div
-            class="row justify-content-center pt-55px pb-55px sm-pt-40px sm-pb-40px">
-            <!-- start footer column -->
-            <div
-              class="col-lg-3 col-md-4 col-sm-6 sm-mb-30px last-paragraph-no-margin text-center text-sm-start">
-              <span
-                class="d-block text-base-color fs-15 ls-1px mb-5px text-uppercase fw-600"
-                >Office Address</span
-              >
-              <p class="lh-30 w-80 lg-w-100 text-black">
-                Jr Mig 101 Bhartiniketan Govindpura - 462023
-                <!-- <br />
-                +91 93017 38925
-                <br />
-                event.ritualsbyritu@gmail.com -->
+              class="col-sm border-start border-2 border-color-dark-gray ps-25px ms-10px xs-border-start-0 lg-ms-0 lg-ps-15px">
+              <p class="m-0 lh-24 text-dark-gray fw-500">
+                5 star reviews from our satisfied customers.
               </p>
             </div>
-            <!-- end footer column -->
-            <!-- start footer column -->
-            <div
-              class="col-lg-3 col-md-4 col-sm-6 xs-mb-30px last-paragraph-no-margin text-center text-sm-start">
-              <span
-                class="d-block text-base-color fs-15 ls-1px mb-5px text-uppercase fw-600"
-                >Connect With Us</span
-              >
-              <a href="tel:+91 93017 38925" class="text-black lh-30"
-                >+91 93017 38925</a
-              ><br />
-              <a href="mailto:event.ritualsbyritu@gmail.com" class="text-black"
-                >event.ritualsbyritu@gmail.com</a
-              >
-            </div>
-            <!-- end footer column -->
-            <!-- start footer column -->
-            <!-- <div
-              class="col-lg-3 col-md-12 col-sm-6 last-paragraph-no-margin text-center text-sm-start text-md-center text-lg-start md-mb-30px">
-              <a
-                href="#"
-                class="footer-logo d-inline-block"
-                ><img
-                  src=""
-                  data-at2x=""
-                  alt=""
-              /></a>
-            </div> -->
-            <!-- end footer column -->
-            <!-- start footer column -->
-            <div
-              class="col-lg-3 col-md-4 col-sm-6 last-paragraph-no-margin text-center text-sm-start">
-              <span
-                class="d-block text-base-color fs-15 ls-1px mb-10px text-uppercase fw-600"
-                >Follow Us</span
-              >
-              <div class="elements-social social-icon-style-09">
-                <ul class="medium-icon dark">
-                  <li>
-                    <a
-                      class="facebook"
-                      href="https://www.facebook.com/"
-                      target="_blank"
-                      ><i class="fa-brands fa-facebook-f"></i><span></span
-                    ></a>
-                  </li>
-                  <li>
-                    <a
-                      class="instagram"
-                      href="http://www.instagram.com"
-                      target="_blank"
-                      ><i class="fa-brands fa-instagram"></i><span></span
-                    ></a>
-                  </li>
-                  <li>
-                    <a
-                      class="twitter"
-                      href="http://www.twitter.com"
-                      target="_blank"
-                      ><i class="fa-brands fa-twitter"></i><span></span
-                    ></a>
-                  </li>
-                </ul>
-              </div>
-            </div>
-            <!-- end footer column -->
           </div>
         </div>
-
-        <!-- start instagram -->
-        <div
-          class="row row-cols-3 row-cols-lg-5 row-cols-sm-3 align-items-center justify-content-center mb-4 md-mb-50px xs-mb-40px instagram-follow-api position-relative">
-          <div class="col instafeed-grid md-mb-30px xs-mb-15px">
-            <figure class="border-radius-0px">
-              <a href="https://www.instagram.com" target="_blank"
-                ><img
-                  src="images/footer/insta_1.jpg"
-                  class="insta-image"
-                  alt="" /><span class="insta-icon"
-                  ><i class="fa-brands fa-instagram"></i></span
-              ></a>
-            </figure>
-          </div>
-          <div class="col instafeed-grid md-mb-30px xs-mb-15px">
-            <figure class="border-radius-0px">
-              <a href="https://www.instagram.com" target="_blank"
-                ><img
-                  src="images/footer/insta_2.jpg"
-                  class="insta-image"
-                  alt="" /><span class="insta-icon"
-                  ><i class="fa-brands fa-instagram"></i></span
-              ></a>
-            </figure>
-          </div>
-          <div class="col instafeed-grid md-mb-30px xs-mb-15px">
-            <figure class="border-radius-0px">
-              <a href="https://www.instagram.com" target="_blank"
-                ><img
-                  src="images/footer/insta_3.jpg"
-                  class="insta-image"
-                  alt="" /><span class="insta-icon"
-                  ><i class="fa-brands fa-instagram"></i></span
-              ></a>
-            </figure>
-          </div>
-          <div class="col instafeed-grid">
-            <figure class="border-radius-0px">
-              <a href="https://www.instagram.com" target="_blank"
-                ><img
-                  src="images/footer/insta_4.jpg"
-                  class="insta-image"
-                  alt="" /><span class="insta-icon"
-                  ><i class="fa-brands fa-instagram"></i></span
-              ></a>
-            </figure>
-          </div>
-          <div class="col instafeed-grid">
-            <figure class="border-radius-0px">
-              <a href="https://www.instagram.com" target="_blank"
-                ><img
-                  src="images/footer/insta_5.jpg"
-                  class="insta-image"
-                  alt="" /><span class="insta-icon"
-                  ><i class="fa-brands fa-instagram"></i></span
-              ></a>
-            </figure>
-          </div>
-          <div class="absolute-middle-center z-index-1 w-auto">
-            <a
-              href="https://www.instagram.com"
-              target="_blank"
-              class="btn btn-large btn-switch-text btn-white btn-rounded left-icon btn-box-shadow instagram-button">
-              <span>
-                <span
-                  ><i class="fa-brands fa-instagram text-base-color"></i
-                ></span>
-                <span class="btn-double-text" data-text="Follow Rituals By Ritu"
-                  >Follow Rituals By Ritu</span
-                >
-              </span>
-            </a>
-          </div>
-        </div>
-        <!-- end instagram -->
-        <div class="row align-items-center">
-          <div
-            class="col-xl-3 col-sm-6 text-center text-sm-start last-paragraph-no-margin fs-15 order-3 order-md-1">
-            <p>
-              &COPY; Copyright 2026
-              <a
-                href="index.html"
-                target="_blank"
-                class="text-decoration-line-bottom text-dark-gray fw-500"
-                >RITUALS BY RITU
-              </a>
-            </p>
-          </div>
-          <div
-            class="col-xl-6 text-center lg-mt-10px sm-mt-0 sm-mb-10px order-1 order-xl-2 order-md-3">
-            <ul class="footer-navbar fs-17 fw-600">
-              <li class="nav-item active">
-                <a href="#" class="nav-link">Privacy Policy</a>
-              </li>
-              <li class="nav-item">
-                <a href="#" class="nav-link">Terms of Service</a>
-              </li>
-              <li class="nav-item">
-                <a href="#" class="nav-link">Disclaimer</a>
-              </li>
-              <li class="nav-item">
-                <a href="#" class="nav-link">Career</a>
-              </li>
-              <li class="nav-item">
-                <a href="contact.html" class="nav-link">Contact</a>
-              </li>
-            </ul>
-          </div>
-          <div
-            class="col-xl-3 col-sm-6 position-relative text-center text-sm-end elements-social social-text-style-01 order-2 order-xl-3 xs-mb-10px">
-            <p>
-              Powered By
-              <a
-                href="https://letsdigin.in/"
-                target="_blank"
-                class="text-decoration-line-bottom text-dark-gray fw-500"
-                >DigIN Media
-              </a>
-            </p>
-          </div>
+        <div class="col-lg-6 offset-lg-1 text-center">
+          <figure class="m-0">
+            <img src="https://placehold.co/600x500" alt="" />
+            <figcaption
+              class="position-absolute left-minus-15px top-100px transform-3d lg-w-30 sm-left-15px">
+              <img
+                src="images/demo-beauty-salon-story-02.png"
+                class="animation-float"
+                alt="" />
+            </figcaption>
+          </figure>
         </div>
       </div>
-    </footer>
-    <!-- end footer -->
-
-    <!-- start scroll progress -->
-    <div class="scroll-progress d-none d-xxl-block">
-      <a href="#" class="scroll-top" aria-label="scroll">
-        <span class="scroll-text">Scroll</span
-        ><span class="scroll-line"><span class="scroll-point"></span></span>
-      </a>
     </div>
-    <!-- end scroll progress -->
+  </section>
+  <!-- end section -->
 
-    <!-- javascript libraries -->
-    <script type="text/javascript" src="js/jquery.js"></script>
-    <script type="text/javascript" src="js/vendors.min.js"></script>
-    <script type="text/javascript" src="js/main.js"></script>
-  </body>
+  <!-- start section -->
+  <section class="pb-0">
+    <div class="container">
+      <div class="row justify-content-center mb-6 xs-mb-9">
+        <div
+          class="col-md-8 text-center"
+          data-anime='{ "el": "childs", "translateY": [30, 0], "opacity": [0,1], "duration": 600, "delay": 0, "staggervalue": 300, "easing": "easeOutQuad" }'>
+          <h2 class="alt-font mb-5px text-dark-gray ls-minus-2px">
+            What Makes Us Different
+          </h2>
+          <span class="d-inline-block">Turning your dream wedding into a beautifully planned
+            reality.</span>
+        </div>
+      </div>
+      <div
+        class="row row-cols-1 row-cols-lg-4 row-cols-md-2 justify-content-center mb-5 xs-mb-8">
+        <!-- start fancy text box item -->
+        <div
+          class="col"
+          data-bottom-top="transform: translateY(40px)"
+          data-top-bottom="transform: translateY(-40px)">
+          <div class="services-box-style-01 hover-box md-mb-30px">
+            <div class="position-relative box-image border-radius-6px">
+              <img class="w-100" src="images/about/usp_1.jpg" alt="" />
+            </div>
+            <div class="p-30px last-paragraph-no-margin text-center">
+              <span
+                class="d-inline-block fs-22 alt-font ls-minus-05px text-dark-gray">Personalized Wedding Experiences
+              </span>
+              <p>
+                Personalized concepts tailored to your traditions, style, and
+                love story.
+              </p>
+            </div>
+          </div>
+        </div>
+        <!-- end fancy text box item -->
+        <!-- start fancy text box item -->
+        <div
+          class="col"
+          data-bottom-top="transform: translateY(40px)"
+          data-top-bottom="transform: translateY(-40px)">
+          <div class="services-box-style-01 hover-box">
+            <div class="position-relative box-image border-radius-6px">
+              <img class="w-100" src="images/about/usp_2.jpg" alt="" />
+            </div>
+            <div class="p-30px last-paragraph-no-margin text-center">
+              <span
+                class="d-inline-block fs-22 alt-font ls-minus-05px text-dark-gray">Beautifully Curated Celebrations
+              </span>
+              <p>
+                Elegant themes and stunning setups to leave lasting
+                impressions.
+              </p>
+            </div>
+          </div>
+        </div>
+        <!-- end fancy text box item -->
+        <!-- start fancy text box item -->
+        <div
+          class="col"
+          data-bottom-top="transform: translateY(40px)"
+          data-top-bottom="transform: translateY(-40px)">
+          <div class="services-box-style-01 hover-box">
+            <div class="position-relative box-image border-radius-6px">
+              <img class="w-100" src="images/about/usp_3.jpg" alt="" />
+            </div>
+            <div class="p-30px last-paragraph-no-margin text-center">
+              <span
+                class="d-inline-block fs-22 alt-font ls-minus-05px text-dark-gray">Expert Planning & Execution
+              </span>
+              <p>
+                Magical ceremonies across India's most breathtaking venues.
+              </p>
+            </div>
+          </div>
+        </div>
+        <!-- end fancy text box item -->
+        <!-- start fancy text box item -->
+        <div
+          class="col"
+          data-bottom-top="transform: translateY(-40px)"
+          data-top-bottom="transform: translateY(40px)">
+          <div class="services-box-style-01 hover-box md-mb-30px">
+            <div class="position-relative box-image border-radius-6px">
+              <img class="w-100" src="images/about/usp_4.jpg" alt="" />
+            </div>
+            <div class="p-30px last-paragraph-no-margin text-center">
+              <span
+                class="d-inline-block fs-22 alt-font ls-minus-05px text-dark-gray">Seamless Celebration Management
+              </span>
+              <p>
+                Flawless coordination from the first ritual to the final
+                celebration.
+              </p>
+            </div>
+          </div>
+        </div>
+        <!-- end fancy text box item -->
+      </div>
+    </div>
+  </section>
+  <!-- end section -->
+
+  <!-- start section -->
+  <section class="pt-1">
+    <div class="container">
+      <div class="row justify-content-center mb-5 xs-mb-7">
+        <div
+          class="col-md-8 text-center"
+          data-anime='{ "el": "childs", "translateY": [30, 0], "opacity": [0,1], "duration": 600, "delay": 0, "staggervalue": 300, "easing": "easeOutQuad" }'>
+          <h2 class="alt-font mb-5px text-dark-gray ls-minus-2px">
+            Exclusive Reviews
+          </h2>
+          <span class="d-inline-block">Heartfelt words from couples and families who trusted us to bring
+            their special day to life.</span>
+        </div>
+      </div>
+      <div
+        class="row row-cols-1 row-cols-xl-2 row-cols-lg-2 row-cols-md-1 position-relative justify-content-center mb-4 sm-mb-30px"
+        data-anime='{ "el": "childs", "perspective": [800, 1200], "scale": [1.1, 1], "rotateX": [50, 0], "opacity": [0,1], "duration": 900, "delay": 0, "staggervalue": 300, "easing": "easeOutQuad" }'>
+        <!-- start review item -->
+        <div class="col review-style-05 md-mb-30px">
+          <div
+            class="border-radius-6px bg-white box-shadow-quadruple-large border border-color-extra-medium-gray last-paragraph-no-margin">
+            <div
+              class="d-flex align-items-center ps-45px pe-45px pt-30px pb-30px lg-p-25px">
+              <img
+                class="rounded-circle w-120px xs-w-80px me-25px"
+                src="images/common/review_1.jpg"
+                alt="" />
+              <p>
+                Rituals by Ritu turned our wedding into something truly
+                magical. Every detail, from décor to coordination, was handled
+                with such care and creativity. We could enjoy every moment
+                knowing everything was perfectly managed.
+              </p>
+            </div>
+            <div
+              class="border-top border-color-extra-medium-gray pt-15px pb-15px ps-45px pe-45px lg-ps-25px lg-pe-25px text-center text-sm-start">
+              <span
+                class="alt-font fw-500 text-dark-gray d-inline-block xs-fs-17">Priya & Kunal</span>
+              <div class="review-star-icon float-sm-end float-none fs-19">
+                <i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- end review item -->
+        <!-- start review item -->
+        <div class="col review-style-05">
+          <div
+            class="border-radius-6px bg-white box-shadow-quadruple-large border border-color-extra-medium-gray last-paragraph-no-margin">
+            <div
+              class="d-flex align-items-center ps-45px pe-45px pt-30px pb-30px lg-p-25px">
+              <img
+                class="rounded-circle w-120px xs-w-80px me-25px"
+                src="images/common/review_2.jpg"
+                alt="" />
+              <p>
+                Planning a wedding felt overwhelming until we met Ritu and her
+                team. Their professionalism, ideas, and flawless execution
+                made our celebration unforgettable. It was exactly how we had
+                imagined it.
+              </p>
+            </div>
+            <div
+              class="border-top border-color-extra-medium-gray pt-15px pb-15px ps-45px pe-45px lg-ps-25px lg-pe-25px text-center text-sm-start">
+              <span
+                class="alt-font fw-500 text-dark-gray d-inline-block xs-fs-17">Ananya & Rohan</span>
+              <div class="review-star-icon float-sm-end float-none fs-19">
+                <i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-half"></i>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- end review item -->
+      </div>
+    </div>
+  </section>
+  <!-- end section -->
+
+  <!-- start footer -->
+  <?php include_once 'includes/footer.php'; ?>
+  <!-- end footer -->
+
+  <!-- start scroll progress -->
+  <div class="scroll-progress d-none d-xxl-block">
+    <a href="#" class="scroll-top" aria-label="scroll">
+      <span class="scroll-text">Scroll</span><span class="scroll-line"><span class="scroll-point"></span></span>
+    </a>
+  </div>
+  <!-- end scroll progress -->
+
+  <!-- javascript libraries -->
+  <script type="text/javascript" src="js/jquery.js"></script>
+  <script type="text/javascript" src="js/vendors.min.js"></script>
+  <script type="text/javascript" src="js/main.js"></script>
+</body>
+
 </html>
