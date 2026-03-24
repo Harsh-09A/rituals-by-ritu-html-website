@@ -60,7 +60,7 @@
           </div>
           <div class="mb-30px">
             <a
-              href="contact.html"
+              href="contact.php"
               class="btn btn-extra-large btn-switch-text btn-white fw-700 btn-round-edge btn-box-shadow">
               <span>
                 <span class="btn-double-text" data-text="PLAN WITH US">PLAN WITH US</span>
@@ -187,7 +187,7 @@
           </p>
           <div class="d-inline-block w-100">
             <a
-              href="about-us.html"
+              href="about-us.php"
               class="btn btn-extra-large btn-switch-text btn-dark-gray btn-box-shadow btn-round-edge d-inline-block align-middle me-30px xs-me-10px xs-mt-20px">
               <span>
                 <span class="btn-double-text" data-text="About Rituals">About Rituals</span>
@@ -254,7 +254,7 @@
           <div class="services-box-style-01 hover-box">
             <div
               class="position-relative box-image border-radius-6px overflow-hidden">
-              <a href="services.html">
+              <a href="services.php">
                 <img src="images/home/Wedding_Planning_2.jpg" alt="" />
                 <div
                   class="box-overlay bg-gradient-blue-ironstone-brown"></div>
@@ -278,7 +278,7 @@
           <div class="services-box-style-01 hover-box">
             <div
               class="position-relative box-image border-radius-6px overflow-hidden">
-              <a href="services.html">
+              <a href="services.php">
                 <img
                   src="images/home/Outdoor-Wedding-Stage-Design.jpg"
                   alt="" />
@@ -305,7 +305,7 @@
           <div class="services-box-style-01 hover-box">
             <div
               class="position-relative box-image border-radius-6px overflow-hidden">
-              <a href="services.html">
+              <a href="services.php">
                 <img src="images/home/Destination-Weddings.jpg" alt="" />
                 <div
                   class="box-overlay bg-gradient-blue-ironstone-brown"></div>
@@ -330,7 +330,7 @@
           <div class="services-box-style-01 hover-box">
             <div
               class="position-relative box-image border-radius-6px overflow-hidden">
-              <a href="services.html">
+              <a href="services.php">
                 <img src="images/home/Haldi-Celebration.jpg" alt="" />
                 <div
                   class="box-overlay bg-gradient-blue-ironstone-brown"></div>
@@ -354,7 +354,7 @@
           <div class="services-box-style-01 hover-box">
             <div
               class="position-relative box-image border-radius-6px overflow-hidden">
-              <a href="services.html">
+              <a href="services.php">
                 <img
                   src="images/home/Artist-Entertainment-Curation.jpg"
                   alt="" />
@@ -380,7 +380,7 @@
           <div class="services-box-style-01 hover-box">
             <div
               class="position-relative box-image border-radius-6px overflow-hidden">
-              <a href="services.html">
+              <a href="services.php">
                 <img
                   src="images/home/Guest-Hospitality-Logistics.jpg"
                   alt="" />
@@ -647,7 +647,7 @@
                       <div
                         class="ps-40px pe-40px xs-ps-30px xs-pe-30px h-110px bg-dark-gray d-flex align-items-center">
                         <a
-                          href="contact.html"
+                          href="contact.php"
                           class="d-flex align-items-center text-white">
                           <span
                             class="fs-18 fw-600 lh-22 text-uppercase me-15px">Connect<br />now</span><span
@@ -715,7 +715,7 @@
                       <div
                         class="ps-40px pe-40px xs-ps-30px xs-pe-30px h-110px bg-dark-gray d-flex align-items-center">
                         <a
-                          href="contact.html"
+                          href="contact.php"
                           class="d-flex align-items-center text-white">
                           <span
                             class="fs-18 fw-600 lh-22 text-uppercase me-15px">Connect<br />now</span><span
@@ -782,7 +782,7 @@
                       <div
                         class="ps-40px pe-40px xs-ps-30px xs-pe-30px h-110px bg-dark-gray d-flex align-items-center">
                         <a
-                          href="contact.html"
+                          href="contact.php"
                           class="d-flex align-items-center text-white">
                           <span
                             class="fs-18 fw-600 lh-22 text-uppercase me-15px">Connect<br />now</span><span
@@ -851,7 +851,7 @@
                       <div
                         class="ps-40px pe-40px xs-ps-30px xs-pe-30px h-110px bg-dark-gray d-flex align-items-center">
                         <a
-                          href="contact.html"
+                          href="contact.php"
                           class="d-flex align-items-center text-white">
                           <span
                             class="fs-18 fw-600 lh-22 text-uppercase me-15px">Connect<br />now</span><span
@@ -920,7 +920,7 @@
                       <div
                         class="ps-40px pe-40px xs-ps-30px xs-pe-30px h-110px bg-dark-gray d-flex align-items-center">
                         <a
-                          href="contact.html"
+                          href="contact.php"
                           class="d-flex align-items-center text-white">
                           <span
                             class="fs-18 fw-600 lh-22 text-uppercase me-15px">Connect<br />now</span><span

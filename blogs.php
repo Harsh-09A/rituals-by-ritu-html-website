@@ -72,7 +72,7 @@
               <div class="box-hover text-center">
                 <figure class="mb-0 position-relative">
                   <div class="blog-image position-relative overflow-hidden">
-                    <a href="blog-details.html"><img
+                    <a href="blog-details.php"><img
                         src="https://picsum.photos/800/1000?random=1"
                         alt="" /></a>
                   </div>
@@ -81,11 +81,11 @@
                       class="position-relative bg-dark-gray post-content p-30px z-index-2">
                       <div class="hover-text">
                         <a
-                          href="blog-details.html"
+                          href="blog-details.php"
                           class="text-base-color fs-15 text-uppercase fw-600 mb-5px d-inline-block">Wedding Planning</a>
                       </div>
                       <a
-                        href="blog-details.html"
+                        href="blog-details.php"
                         class="card-title mb-0 fs-19 lh-26 text-white d-inline-block">Lorem ipsum dolor sit amet, consectetur adipiscing
                         elit</a>
                       <div
@@ -94,9 +94,9 @@
                     <div class="fs-14 bg-white p-15px lh-initial">
                       <span class="d-inline-block">By
                         <a
-                          href="blog-details.html"
+                          href="blog-details.php"
                           class="text-dark-gray-hover">Rituals</a></span><span class="separator d-inline-block">|</span><a
-                        href="blog-details.html"
+                        href="blog-details.php"
                         class="text-dark-gray-hover">30 June 2023</a>
                     </div>
                   </figcaption>
@@ -109,7 +109,7 @@
               <div class="box-hover text-center">
                 <figure class="mb-0 position-relative">
                   <div class="blog-image position-relative overflow-hidden">
-                    <a href="blog-details.html"><img
+                    <a href="blog-details.php"><img
                         src="https://picsum.photos/800/1000?random=2"
                         alt="" /></a>
                   </div>
@@ -118,11 +118,11 @@
                       class="position-relative bg-dark-gray post-content p-30px z-index-2">
                       <div class="hover-text">
                         <a
-                          href="blog-details.html"
+                          href="blog-details.php"
                           class="text-base-color fs-15 text-uppercase fw-600 mb-5px d-inline-block">Wedding Planning</a>
                       </div>
                       <a
-                        href="blog-details.html"
+                        href="blog-details.php"
                         class="card-title mb-0 fs-19 lh-26 text-white d-inline-block">Lorem ipsum dolor sit amet, consectetur adipiscing
                         elit</a>
                       <div
@@ -131,9 +131,9 @@
                     <div class="fs-14 bg-white p-15px lh-initial">
                       <span class="d-inline-block">By
                         <a
-                          href="blog-details.html"
+                          href="blog-details.php"
                           class="text-dark-gray-hover">Rituals</a></span><span class="separator d-inline-block">|</span><a
-                        href="blog-details.html"
+                        href="blog-details.php"
                         class="text-dark-gray-hover">30 June 2023</a>
                     </div>
                   </figcaption>
@@ -146,7 +146,7 @@
               <div class="box-hover text-center">
                 <figure class="mb-0 position-relative">
                   <div class="blog-image position-relative overflow-hidden">
-                    <a href="blog-details.html"><img
+                    <a href="blog-details.php"><img
                         src="https://picsum.photos/800/1000?random=3"
                         alt="" /></a>
                   </div>
@@ -155,11 +155,11 @@
                       class="position-relative bg-dark-gray post-content p-30px z-index-2">
                       <div class="hover-text">
                         <a
-                          href="blog-details.html"
+                          href="blog-details.php"
                           class="text-base-color fs-15 text-uppercase fw-600 mb-5px d-inline-block">Wedding Planning</a>
                       </div>
                       <a
-                        href="blog-details.html"
+                        href="blog-details.php"
                         class="card-title mb-0 fs-19 lh-26 text-white d-inline-block">Lorem ipsum dolor sit amet, consectetur adipiscing
                         elit</a>
                       <div
@@ -168,9 +168,9 @@
                     <div class="fs-14 bg-white p-15px lh-initial">
                       <span class="d-inline-block">By
                         <a
-                          href="blog-details.html"
+                          href="blog-details.php"
                           class="text-dark-gray-hover">Rituals</a></span><span class="separator d-inline-block">|</span><a
-                        href="blog-details.html"
+                        href="blog-details.php"
                         class="text-dark-gray-hover">30 June 2023</a>
                     </div>
                   </figcaption>
@@ -183,7 +183,7 @@
               <div class="box-hover text-center">
                 <figure class="mb-0 position-relative">
                   <div class="blog-image position-relative overflow-hidden">
-                    <a href="blog-details.html"><img
+                    <a href="blog-details.php"><img
                         src="https://picsum.photos/800/1000?random=4"
                         alt="" /></a>
                   </div>
@@ -192,11 +192,11 @@
                       class="position-relative bg-dark-gray post-content p-30px z-index-2">
                       <div class="hover-text">
                         <a
-                          href="blog-details.html"
+                          href="blog-details.php"
                           class="text-base-color fs-15 text-uppercase fw-600 mb-5px d-inline-block">Wedding Planning</a>
                       </div>
                       <a
-                        href="blog-details.html"
+                        href="blog-details.php"
                         class="card-title mb-0 fs-19 lh-26 text-white d-inline-block">Lorem ipsum dolor sit amet, consectetur adipiscing
                         elit</a>
                       <div
@@ -205,9 +205,9 @@
                     <div class="fs-14 bg-white p-15px lh-initial">
                       <span class="d-inline-block">By
                         <a
-                          href="blog-details.html"
+                          href="blog-details.php"
                           class="text-dark-gray-hover">Rituals</a></span><span class="separator d-inline-block">|</span><a
-                        href="blog-details.html"
+                        href="blog-details.php"
                         class="text-dark-gray-hover">30 June 2023</a>
                     </div>
                   </figcaption>
@@ -220,7 +220,7 @@
               <div class="box-hover text-center">
                 <figure class="mb-0 position-relative">
                   <div class="blog-image position-relative overflow-hidden">
-                    <a href="blog-details.html"><img
+                    <a href="blog-details.php"><img
                         src="https://picsum.photos/800/1000?random=5"
                         alt="" /></a>
                   </div>
@@ -229,11 +229,11 @@
                       class="position-relative bg-dark-gray post-content p-30px z-index-2">
                       <div class="hover-text">
                         <a
-                          href="blog-details.html"
+                          href="blog-details.php"
                           class="text-base-color fs-15 text-uppercase fw-600 mb-5px d-inline-block">Wedding Planning</a>
                       </div>
                       <a
-                        href="blog-details.html"
+                        href="blog-details.php"
                         class="card-title mb-0 fs-19 lh-26 text-white d-inline-block">Lorem ipsum dolor sit amet, consectetur adipiscing
                         elit</a>
                       <div
@@ -242,9 +242,9 @@
                     <div class="fs-14 bg-white p-15px lh-initial">
                       <span class="d-inline-block">By
                         <a
-                          href="blog-details.html"
+                          href="blog-details.php"
                           class="text-dark-gray-hover">Rituals</a></span><span class="separator d-inline-block">|</span><a
-                        href="blog-details.html"
+                        href="blog-details.php"
                         class="text-dark-gray-hover">30 June 2023</a>
                     </div>
                   </figcaption>
@@ -257,7 +257,7 @@
               <div class="box-hover text-center">
                 <figure class="mb-0 position-relative">
                   <div class="blog-image position-relative overflow-hidden">
-                    <a href="blog-details.html"><img
+                    <a href="blog-details.php"><img
                         src="https://picsum.photos/800/1000?random=6"
                         alt="" /></a>
                   </div>
@@ -266,11 +266,11 @@
                       class="position-relative bg-dark-gray post-content p-30px z-index-2">
                       <div class="hover-text">
                         <a
-                          href="blog-details.html"
+                          href="blog-details.php"
                           class="text-base-color fs-15 text-uppercase fw-600 mb-5px d-inline-block">Wedding Planning</a>
                       </div>
                       <a
-                        href="blog-details.html"
+                        href="blog-details.php"
                         class="card-title mb-0 fs-19 lh-26 text-white d-inline-block">Lorem ipsum dolor sit amet, consectetur adipiscing
                         elit</a>
                       <div
@@ -279,9 +279,9 @@
                     <div class="fs-14 bg-white p-15px lh-initial">
                       <span class="d-inline-block">By
                         <a
-                          href="blog-details.html"
+                          href="blog-details.php"
                           class="text-dark-gray-hover">Rituals</a></span><span class="separator d-inline-block">|</span><a
-                        href="blog-details.html"
+                        href="blog-details.php"
                         class="text-dark-gray-hover">30 June 2023</a>
                     </div>
                   </figcaption>
@@ -294,7 +294,7 @@
               <div class="box-hover text-center">
                 <figure class="mb-0 position-relative">
                   <div class="blog-image position-relative overflow-hidden">
-                    <a href="blog-details.html"><img
+                    <a href="blog-details.php"><img
                         src="https://picsum.photos/800/1000?random=7"
                         alt="" /></a>
                   </div>
@@ -303,11 +303,11 @@
                       class="position-relative bg-dark-gray post-content p-30px z-index-2">
                       <div class="hover-text">
                         <a
-                          href="blog-details.html"
+                          href="blog-details.php"
                           class="text-base-color fs-15 text-uppercase fw-600 mb-5px d-inline-block">Wedding Planning</a>
                       </div>
                       <a
-                        href="blog-details.html"
+                        href="blog-details.php"
                         class="card-title mb-0 fs-19 lh-26 text-white d-inline-block">Lorem ipsum dolor sit amet, consectetur adipiscing
                         elit</a>
                       <div
@@ -316,9 +316,9 @@
                     <div class="fs-14 bg-white p-15px lh-initial">
                       <span class="d-inline-block">By
                         <a
-                          href="blog-details.html"
+                          href="blog-details.php"
                           class="text-dark-gray-hover">Rituals</a></span><span class="separator d-inline-block">|</span><a
-                        href="blog-details.html"
+                        href="blog-details.php"
                         class="text-dark-gray-hover">30 June 2023</a>
                     </div>
                   </figcaption>
@@ -331,7 +331,7 @@
               <div class="box-hover text-center">
                 <figure class="mb-0 position-relative">
                   <div class="blog-image position-relative overflow-hidden">
-                    <a href="blog-details.html"><img
+                    <a href="blog-details.php"><img
                         src="https://picsum.photos/800/1000?random=8"
                         alt="" /></a>
                   </div>
@@ -340,11 +340,11 @@
                       class="position-relative bg-dark-gray post-content p-30px z-index-2">
                       <div class="hover-text">
                         <a
-                          href="blog-details.html"
+                          href="blog-details.php"
                           class="text-base-color fs-15 text-uppercase fw-600 mb-5px d-inline-block">Wedding Planning</a>
                       </div>
                       <a
-                        href="blog-details.html"
+                        href="blog-details.php"
                         class="card-title mb-0 fs-19 lh-26 text-white d-inline-block">Lorem ipsum dolor sit amet, consectetur adipiscing
                         elit</a>
                       <div
@@ -353,9 +353,9 @@
                     <div class="fs-14 bg-white p-15px lh-initial">
                       <span class="d-inline-block">By
                         <a
-                          href="blog-details.html"
+                          href="blog-details.php"
                           class="text-dark-gray-hover">Rituals</a></span><span class="separator d-inline-block">|</span><a
-                        href="blog-details.html"
+                        href="blog-details.php"
                         class="text-dark-gray-hover">30 June 2023</a>
                     </div>
                   </figcaption>

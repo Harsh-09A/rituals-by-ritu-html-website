@@ -145,7 +145,7 @@
                   <p>
                       &COPY; Copyright 2026
                       <a
-                          href="index.html"
+                          href="index.php"
                           target="_blank"
                           class="text-decoration-line-bottom text-dark-gray fw-500">RITUALS BY RITU
                       </a>
@@ -163,12 +163,7 @@
                       <li class="nav-item">
                           <a href="#" class="nav-link">Disclaimer</a>
                       </li>
-                      <li class="nav-item">
-                          <a href="#" class="nav-link">Career</a>
-                      </li>
-                      <li class="nav-item">
-                          <a href="contact.html" class="nav-link">Contact</a>
-                      </li>
+
                   </ul>
               </div>
               <div
