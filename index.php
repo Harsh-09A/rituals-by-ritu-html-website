@@ -40,7 +40,7 @@
   <section
     class="p-0 top-space-margin full-screen md-h-600px sm-h-500px border-top border-4 border-color-base-color position-relative"
     data-parallax-background-ratio="0.3"
-    style="background-image: url(images/home/desktop_slider_1.jpg)">
+    style="background-image: url(images/home/desktop_slider_2.jpg)">
     <div class="opacity-light bg-black"></div>
     <div class="container h-100 position-relative">
       <div class="row align-items-center h-100 justify-content-center">
@@ -80,7 +80,7 @@
   </section>
   <!-- end banner slider -->
 
-  <!-- start section -->
+  <!-- start usp cards section -->
   <section class="bg-very-light-gray half-section ps-6 pe-6">
     <div class="container-fluid">
       <div
@@ -165,9 +165,9 @@
       </div>
     </div>
   </section>
-  <!-- end section -->
+  <!-- end  usp cards section -->
 
-  <!-- start section -->
+  <!-- start about section -->
   <section class="pb-0">
     <div class="container">
       <div class="row align-items-center mb-12 md-mb-17 xs-mb-25">
@@ -201,16 +201,7 @@
           </div>
         </div>
         <div class="col-lg-6 position-relative offset-lg-1">
-          <!-- <span
-              class="fs-90 position-absolute left-60px md-left-100px sm-left-70px xs-left-10px top-90px xs-top-50px text-dark-gray fw-700 z-index-1"
-              data-bottom-top="transform: translateY(50px) scale(1,1)"
-              data-top-bottom="transform: translateY(-50px) scale(1,1)"
-              data-anime='{ "opacity": [0,1], "duration": 600, "delay": 1500, "staggervalue": 300, "easing": "easeOutQuad" }'
-              ><span
-                class="fs-15 fw-600 d-table lh-16 text-uppercase text-medium-gray"
-                >Started in</span
-              >2015</span
-            > -->
+
           <div
             class="w-75 overflow-hidden position-relative xs-w-80 border-radius-4px float-end"
             data-anime='{ "effect": "slide", "color": "#A0875B", "direction":"rl", "easing": "easeOutQuad", "duration": 600, "delay":400}'>
@@ -230,9 +221,9 @@
       </div>
     </div>
   </section>
-  <!-- end section -->
+  <!-- end about section -->
 
-  <!-- start section -->
+  <!-- start Services section -->
   <section class="bg-very-light-gray overlap-height position-relative">
     <div class="container overlap-gap-section">
       <div class="row justify-content-center mb-5 xs-mb-7">
@@ -404,38 +395,10 @@
       </div>
     </div>
   </section>
-  <!-- end section -->
+  <!-- end Services section -->
 
-  <!-- start section -->
+  <!-- start Experiences section -->
   <section class="pb-0">
-    <!-- <div class="container overlap-section">
-        <div
-          class="row bg-white box-shadow-extra-large border-radius-6px ps-5 pe-5 pt-3 pb-3 g-0 sm-p-6 sm-ps-19 align-items-center mb-8 overflow-hidden position-relative">
-          <div class="col-lg-2 col-md-3 text-center sm-mb-25px">
-            <img src="https://placehold.co/89x107" alt="" />
-          </div>
-          <div class="col-md-6 text-center text-md-start sm-mb-25px">
-            <div class="fs-26 alt-font fw-500 text-dark-gray ls-minus-05px">
-              Life is shaped by a series of interconnected experiences
-              <span class="text-decoration-line-bottom fw-600"
-                >our environments.</span
-              >
-            </div>
-          </div>
-          <div class="col-lg-4 col-md-3 text-center">
-            <img
-              class="md-w-85 sm-w-auto"
-              src="images/demo-hotel-and-resort-home-10.png"
-              alt="" />
-          </div>
-          <div
-            class="vertical-title-center align-items-center position-absolute top-0px left-0px bg-base-color p-10px w-50px h-100 w-10px z-index-9">
-            <div class="title fs-15 ls-1px text-white fw-600 text-uppercase">
-              Testimonial
-            </div>
-          </div>
-        </div>
-      </div> -->
     <div class="container">
       <div class="row justify-content-center mb-5 xs-mb-7">
         <div
@@ -470,7 +433,7 @@
                 </div>
                 <div class="hover-show-content text-center">
                   <a
-                    href="#"
+                    href="portfolio.php"
                     class="bg-base-color w-55px h-55px rounded-circle position-relative mx-auto d-block">
                     <i
                       class="bi bi-arrow-right-short icon-extra-medium absolute-middle-center text-white"></i>
@@ -504,7 +467,7 @@
                 </div>
                 <div class="hover-show-content text-center">
                   <a
-                    href="#"
+                    href="portfolio.php"
                     class="bg-base-color w-55px h-55px rounded-circle position-relative mx-auto d-block">
                     <i
                       class="bi bi-arrow-right-short icon-extra-medium absolute-middle-center text-white"></i>
@@ -540,7 +503,7 @@
                 </div>
                 <div class="hover-show-content text-center">
                   <a
-                    href="#"
+                    href="portfolio.php"
                     class="bg-base-color w-55px h-55px rounded-circle position-relative mx-auto d-block">
                     <i
                       class="bi bi-arrow-right-short icon-extra-medium absolute-middle-center text-white"></i>

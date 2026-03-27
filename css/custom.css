@@ -50,3 +50,7 @@ header.sticky.sticky-active .navbar-brand .alt-logo {
 .footer-logo {
   height: 150px !important;
 }
+
+.privacy-policy-section .bullet_points li{
+  list-style: disc !important;
+}

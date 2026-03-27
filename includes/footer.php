@@ -155,13 +155,13 @@
                   class="col-xl-6 text-center lg-mt-10px sm-mt-0 sm-mb-10px order-1 order-xl-2 order-md-3">
                   <ul class="footer-navbar fs-17 fw-600">
                       <li class="nav-item active">
-                          <a href="#" class="nav-link">Privacy Policy</a>
+                          <a href="privacy-policy.php" class="nav-link">Privacy Policy</a>
                       </li>
                       <li class="nav-item">
-                          <a href="#" class="nav-link">Terms of Service</a>
+                          <a href="terms-and-conditions.php" class="nav-link">Terms of Service</a>
                       </li>
                       <li class="nav-item">
-                          <a href="#" class="nav-link">Disclaimer</a>
+                          <a href="disclaimer.php" class="nav-link">Disclaimer</a>
                       </li>
 
                   </ul>
