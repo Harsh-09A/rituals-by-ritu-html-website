@@ -31,7 +31,7 @@ if (!$blog) {
   <!-- end header -->
 
 
-  <div class="box-layout container-fluid ">
+  <div class="box-layout container-fluid border-top border-4 border-color-base-color top-space-margin ">
 
     <!-- start section -->
     <section class="top-space-margin half-section py-0">

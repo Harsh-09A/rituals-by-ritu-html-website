@@ -233,7 +233,7 @@ include 'includes/head.php';
         </div>
         <div class="col-lg-6 offset-lg-1 text-center">
           <figure class="m-0">
-            <img src="https://placehold.co/600x500" alt="" />
+            <img src="images/about/about_us_ritu.jpg" class="rounded-4" alt="" />
             <figcaption
               class="position-absolute left-minus-15px top-100px transform-3d lg-w-30 sm-left-15px">
               <img
