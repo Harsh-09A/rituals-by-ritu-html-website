@@ -1,3 +1,5 @@
+<?php include 'includes/loader.php'; ?>
+
 <!doctype html>
 <html class="no-js" lang="en">
 
@@ -67,302 +69,57 @@
           <ul
             class="blog-modern blog-wrapper grid-loading grid grid-4col xl-grid-4col lg-grid-3col md-grid-2col sm-grid-2col xs-grid-1col gutter-extra-large">
             <li class="grid-sizer"></li>
-            <!-- start blog item -->
-            <li class="grid-item mb-40px">
-              <div class="box-hover text-center">
-                <figure class="mb-0 position-relative">
-                  <div class="blog-image position-relative overflow-hidden">
-                    <a href="blog-details.php"><img
-                        src="https://picsum.photos/800/1000?random=1"
-                        alt="" /></a>
-                  </div>
-                  <figcaption class="post-content-wrapper">
-                    <div
-                      class="position-relative bg-dark-gray post-content p-30px z-index-2">
-                      <div class="hover-text">
-                        <a
-                          href="blog-details.php"
-                          class="text-base-color fs-15 text-uppercase fw-600 mb-5px d-inline-block">Wedding Planning</a>
-                      </div>
-                      <a
-                        href="blog-details.php"
-                        class="card-title mb-0 fs-19 lh-26 text-white d-inline-block">Lorem ipsum dolor sit amet, consectetur adipiscing
-                        elit</a>
+            <?php foreach ($blogs as $index => $blog): ?>
+              <!-- start blog item -->
+              <li class="grid-item mb-40px">
+                <div class="box-hover text-center">
+                  <figure class="mb-0 position-relative">
+                    <div class="blog-image position-relative overflow-hidden">
+                      <a href="<?php echo buildUrl('blog-details.php', $blog['slug']); ?>">
+                        <img
+                          src="<?php echo $blog['featured_image']['thumbnail']; ?>"
+                          alt="" />
+                      </a>
+                    </div>
+                    <figcaption class="post-content-wrapper">
                       <div
-                        class="box-overlay bg-dark-gray z-index-minus-1"></div>
-                    </div>
-                    <div class="fs-14 bg-white p-15px lh-initial">
-                      <span class="d-inline-block">By
+                        class="position-relative bg-dark-gray post-content p-30px z-index-2">
+                        <div class="hover-text">
+                          <a
+                            href="<?php echo buildUrl('blog-details.php', $blog['slug']); ?>"
+                            class="text-base-color fs-15 text-uppercase fw-600 mb-5px d-inline-block"><?php echo $blog['categories'][0]; ?></a>
+                        </div>
                         <a
-                          href="blog-details.php"
-                          class="text-dark-gray-hover">Rituals</a></span><span class="separator d-inline-block">|</span><a
-                        href="blog-details.php"
-                        class="text-dark-gray-hover">30 June 2023</a>
-                    </div>
-                  </figcaption>
-                </figure>
-              </div>
-            </li>
-            <!-- end blog item -->
-            <!-- start blog item -->
-            <li class="grid-item mb-40px">
-              <div class="box-hover text-center">
-                <figure class="mb-0 position-relative">
-                  <div class="blog-image position-relative overflow-hidden">
-                    <a href="blog-details.php"><img
-                        src="https://picsum.photos/800/1000?random=2"
-                        alt="" /></a>
-                  </div>
-                  <figcaption class="post-content-wrapper">
-                    <div
-                      class="position-relative bg-dark-gray post-content p-30px z-index-2">
-                      <div class="hover-text">
-                        <a
-                          href="blog-details.php"
-                          class="text-base-color fs-15 text-uppercase fw-600 mb-5px d-inline-block">Wedding Planning</a>
+                          href="<?php echo buildUrl('blog-details.php', $blog['slug']); ?>"
+                          class="card-title mb-0 fs-19 lh-26 text-white d-inline-block">
+
+
+                          <?php echo mb_strimwidth($blog['title'], 0, 50, '...'); ?>
+                        </a>
+                        <div
+                          class="box-overlay bg-dark-gray z-index-minus-1"></div>
                       </div>
-                      <a
-                        href="blog-details.php"
-                        class="card-title mb-0 fs-19 lh-26 text-white d-inline-block">Lorem ipsum dolor sit amet, consectetur adipiscing
-                        elit</a>
-                      <div
-                        class="box-overlay bg-dark-gray z-index-minus-1"></div>
-                    </div>
-                    <div class="fs-14 bg-white p-15px lh-initial">
-                      <span class="d-inline-block">By
-                        <a
-                          href="blog-details.php"
-                          class="text-dark-gray-hover">Rituals</a></span><span class="separator d-inline-block">|</span><a
-                        href="blog-details.php"
-                        class="text-dark-gray-hover">30 June 2023</a>
-                    </div>
-                  </figcaption>
-                </figure>
-              </div>
-            </li>
-            <!-- end blog item -->
-            <!-- start blog item -->
-            <li class="grid-item mb-40px">
-              <div class="box-hover text-center">
-                <figure class="mb-0 position-relative">
-                  <div class="blog-image position-relative overflow-hidden">
-                    <a href="blog-details.php"><img
-                        src="https://picsum.photos/800/1000?random=3"
-                        alt="" /></a>
-                  </div>
-                  <figcaption class="post-content-wrapper">
-                    <div
-                      class="position-relative bg-dark-gray post-content p-30px z-index-2">
-                      <div class="hover-text">
-                        <a
-                          href="blog-details.php"
-                          class="text-base-color fs-15 text-uppercase fw-600 mb-5px d-inline-block">Wedding Planning</a>
+
+                      <?php
+                      // Format the date
+                      $date = new DateTime($blog['date']);
+                      $formattedDate = $date->format("d F Y");
+                      ?>
+
+                      <div class="fs-14 bg-white p-15px lh-initial">
+                        <span class="d-inline-block">By
+                          <a
+                            href="<?php echo buildUrl('blog-details.php', $blog['slug']); ?>"
+                            class="text-dark-gray-hover">Rituals</a></span><span class="separator d-inline-block">|</span><a
+                          href="<?php echo buildUrl('blog-details.php', $blog['slug']); ?>"
+                          class="text-dark-gray-hover"><?php echo $formattedDate; ?></a>
                       </div>
-                      <a
-                        href="blog-details.php"
-                        class="card-title mb-0 fs-19 lh-26 text-white d-inline-block">Lorem ipsum dolor sit amet, consectetur adipiscing
-                        elit</a>
-                      <div
-                        class="box-overlay bg-dark-gray z-index-minus-1"></div>
-                    </div>
-                    <div class="fs-14 bg-white p-15px lh-initial">
-                      <span class="d-inline-block">By
-                        <a
-                          href="blog-details.php"
-                          class="text-dark-gray-hover">Rituals</a></span><span class="separator d-inline-block">|</span><a
-                        href="blog-details.php"
-                        class="text-dark-gray-hover">30 June 2023</a>
-                    </div>
-                  </figcaption>
-                </figure>
-              </div>
-            </li>
-            <!-- end blog item -->
-            <!-- start blog item -->
-            <li class="grid-item mb-40px">
-              <div class="box-hover text-center">
-                <figure class="mb-0 position-relative">
-                  <div class="blog-image position-relative overflow-hidden">
-                    <a href="blog-details.php"><img
-                        src="https://picsum.photos/800/1000?random=4"
-                        alt="" /></a>
-                  </div>
-                  <figcaption class="post-content-wrapper">
-                    <div
-                      class="position-relative bg-dark-gray post-content p-30px z-index-2">
-                      <div class="hover-text">
-                        <a
-                          href="blog-details.php"
-                          class="text-base-color fs-15 text-uppercase fw-600 mb-5px d-inline-block">Wedding Planning</a>
-                      </div>
-                      <a
-                        href="blog-details.php"
-                        class="card-title mb-0 fs-19 lh-26 text-white d-inline-block">Lorem ipsum dolor sit amet, consectetur adipiscing
-                        elit</a>
-                      <div
-                        class="box-overlay bg-dark-gray z-index-minus-1"></div>
-                    </div>
-                    <div class="fs-14 bg-white p-15px lh-initial">
-                      <span class="d-inline-block">By
-                        <a
-                          href="blog-details.php"
-                          class="text-dark-gray-hover">Rituals</a></span><span class="separator d-inline-block">|</span><a
-                        href="blog-details.php"
-                        class="text-dark-gray-hover">30 June 2023</a>
-                    </div>
-                  </figcaption>
-                </figure>
-              </div>
-            </li>
-            <!-- end blog item -->
-            <!-- start blog item -->
-            <li class="grid-item mb-40px">
-              <div class="box-hover text-center">
-                <figure class="mb-0 position-relative">
-                  <div class="blog-image position-relative overflow-hidden">
-                    <a href="blog-details.php"><img
-                        src="https://picsum.photos/800/1000?random=5"
-                        alt="" /></a>
-                  </div>
-                  <figcaption class="post-content-wrapper">
-                    <div
-                      class="position-relative bg-dark-gray post-content p-30px z-index-2">
-                      <div class="hover-text">
-                        <a
-                          href="blog-details.php"
-                          class="text-base-color fs-15 text-uppercase fw-600 mb-5px d-inline-block">Wedding Planning</a>
-                      </div>
-                      <a
-                        href="blog-details.php"
-                        class="card-title mb-0 fs-19 lh-26 text-white d-inline-block">Lorem ipsum dolor sit amet, consectetur adipiscing
-                        elit</a>
-                      <div
-                        class="box-overlay bg-dark-gray z-index-minus-1"></div>
-                    </div>
-                    <div class="fs-14 bg-white p-15px lh-initial">
-                      <span class="d-inline-block">By
-                        <a
-                          href="blog-details.php"
-                          class="text-dark-gray-hover">Rituals</a></span><span class="separator d-inline-block">|</span><a
-                        href="blog-details.php"
-                        class="text-dark-gray-hover">30 June 2023</a>
-                    </div>
-                  </figcaption>
-                </figure>
-              </div>
-            </li>
-            <!-- end blog item -->
-            <!-- start blog item -->
-            <li class="grid-item mb-40px">
-              <div class="box-hover text-center">
-                <figure class="mb-0 position-relative">
-                  <div class="blog-image position-relative overflow-hidden">
-                    <a href="blog-details.php"><img
-                        src="https://picsum.photos/800/1000?random=6"
-                        alt="" /></a>
-                  </div>
-                  <figcaption class="post-content-wrapper">
-                    <div
-                      class="position-relative bg-dark-gray post-content p-30px z-index-2">
-                      <div class="hover-text">
-                        <a
-                          href="blog-details.php"
-                          class="text-base-color fs-15 text-uppercase fw-600 mb-5px d-inline-block">Wedding Planning</a>
-                      </div>
-                      <a
-                        href="blog-details.php"
-                        class="card-title mb-0 fs-19 lh-26 text-white d-inline-block">Lorem ipsum dolor sit amet, consectetur adipiscing
-                        elit</a>
-                      <div
-                        class="box-overlay bg-dark-gray z-index-minus-1"></div>
-                    </div>
-                    <div class="fs-14 bg-white p-15px lh-initial">
-                      <span class="d-inline-block">By
-                        <a
-                          href="blog-details.php"
-                          class="text-dark-gray-hover">Rituals</a></span><span class="separator d-inline-block">|</span><a
-                        href="blog-details.php"
-                        class="text-dark-gray-hover">30 June 2023</a>
-                    </div>
-                  </figcaption>
-                </figure>
-              </div>
-            </li>
-            <!-- end blog item -->
-            <!-- start blog item -->
-            <li class="grid-item mb-40px">
-              <div class="box-hover text-center">
-                <figure class="mb-0 position-relative">
-                  <div class="blog-image position-relative overflow-hidden">
-                    <a href="blog-details.php"><img
-                        src="https://picsum.photos/800/1000?random=7"
-                        alt="" /></a>
-                  </div>
-                  <figcaption class="post-content-wrapper">
-                    <div
-                      class="position-relative bg-dark-gray post-content p-30px z-index-2">
-                      <div class="hover-text">
-                        <a
-                          href="blog-details.php"
-                          class="text-base-color fs-15 text-uppercase fw-600 mb-5px d-inline-block">Wedding Planning</a>
-                      </div>
-                      <a
-                        href="blog-details.php"
-                        class="card-title mb-0 fs-19 lh-26 text-white d-inline-block">Lorem ipsum dolor sit amet, consectetur adipiscing
-                        elit</a>
-                      <div
-                        class="box-overlay bg-dark-gray z-index-minus-1"></div>
-                    </div>
-                    <div class="fs-14 bg-white p-15px lh-initial">
-                      <span class="d-inline-block">By
-                        <a
-                          href="blog-details.php"
-                          class="text-dark-gray-hover">Rituals</a></span><span class="separator d-inline-block">|</span><a
-                        href="blog-details.php"
-                        class="text-dark-gray-hover">30 June 2023</a>
-                    </div>
-                  </figcaption>
-                </figure>
-              </div>
-            </li>
-            <!-- end blog item -->
-            <!-- start blog item -->
-            <li class="grid-item mb-40px">
-              <div class="box-hover text-center">
-                <figure class="mb-0 position-relative">
-                  <div class="blog-image position-relative overflow-hidden">
-                    <a href="blog-details.php"><img
-                        src="https://picsum.photos/800/1000?random=8"
-                        alt="" /></a>
-                  </div>
-                  <figcaption class="post-content-wrapper">
-                    <div
-                      class="position-relative bg-dark-gray post-content p-30px z-index-2">
-                      <div class="hover-text">
-                        <a
-                          href="blog-details.php"
-                          class="text-base-color fs-15 text-uppercase fw-600 mb-5px d-inline-block">Wedding Planning</a>
-                      </div>
-                      <a
-                        href="blog-details.php"
-                        class="card-title mb-0 fs-19 lh-26 text-white d-inline-block">Lorem ipsum dolor sit amet, consectetur adipiscing
-                        elit</a>
-                      <div
-                        class="box-overlay bg-dark-gray z-index-minus-1"></div>
-                    </div>
-                    <div class="fs-14 bg-white p-15px lh-initial">
-                      <span class="d-inline-block">By
-                        <a
-                          href="blog-details.php"
-                          class="text-dark-gray-hover">Rituals</a></span><span class="separator d-inline-block">|</span><a
-                        href="blog-details.php"
-                        class="text-dark-gray-hover">30 June 2023</a>
-                    </div>
-                  </figcaption>
-                </figure>
-              </div>
-            </li>
-            <!-- end blog item -->
+                    </figcaption>
+                  </figure>
+                </div>
+              </li>
+              <!-- end blog item -->
+            <?php endforeach; ?>
           </ul>
         </div>
         <!-- <div class="col-12 mt-2 d-flex justify-content-center">
