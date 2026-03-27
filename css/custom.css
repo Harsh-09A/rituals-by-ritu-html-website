@@ -54,3 +54,11 @@ header.sticky.sticky-active .navbar-brand .alt-logo {
 .privacy-policy-section .bullet_points li{
   list-style: disc !important;
 }
+h2.wp-block-heading {
+  color: var(--base-color) !important;
+  font-size: 2.5rem !important;
+}
+h3.wp-block-heading {
+  color: var(--base-color) !important;
+  font-size: 2.5rem !important;
+}

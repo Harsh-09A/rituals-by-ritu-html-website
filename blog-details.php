@@ -36,8 +36,8 @@ if (!$blog) {
     <!-- start section -->
     <section class="top-space-margin half-section py-0">
       <div class="container-fluid p-0">
-        <div class="row">
-          <div class="col-12">
+        <div class="row justify-content-center">
+          <div class="col-9">
             <img
               class="border-radius-6px w-100"
               src="<?php echo $blog['featured_image']['original']; ?>"
@@ -67,18 +67,20 @@ if (!$blog) {
       <div class="container">
         <div class="row justify-content-center">
           <div class="col-lg-10 text-center">
-            <span class="fs-18  d-inline-block">Writer by
+            <span class="fs-18  d-inline-block">Authored by
               <a
                 href="#"
                 class="fw-600 d-inline-block align-middle text-dark-gray">Ritu</a>
-              in
+              |
               <a
                 href="#"
                 class="d-inline-block align-middle text-dark-gray fw-600">
                 <?php echo $blog['categories'][0]; ?>
               </a>
+              |
+
             </span>
-            <span class="fs-18 mb-15px d-block"> <?php echo $formattedDate; ?></span>
+            <span class="fs-18 mb-15px d-inline-block"> <?php echo $formattedDate; ?></span>
 
             <h2
               class="alt-font fw-600 ls-minus-2px text-dark-gray mx-auto w-80 xl-w-100 mb-5">
@@ -116,36 +118,7 @@ if (!$blog) {
     <?php include_once 'includes/footer.php'; ?>
     <!-- end footer -->
   </div>
-  <!-- start cookie message -->
-  <div
-    id="cookies-model"
-    class="cookie-message bg-dark-gray border-radius-8px">
-    <div class="cookie-description fs-14 text-white mb-20px lh-22">
-      We use cookies to enhance your browsing experience, serve personalized
-      ads or content, and analyze our traffic. By clicking "Allow cookies" you
-      consent to our use of cookies.
-    </div>
-    <div class="cookie-btn">
-      <a
-        href="#"
-        class="btn btn-transparent-white border-1 border-color-transparent-white-light btn-very-small btn-switch-text btn-rounded w-100 mb-15px"
-        aria-label="btn">
-        <span>
-          <span class="btn-double-text" data-text="Cookie policy">Cookie policy</span>
-        </span>
-      </a>
-      <a
-        href="#"
-        class="btn btn-white btn-very-small btn-switch-text btn-box-shadow accept_cookies_btn btn-rounded w-100"
-        data-accept-btn
-        aria-label="text">
-        <span>
-          <span class="btn-double-text" data-text="Allow cookies">Allow cookies</span>
-        </span>
-      </a>
-    </div>
-  </div>
-  <!-- end cookie message -->
+
   <!-- start scroll progress -->
   <div class="scroll-progress d-none d-xxl-block">
     <a href="#" class="scroll-top" aria-label="scroll">

@@ -48,7 +48,8 @@ function fetchApiData($url)
 // ----------------------------------------
 // Fetch Blogs
 // ----------------------------------------
-$blogsApi = "https://projects.thedeltagroup.co.in/wp-json/wl/v1/posts";
+// $blogsApi = "https://projects.thedeltagroup.co.in/wp-json/wl/v1/posts";
+$blogsApi = "https://backend.ritualsbyritu.com/wp-json/wl/v1/posts";
 $blogsRes = fetchApiData($blogsApi);
 
 $blogs = $blogsRes['status'] ? $blogsRes['data'] : [];
