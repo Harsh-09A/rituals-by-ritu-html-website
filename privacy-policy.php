@@ -1,9 +1,11 @@
 <?php include 'includes/loader.php'; ?>
 <!doctype html>
 <html class="no-js" lang="en">
-<?php $page_title = "Privacy Policy | ";
-include
-  'includes/head.php'; ?>
+
+<?php
+$page_title = "Home | Rituals By Ritu";
+include 'includes/head.php';
+?>
 
 <body
   data-mobile-nav-trigger-alignment="right"
