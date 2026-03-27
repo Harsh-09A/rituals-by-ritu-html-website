@@ -7,7 +7,7 @@
     <meta name="description" content="" />
     <base href="/" />
     <!-- favicon icon -->
-    <link rel="shortcut icon" href="images/favicon.png" />
+    <link rel="shortcut icon" href="images/logo/favicon.png" />
     <link rel="apple-touch-icon" href="images/apple-touch-icon-57x57.png" />
     <link
         rel="apple-touch-icon"

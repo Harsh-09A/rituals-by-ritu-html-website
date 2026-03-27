@@ -3,7 +3,7 @@
 <html class="no-js" lang="en">
 
 <?php
-$page_title = "Home | Rituals By Ritu";
+$page_title = "Privacy Policy | Rituals By Ritu";
 include 'includes/head.php';
 ?>
 

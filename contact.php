@@ -2,7 +2,7 @@
 <html class="no-js" lang="en">
 
 <?php
-$page_title = "Home | Rituals By Ritu";
+$page_title = "Contact | Rituals By Ritu";
 include 'includes/head.php';
 ?>
 
@@ -104,7 +104,7 @@ include 'includes/head.php';
               class="alt-font text-white xs-mb-15px fancy-text-style-4 ls-minus-1px">
               Say
               <span
-                data-fancy-text='{ "effect": "rotate", "string": ["hello!", "hallå!", "salve!"] }'></span>
+                data-fancy-text='{ "effect": "rotate", "string": ["Hello", "Namaste", "Pranam"] }'></span>
             </h2>
             <form action="email-templates/contact-form.php" method="post">
               <div class="position-relative form-group mb-20px">
@@ -186,13 +186,7 @@ include 'includes/head.php';
                 target="_blank"><i class="fa-brands fa-facebook-f"></i><span></span></a>
             </li>
             <li class="m-0">
-              <a
-                class="dribbble"
-                href="http://www.dribbble.com"
-                target="_blank"><i class="fa-brands fa-dribbble"></i><span></span></a>
-            </li>
-            <li class="m-0">
-              <a class="twitter" href="http://www.twitter.com" target="_blank"><i class="fa-brands fa-twitter"></i><span></span></a>
+              <a class="twitter" href="http://www.x.com" target="_blank"><i class="fa-brands fa-x-twitter"></i><span></span></a>
             </li>
             <li class="m-0">
               <a

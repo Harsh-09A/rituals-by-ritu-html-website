@@ -73,8 +73,8 @@
                               <li>
                                   <a
                                       class="twitter"
-                                      href="http://www.twitter.com"
-                                      target="_blank"><i class="fa-brands fa-twitter"></i><span></span></a>
+                                      href="http://www.x.com"
+                                      target="_blank"><i class="fa-brands fa-x-twitter"></i><span></span></a>
                               </li>
                           </ul>
                       </div>
