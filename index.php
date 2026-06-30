@@ -1002,6 +1002,10 @@ include 'includes/head.php';
   </div>
   <!-- end scroll progress -->
 
+  <!-- Whatsapp Widget -->
+  <?php include_once 'includes/whatsapp.php'; ?>
+  <!-- Whatsapp Widget -->
+
   <!-- javascript libraries -->
   <script type="text/javascript" src="js/jquery.js"></script>
   <script type="text/javascript" src="js/vendors.min.js"></script>

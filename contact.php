@@ -64,7 +64,9 @@ include 'includes/head.php';
               <div
                 class="h-1px w-80 sm-w-100 bg-dark-gray mt-10px mb-10px"></div>
               <div class="w-100 d-block">
-                <a href="mailto:info@rituals-by-ritu.com">info@rituals-by-ritu.com</a><br /><a href="mailto:event.ritualsbyritu@gmail.com">event.ritualsbyritu@gmail.com</a>
+                <a href="mailto:events@ritualsbyritu.com">events@ritualsbyritu.com</a>
+                <br />
+                <a href="mailto:event.ritualsbyritu@gmail.com">event.ritualsbyritu@gmail.com</a>
               </div>
             </div>
           </div>
@@ -254,6 +256,10 @@ include 'includes/head.php';
     </a>
   </div>
   <!-- end scroll progress -->
+
+  <!-- Whatsapp Widget -->
+  <?php include_once 'includes/whatsapp.php'; ?>
+  <!-- Whatsapp Widget -->
 
   <!-- javascript libraries -->
   <script type="text/javascript" src="js/jquery.js"></script>

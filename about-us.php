@@ -14,7 +14,7 @@ include 'includes/head.php';
   <!-- start page title -->
   <section
     class="page-title-separate-breadcrumbs cover-background border-top border-4 border-color-base-color top-space-margin"
-    style="background-image: url(images/gallery/18.jpg)">
+    style="background-image: url(images/about/about.jpg)">
     <!-- style="background-image: url(https://placehold.co/1920x526)"> -->
     <div class="opacity-full-dark bg-gradient-dark-transparent"></div>
     <div class="container position-relative">
@@ -233,7 +233,7 @@ include 'includes/head.php';
         </div>
         <div class="col-lg-6 offset-lg-1 text-center">
           <figure class="m-0">
-            <img src="images/about/about_us_ritu.jpg" class="rounded-4" alt="" />
+            <img src="images/about/about_ritu.jpg" class="rounded-4" alt="" />
             <figcaption
               class="position-absolute left-minus-15px top-100px transform-3d lg-w-30 sm-left-15px">
               <img
@@ -441,6 +441,10 @@ include 'includes/head.php';
     </a>
   </div>
   <!-- end scroll progress -->
+
+  <!-- Whatsapp Widget -->
+  <?php include_once 'includes/whatsapp.php'; ?>
+  <!-- Whatsapp Widget -->
 
   <!-- javascript libraries -->
   <script type="text/javascript" src="js/jquery.js"></script>

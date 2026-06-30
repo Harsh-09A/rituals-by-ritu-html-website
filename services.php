@@ -14,7 +14,7 @@ include 'includes/head.php';
   <!-- start page title -->
   <section
     class="page-title-separate-breadcrumbs cover-background border-top border-4 border-color-base-color top-space-margin"
-    style="background-image: url(images/gallery/16.jpg)">
+    style="background-image: url(images/extras/Theme_Styling_4.jpg)">
     <div class="opacity-full bg-gradient-dark-transparent"></div>
     <div class="container position-relative">
       <div
@@ -230,21 +230,21 @@ include 'includes/head.php';
               <div
                 class="swiper-slide cover-background"
                 style="
-                    background-image: url(images/services/Theme_Styling_1.jpg);
+                    background-image: url(images/services/Theme_Styling_5.jpg);
                   "></div>
               <!-- end carousal item -->
               <!-- start carousal item -->
               <div
                 class="swiper-slide cover-background"
                 style="
-                    background-image: url(images/services/Theme_Styling_2.jpg);
+                    background-image: url(images/services/Theme_Styling_6.jpg);
                   "></div>
               <!-- end carousal item -->
               <!-- start carousal item -->
               <div
                 class="swiper-slide cover-background"
                 style="
-                    background-image: url(images/services/Theme_Styling_3.jpg);
+                    background-image: url(images/services/Theme_Styling_7.jpg);
                   "></div>
               <!-- end carousal item -->
             </div>
@@ -664,6 +664,10 @@ include 'includes/head.php';
     </a>
   </div>
   <!-- end scroll progress -->
+
+  <!-- Whatsapp Widget -->
+  <?php include_once 'includes/whatsapp.php'; ?>
+  <!-- Whatsapp Widget -->
 
   <!-- javascript libraries -->
   <script type="text/javascript" src="js/jquery.js"></script>

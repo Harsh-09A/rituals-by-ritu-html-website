@@ -1,38 +1,38 @@
 <?php
 if (!empty($_POST['email'])) {
 
-	$receiver_email = 'harsh.autowebbed@gmail.com';
-	$receiver_name  = 'Rituals';
-	$subject        = 'Contact Form Details';
+  $receiver_email = 'events@ritualsbyritu.com';
+  $receiver_name  = 'Rituals';
+  $subject        = 'Contact Form Details';
 
-	$submits = $_POST;
+  $submits = $_POST;
 
-	$fields = array();
-	foreach ($submits as $name => $value) {
+  $fields = array();
+  foreach ($submits as $name => $value) {
 
-		if (empty($value)) continue;
+    if (empty($value)) continue;
 
-		$name = ucwords(str_replace('_', ' ', $name));
+    $name = ucwords(str_replace('_', ' ', $name));
 
-		if (is_array($value)) {
-			$value = implode(', ', $value);
-		}
+    if (is_array($value)) {
+      $value = implode(', ', $value);
+    }
 
-		$fields[$name] = htmlspecialchars($value);
-	}
+    $fields[$name] = htmlspecialchars($value);
+  }
 
-	$rows = '';
-	foreach ($fields as $key => $val) {
-		// $rows .= "<tr><td><b>$key:</b></td><td>$val</td></tr>";
-		$rows .= "
+  $rows = '';
+  foreach ($fields as $key => $val) {
+    // $rows .= "<tr><td><b>$key:</b></td><td>$val</td></tr>";
+    $rows .= "
 			<tr>
               <td style='padding: 8px 0; font-weight: 600'>$key:</td>
               <td style='padding: 8px 0'>$val</td>
             </tr>
 			";
-	}
+  }
 
-	$message = "
+  $message = "
 <!DOCTYPE html>
 <html lang='en' style='margin: 0; padding: 0; font-family: Arial, sans-serif'>
   <body style='background: #f4f6f8; margin: 0; padding: 20px'>
@@ -103,35 +103,36 @@ if (!empty($_POST['email'])) {
 
     ";
 
-	require 'phpmailer/Exception.php';
-	require 'phpmailer/PHPMailer.php';
-	require 'phpmailer/SMTP.php';
 
-	$mail = new PHPMailer\PHPMailer\PHPMailer();
+  require 'phpmailer/Exception.php';
+  require 'phpmailer/PHPMailer.php';
+  require 'phpmailer/SMTP.php';
 
-	$mail->isSMTP();
-	$mail->Host       = 'smtp.hostinger.com';
-	$mail->SMTPAuth   = true;
-	$mail->Username   = 'test@autowebbed.com';
-	$mail->Password   = 'Test@09871234';
-	$mail->SMTPSecure = 'ssl';
-	$mail->Port       = 465;
-	// $mail->SMTPDebug = 2; // shows errors
-	// $mail->Debugoutput = 'html';
+  $mail = new PHPMailer\PHPMailer\PHPMailer();
 
-	$mail->setFrom('test@autowebbed.com', 'Website Enquiry');
-	$mail->addReplyTo($_POST['email'], $_POST['name']);
-	$mail->addAddress($receiver_email, $receiver_name);
+  $mail->isSMTP();
+  $mail->Host       = 'smtp.hostinger.com';
+  $mail->SMTPAuth   = true;
+  $mail->Username   = 'mail@ritualsbyritu.com';
+  $mail->Password   = 'Support@0987123';
+  $mail->SMTPSecure = 'ssl';
+  $mail->Port       = 465;
+  // $mail->SMTPDebug = 2; // shows errors
+  // $mail->Debugoutput = 'html';
 
-	$mail->isHTML(true);
-	$mail->Subject = $subject;
-	$mail->Body    = $message;
+  $mail->setFrom('mail@ritualsbyritu.com', 'Website Enquiry');
+  $mail->addReplyTo($_POST['email'], $_POST['name']);
+  $mail->addAddress($receiver_email, $receiver_name);
 
-	if ($mail->send()) {
-		echo '{ "alert": "alert-success", "message": "Message sent successfully!" }';
-	} else {
-		echo '{ "alert": "alert-danger", "message": "Mail failed!" }';
-	}
+  $mail->isHTML(true);
+  $mail->Subject = $subject;
+  $mail->Body    = $message;
+
+  if ($mail->send()) {
+    echo '{ "alert": "alert-success", "message": "Message sent successfully!" }';
+  } else {
+    echo '{ "alert": "alert-danger", "message": "Mail failed!" }';
+  }
 } else {
-	echo '{ "alert": "alert-danger", "message": "Please add an email address!" }';
+  echo '{ "alert": "alert-danger", "message": "Please add an email address!" }';
 }
