@@ -27,7 +27,7 @@ include 'includes/head.php';
             Where Dreams Turn Into Forever
           </h5>
           <div
-            class="alt-font fs-150 lg-fs-200 md-fs-170 sm-fs-150 xs-fs-110 fw-700 mb-20px text-shadow-double-large">
+            class="alt-font fs-150 lg-fs-200 md-fs-150 sm-fs-110 xs-fs-90 fw-700 mb-20px text-shadow-double-large">
             RITUALS
           </div>
           <div
